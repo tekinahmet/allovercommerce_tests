@@ -1,4 +1,4 @@
-package myapp.utilities;
+package allovercommerce.utilities;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

@@ -1,4 +1,4 @@
-package myapp.utilities;
+package allovercommerce.utilities;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -6,7 +6,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import static myapp.utilities.MediaUtils.takeScreenshotOfTheEntirePageAsString;
+import static allovercommerce.utilities.MediaUtils.takeScreenshotOfTheEntirePageAsString;
 public class ExtentReportUtils {
     protected static ExtentReports extentReports;
     protected static ExtentSparkReporter extentSparkReporter;

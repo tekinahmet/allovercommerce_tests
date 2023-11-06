@@ -1,4 +1,4 @@
-package myapp.utilities;
+package allovercommerce.utilities;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 import java.util.ArrayList;
