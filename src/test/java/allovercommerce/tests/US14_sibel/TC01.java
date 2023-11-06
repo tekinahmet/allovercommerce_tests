@@ -9,7 +9,7 @@ public class TC01 {
     @Test
     public void testCase01(){
         Driver.getDriver().get("");
-        //notlar
+        //notlarh
 
     }
 
