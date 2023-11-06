@@ -5,5 +5,7 @@ public class TC01 {
         System.out.println("hello world");
         System.out.println("my name is ahmet");
         System.out.println("my surname is tekin");
+
+        System.out.println("this is the first commit");
     }
 }
