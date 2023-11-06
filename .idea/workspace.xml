@@ -30,19 +30,24 @@
 }</component>
   <component name="ProjectId" id="2Wl6ixhRZ7QhKQezjYGXUagCSUW" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "full.screen.before.presentation.mode": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\team03_testNG_project" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\resources" />
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\src\test\java\myapp\pages" />
@@ -52,9 +57,22 @@
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.XYZBankTest.xyzBankTest">
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="team03_testNG_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="team03_testNG_project" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
+      <module name="team03" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_report.xml" />
@@ -78,7 +96,7 @@
       </method>
     </configuration>
     <configuration name="Day13_Annotations" type="TestNG" nameIsGenerated="true">
-      <module name="mytestNGproject" />
+      <module name="team03" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -105,7 +123,7 @@
       </method>
     </configuration>
     <configuration name="TC19_ViewCartBrandProducts.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
+      <module name="team03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="myapp.myowntests.*" />
@@ -123,7 +141,7 @@
       </method>
     </configuration>
     <configuration name="TC1_RegisterUser.accountCreateDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
+      <module name="team03" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -151,7 +169,7 @@
       </method>
     </configuration>
     <configuration name="XYZBankTest.xyzBankTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
+      <module name="team03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="myapp.tests.practices.*" />
@@ -169,7 +187,7 @@
       </method>
     </configuration>
     <configuration name="test.accountCreateDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
+      <module name="team03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="myapp.myowntests.*" />
