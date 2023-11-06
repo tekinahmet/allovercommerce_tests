@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!--    ADDING LISTENER UTILS-->
+    <listeners>
+        <listener class-name="myapp.utilities.ListenerUtils"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="/Users/techproed/IdeaProjects/mytestNGProject/src/test/java/myapp/tests/listeners/Day18_ListenersTest.java">
+        <classes>
+            <class name="myapp.tests.listeners.Day18_ListenersTest">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Class Suite" verbose="1" >
+    <test name="Running classes"   >
+        <classes>
+            <class name="myapp.tests.dataprovider.Day16_DataProvider1"></class>
+            <class name="myapp.tests.topics.Day13_Annotations"></class>
+            <class name="myapp.tests.topics.Day13_SoftAssertion"></class>
+            <class name="myapp.tests.topics.Day15_OrangeHRMLogin"></class>
+        </classes>
+    </test>
+</suite>

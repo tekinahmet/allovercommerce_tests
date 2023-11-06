@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/src/test/java/myapp/tests/topics/Day13_Annotations.java">
+        <classes>
+            <class name="myapp.tests.topics.Day13_Annotations">
+                <methods>
+                    <include name="beforeSuite"/>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                    <include name="test5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

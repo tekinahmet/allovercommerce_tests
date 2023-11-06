@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression1" verbose="1">
+    <test name="Regression1">
+        <!--        groups-->
+        <groups>
+            <run>
+                <!--                tags : use this tag in the test cases that you want to execute using groups = "minor_regression_group"-->
+                <include name="minor_regression_group" />
+            </run>
+        </groups>
+        <!--        packages : run in all package. * = all-->
+        <packages>
+            <package name="myapp.tests.*"></package>
+        </packages>
+    </test>
+</suite>
+        <!--
+        Minor Regression Test Groups:
+        Day13_Annotations -> test1 and test4
+        Day15_US100201_Admin_Login -> US100201_Admin_Login
+        Day16_DataProvider1 -> test2
+        -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\src\test\java\myapp\myowntests\TC1_RegisterUser.java">
+        <classes>
+            <class name="myapp.myowntests.TC1_RegisterUser">
+                <methods>
+                    <include name="accountCreateDeleteTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
