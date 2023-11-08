@@ -38,6 +38,8 @@ public class TC01 {
         ahmetMyAccountPage.logOut.click();
 //        verify that user is on the "My Account" page
         Assert.assertTrue(ahmetMyAccountPage.verifyLogout.isDisplayed());
+//        close
+        Driver.getDriver().close();
 
     }
 }
