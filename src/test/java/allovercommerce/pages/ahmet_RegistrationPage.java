@@ -4,12 +4,13 @@ import allovercommerce.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
 
-public class ahmet_RegistrationPage {
-    public ahmet_RegistrationPage(){
+public class Ahmet_RegistrationPage {
+    public Ahmet_RegistrationPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
+    @FindBy(xpath = "//span[.='Register']")
+    public WebElement register;
     @FindBy(xpath = "//a[@href='signup']")
     public WebElement signUp;
     @FindBy(id = "reg_username")
