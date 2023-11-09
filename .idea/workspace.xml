@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="00069089-0549-4c2d-8369-e012a5cecaed" name="Changes" comment="yasin-23.11.06-v1" />
-=======
-    <list default="true" id="00069089-0549-4c2d-8369-e012a5cecaed" name="Changes" comment="">
+    <list default="true" id="00069089-0549-4c2d-8369-e012a5cecaed" name="Changes" comment="yasin-23.11.06-v1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/Mertcan_HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/Mertcan_RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/Mertcan_VendorStoreManagerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US18_mertcan/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US18_mertcan/TC01.java" afterDir="false" />
     </list>
->>>>>>> origin/master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
     "dart.analysis.tool.window.visible": "false",
     "full.screen.before.presentation.mode": "true",
     "git-widget-placeholder": "master",
@@ -76,7 +82,7 @@
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TC01">
+  <component name="RunManager" selected="TestNG.TC02">
     <configuration name="TC01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC01" />
       <module name="team03" />
@@ -99,30 +105,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="team03_testNG_project" />
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_report.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter" />
-        <listener class="org.testng.reporters.FailedReporter" />
-        <listener class="org.testng.reporters.SuiteHTMLReporter" />
-        <listener class="org.testng.reporters.TestHTMLReporter" />
-      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,18 +136,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC19_ViewCartBrandProducts.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myapp.myowntests.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US18_mertcan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myapp.myowntests" />
-      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC19_ViewCartBrandProducts" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US18_mertcan" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US18_mertcan.TC01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US16_mertcan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US16_mertcan" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US16_mertcan.TC01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US16_mertcan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US16_mertcan" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US16_mertcan.TC02" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -190,39 +205,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.accountCreateDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.myowntests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.myowntests" />
-      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.test" />
-      <option name="METHOD_NAME" value="accountCreateDeleteTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.TC01" />
       <item itemvalue="TestNG.Day13_Annotations" />
+      <item itemvalue="TestNG.TC01" />
+      <item itemvalue="TestNG.TC01 (1)" />
+      <item itemvalue="TestNG.TC02" />
       <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
-      <item itemvalue="TestNG.TC19_ViewCartBrandProducts.test" />
-      <item itemvalue="TestNG.test.accountCreateDeleteTest" />
-      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC02" />
+        <item itemvalue="TestNG.TC01 (1)" />
+        <item itemvalue="TestNG.TC01" />
         <item itemvalue="Application.TC01" />
         <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
-        <item itemvalue="TestNG.TC19_ViewCartBrandProducts.test" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
-        <item itemvalue="TestNG.test.accountCreateDeleteTest" />
       </list>
     </recent_temporary>
   </component>
