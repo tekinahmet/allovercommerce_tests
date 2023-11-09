@@ -190,18 +190,18 @@
     <list>
       <item itemvalue="Application.TC01" />
       <item itemvalue="TestNG.Day13_Annotations" />
-      <item itemvalue="TestNG.TC01.testCase01" />
-      <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
-      <item itemvalue="TestNG.TC19_ViewCartBrandProducts.test" />
       <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
+      <item itemvalue="TestNG.TC01.testCase01" />
+      <item itemvalue="TestNG.TC19_ViewCartBrandProducts.test" />
+      <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC01.testCase01" />
-        <item itemvalue="Application.TC01" />
         <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
         <item itemvalue="TestNG.TC19_ViewCartBrandProducts.test" />
+        <item itemvalue="TestNG.TC01.testCase01" />
         <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
+        <item itemvalue="Application.TC01" />
       </list>
     </recent_temporary>
   </component>
