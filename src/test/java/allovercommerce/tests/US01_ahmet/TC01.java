@@ -1,7 +1,7 @@
 package allovercommerce.tests.US01_ahmet;
 
-import allovercommerce.pages.Ahmet_MyAccountPage;
-import allovercommerce.pages.Ahmet_RegistrationPage;
+import allovercommerce.pages.ahmet.Ahmet_MyAccountPage;
+import allovercommerce.pages.ahmet.Ahmet_RegistrationPage;
 import allovercommerce.utilities.Driver;
 import com.github.javafaker.Faker;
 import org.testng.Assert;
