@@ -1,4 +1,4 @@
-package allovercommerce.pages;
+package allovercommerce.pages.ahmet;
 
 import allovercommerce.utilities.Driver;
 import org.openqa.selenium.WebElement;
