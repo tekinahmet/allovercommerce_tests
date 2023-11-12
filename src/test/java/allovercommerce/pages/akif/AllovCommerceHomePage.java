@@ -14,4 +14,9 @@ public class AllovCommerceHomePage {
     @FindBy(xpath = "//a[@class='login logout inline-type']")
     public WebElement signOutButton;
 
+    @FindBy(name = "s")
+    public WebElement searchBox;
+
+    @FindBy(xpath = "(//button[@class='btn btn-search'])[1]")
+    public WebElement searchButton;
 }

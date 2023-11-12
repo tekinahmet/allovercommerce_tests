@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="" />
+    <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="euaxu08a" />
   </component>
@@ -27,28 +37,65 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2XyGsJbAjEOJx6CT6jQnSy78Dxf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.TC02_RegisteredEmail.successfulRegistration">
-    <configuration name="TC01_RegisteredUsername.registeredUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.TC01 (1)">
+    <configuration name="TC01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US02_ahmet.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US02_ahmet" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US02_ahmet.TC01_RegisteredUsername" />
-      <option name="METHOD_NAME" value="registeredUsername" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US04_akif.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US04_akif" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US04_akif.TC01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC01.US07_TC01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC01" />
+      <option name="METHOD_NAME" value="US07_TC01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -56,71 +103,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC01_SuccessfulRegistration.successfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US04_akif.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC01_SuccessfulRegistration" />
-      <option name="METHOD_NAME" value="successfulRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US04_akif" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US04_akif.TC02" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC02_InvalidUsername.invalidUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC02.US04_TC02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US04_akif.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC02_InvalidUsername" />
-      <option name="METHOD_NAME" value="invalidUsername" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC02_RegisteredEmail.successfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US02_ahmet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US02_ahmet" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US02_ahmet.TC02_RegisteredEmail" />
-      <option name="METHOD_NAME" value="successfulRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC03_InvalidEmail.invalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC03_InvalidEmail" />
-      <option name="METHOD_NAME" value="invalidEmail" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US04_akif" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US04_akif.TC02" />
+      <option name="METHOD_NAME" value="US04_TC02" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC02_RegisteredEmail.successfulRegistration" />
-        <item itemvalue="TestNG.TC01_RegisteredUsername.registeredUsername" />
-        <item itemvalue="TestNG.TC02_InvalidUsername.invalidUsername" />
-        <item itemvalue="TestNG.TC01_SuccessfulRegistration.successfulRegistration" />
-        <item itemvalue="TestNG.TC03_InvalidEmail.invalidEmail" />
+        <item itemvalue="TestNG.TC01 (1)" />
+        <item itemvalue="TestNG.TC01.US07_TC01" />
+        <item itemvalue="TestNG.TC02" />
+        <item itemvalue="TestNG.TC02.US04_TC02" />
+        <item itemvalue="TestNG.TC01" />
       </list>
     </recent_temporary>
   </component>
