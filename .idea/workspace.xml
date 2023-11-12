@@ -37,17 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml">
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_parallel_setup.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TC02_RegisteredEmail.successfulRegistration">
     <configuration name="TC01_RegisteredUsername.registeredUsername" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
@@ -59,6 +49,42 @@
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US02_ahmet" />
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US02_ahmet.TC01_RegisteredUsername" />
       <option name="METHOD_NAME" value="registeredUsername" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC01_SuccessfulRegistration.successfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC01_SuccessfulRegistration" />
+      <option name="METHOD_NAME" value="successfulRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC02_InvalidUsername.invalidUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC02_InvalidUsername" />
+      <option name="METHOD_NAME" value="invalidUsername" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,30 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC04_WeakPassword.weakPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC04_WeakPassword" />
-      <option name="METHOD_NAME" value="weakPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
         <item itemvalue="TestNG.TC02_RegisteredEmail.successfulRegistration" />
         <item itemvalue="TestNG.TC01_RegisteredUsername.registeredUsername" />
-        <item itemvalue="TestNG.TC04_WeakPassword.weakPassword" />
+        <item itemvalue="TestNG.TC02_InvalidUsername.invalidUsername" />
+        <item itemvalue="TestNG.TC01_SuccessfulRegistration.successfulRegistration" />
         <item itemvalue="TestNG.TC03_InvalidEmail.invalidEmail" />
       </list>
     </recent_temporary>
