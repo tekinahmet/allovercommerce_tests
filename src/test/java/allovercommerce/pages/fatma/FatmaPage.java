@@ -54,8 +54,8 @@ public class FatmaPage {
     @FindBy(xpath ="//tr[@data-href='2'][1]")
     public WebElement clickToFakeMail;
 
-
-
+    @FindBy(xpath ="//div[@class='wcfm-message wcfm-error']")
+    public WebElement emailExistMessage;
 
 
 
