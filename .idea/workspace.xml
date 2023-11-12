@@ -1,167 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-    <component name="AutoImportSettings">
-        <option name="autoReloadType" value="SELECTIVE" />
-    </component>
-    <component name="ChangeListManager">
-        <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="">
-            <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceHomePage.java" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java" afterDir="false" />
-        </list>
-        <option name="SHOW_DIALOG" value="false" />
-        <option name="HIGHLIGHT_CONFLICTS" value="true" />
-        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-        <option name="LAST_RESOLUTION" value="IGNORE" />
-    </component>
-    <component name="FileTemplateManagerImpl">
-        <option name="RECENT_TEMPLATES">
-            <list>
-                <option value="Class" />
-            </list>
-        </option>
-    </component>
-    <component name="Git.Settings">
-        <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    </component>
-    <component name="MacroExpansionManager">
-        <option name="directoryName" value="euaxu08a" />
-    </component>
-    <component name="ProjectCodeStyleSettingsMigration">
-        <option name="version" value="2" />
-    </component>
-    <component name="ProjectColorInfo">{
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/fatma/FatmaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/fatma/FatmaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/Driver.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="euaxu08a" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
         &quot;associatedIndex&quot;: 4
         }</component>
-    <component name="ProjectId" id="2XyGsJbAjEOJx6CT6jQnSy78Dxf" />
-    <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-        <ConfirmationsSetting value="1" id="Add" />
-    </component>
-    <component name="ProjectViewState">
-        <option name="showLibraryContents" value="true" />
-    </component>
-    <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="ProjectId" id="2XyGsJbAjEOJx6CT6jQnSy78Dxf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
-    <component name="RunManager" selected="TestNG.TC01 (1)">
-        <configuration name="TC01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-            <module name="team03" />
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
-                    <option name="ENABLED" value="true" />
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
-            <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC01" />
-            <option name="TEST_OBJECT" value="CLASS" />
-            <properties />
-            <listeners />
-            <method v="2">
-                <option name="Make" enabled="true" />
-            </method>
-        </configuration>
-        <configuration name="TC01" type="TestNG" temporary="true" nameIsGenerated="true">
-            <module name="team03" />
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="allovercommerce.tests.US04_akif.*" />
-                    <option name="ENABLED" value="true" />
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="allovercommerce.tests.US04_akif" />
-            <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US04_akif.TC01" />
-            <option name="TEST_OBJECT" value="CLASS" />
-            <properties />
-            <listeners />
-            <method v="2">
-                <option name="Make" enabled="true" />
-            </method>
-        </configuration>
-        <configuration name="TC01.US07_TC01" type="TestNG" temporary="true" nameIsGenerated="true">
-            <module name="team03" />
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
-                    <option name="ENABLED" value="true" />
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
-            <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC01" />
-            <option name="METHOD_NAME" value="US07_TC01" />
-            <option name="TEST_OBJECT" value="METHOD" />
-            <properties />
-            <listeners />
-            <method v="2">
-                <option name="Make" enabled="true" />
-            </method>
-        </configuration>
-        <configuration name="TC02" type="TestNG" temporary="true" nameIsGenerated="true">
-            <module name="team03" />
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="allovercommerce.tests.US04_akif.*" />
-                    <option name="ENABLED" value="true" />
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="allovercommerce.tests.US04_akif" />
-            <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US04_akif.TC02" />
-            <option name="TEST_OBJECT" value="CLASS" />
-            <properties />
-            <listeners />
-            <method v="2">
-                <option name="Make" enabled="true" />
-            </method>
-        </configuration>
-        <configuration name="TC02.US04_TC02" type="TestNG" temporary="true" nameIsGenerated="true">
-            <module name="team03" />
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="allovercommerce.tests.US04_akif.*" />
-                    <option name="ENABLED" value="true" />
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="allovercommerce.tests.US04_akif" />
-            <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US04_akif.TC02" />
-            <option name="METHOD_NAME" value="US04_TC02" />
-            <option name="TEST_OBJECT" value="METHOD" />
-            <properties />
-            <listeners />
-            <method v="2">
-                <option name="Make" enabled="true" />
-            </method>
-        </configuration>
-        <recent_temporary>
-            <list>
-                <item itemvalue="TestNG.TC01 (1)" />
-                <item itemvalue="TestNG.TC01.US07_TC01" />
-                <item itemvalue="TestNG.TC02" />
-                <item itemvalue="TestNG.TC02.US04_TC02" />
-                <item itemvalue="TestNG.TC01" />
-            </list>
-        </recent_temporary>
-    </component>
-    <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-    <component name="TaskManager">
-        <task active="true" id="Default" summary="Default task">
-            <changelist id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="" />
-            <created>1699594124504</created>
-            <option name="number" value="Default" />
-            <option name="presentableId" value="Default" />
-            <updated>1699594124504</updated>
-        </task>
-        <servers />
-    </component>
-    <component name="com.intellij.coverage.CoverageDataManagerImpl">
-        <SUITE FILE_PATH="coverage/mytestNGproject$HW05_BookACar.ic" NAME="HW05_BookACar Coverage Results" MODIFIED="1697985610819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-            <FILTER>myapp.homework.*</FILTER>
-        </SUITE>
-    </component>
+}</component>
+  <component name="RunManager" selected="TestNG.TC05.test05">
+    <configuration name="TC01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC01.US07_TC01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC01" />
+      <option name="METHOD_NAME" value="US07_TC01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US04_akif.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US04_akif" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US04_akif.TC02" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC04.test04" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC04" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC05.test05" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC05" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC05.test05" />
+        <item itemvalue="TestNG.TC04.test04" />
+        <item itemvalue="TestNG.TC01 (1)" />
+        <item itemvalue="TestNG.TC01.US07_TC01" />
+        <item itemvalue="TestNG.TC02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="" />
+      <created>1699594124504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699594124504</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mytestNGproject$HW05_BookACar.ic" NAME="HW05_BookACar Coverage Results" MODIFIED="1697985610819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>myapp.homework.*</FILTER>
+    </SUITE>
+  </component>
 </project>
