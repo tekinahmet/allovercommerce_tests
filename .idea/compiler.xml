@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="team03" target="11" />
       <module name="team03_testNG_project" target="21" />
     </bytecodeTargetLevel>
   </component>
