@@ -31,5 +31,7 @@ public class Ahmet_RegistrationPage {
     public WebElement verifyRegisteredUsername;
     @FindBy(xpath = "(//p[@class='submit-status'])[2]")
     public WebElement verifyRegisteredEmail;
+    @FindBy(xpath = "//small[@class='woocommerce-password-hint']")
+    public WebElement verifyPassword;
 
 }

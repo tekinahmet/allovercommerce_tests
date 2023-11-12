@@ -20,30 +20,39 @@ public class TC02_RegisteredEmail {
 //        navigate to homepage
         Driver.getDriver().get("https://allovercommerce.com/");
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        click on register button
         ahmetRegistrationPage.register.click();
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        click on sign up
         ahmetRegistrationPage.signUp.click();
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        enter a valid username
         ahmetRegistrationPage.userName.sendKeys(faker.name().name());
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        enter a registered email address
         ahmetRegistrationPage.email.sendKeys("jarek.najair@feerock.com");
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        enter a valid password
         ahmetRegistrationPage.password.sendKeys(faker.internet().password());
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        click on "I agree to the privacy policy" box"
         ahmetRegistrationPage.policyCheckBox.click();
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        click on sign up button
         ahmetRegistrationPage.signUpButton.click();
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        verify that user sees "An account is already registered with your email address." message
         Assert.assertTrue(ahmetRegistrationPage.verifyRegisteredEmail.isDisplayed());
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        close
         Driver.getDriver().close();
 

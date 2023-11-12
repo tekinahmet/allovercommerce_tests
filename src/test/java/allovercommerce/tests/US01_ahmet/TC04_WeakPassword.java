@@ -20,25 +20,40 @@ public class TC04_WeakPassword {
 
 //        navigate to homepage
         Driver.getDriver().get("https://allovercommerce.com/");
+        MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        click on register button
         ahmetRegistrationPage.register.click();
+        MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        click on sign up
         ahmetRegistrationPage.signUp.click();
+        MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        enter a valid username
         ahmetRegistrationPage.userName.sendKeys(faker.name().name());
+        MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        enter an email address
         ahmetRegistrationPage.email.sendKeys(faker.internet().emailAddress());
+        MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        enter a weak password
         ahmetRegistrationPage.password.sendKeys(" ");
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        click on "I agree to the privacy policy" box
         ahmetRegistrationPage.policyCheckBox.click();
+        MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        click on sign up button
         ahmetRegistrationPage.signUpButton.click();
-        WaitUtils.waitFor(2);
         MediaUtils.takeScreenshotOfTheEntirePage();
-//        verify that user see the "Please enter a valid account username." message
-        Assert.assertTrue(ahmetRegistrationPage.verifyEmail.isDisplayed());
+
+//        verify that user is not able to click on sign up button
+        Assert.assertTrue(ahmetRegistrationPage.verifyPassword.isDisplayed());
+        MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        close
         Driver.getDriver().close();
     }

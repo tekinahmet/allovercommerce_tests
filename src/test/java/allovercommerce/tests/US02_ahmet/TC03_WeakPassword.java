@@ -1,4 +1,4 @@
-package allovercommerce.tests.US01_ahmet;
+package allovercommerce.tests.US02_ahmet;
 
 import allovercommerce.pages.ahmet.Ahmet_MyAccountPage;
 import allovercommerce.pages.ahmet.Ahmet_RegistrationPage;
@@ -10,9 +10,9 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class TC01_SuccessfulRegistration {
+public class TC03_WeakPassword {
     @Test
-    public void successfulRegistration() throws IOException {
+    public void weakPassword() throws IOException {
         Ahmet_RegistrationPage ahmetRegistrationPage = new Ahmet_RegistrationPage();
         Ahmet_MyAccountPage ahmetMyAccountPage = new Ahmet_MyAccountPage();
         Faker faker = new Faker();
@@ -33,12 +33,12 @@ public class TC01_SuccessfulRegistration {
         ahmetRegistrationPage.userName.sendKeys(faker.name().name());
         MediaUtils.takeScreenshotOfTheEntirePage();
 
-//        enter an email address
+//        enter a valid email address
         ahmetRegistrationPage.email.sendKeys(faker.internet().emailAddress());
         MediaUtils.takeScreenshotOfTheEntirePage();
 
-//        enter a valid password
-        ahmetRegistrationPage.password.sendKeys(faker.internet().password());
+//        enter an invalid password
+        ahmetRegistrationPage.password.sendKeys(" ");
         MediaUtils.takeScreenshotOfTheEntirePage();
 
 //        click on "I agree to the privacy policy" box"
@@ -49,24 +49,8 @@ public class TC01_SuccessfulRegistration {
         ahmetRegistrationPage.signUpButton.click();
         MediaUtils.takeScreenshotOfTheEntirePage();
 
-//        verify sign out icon is displayed on the page
-        Assert.assertTrue(ahmetMyAccountPage.signOut.isDisplayed());
+//        verify that user sees "The password should be at least twelve characters long"
+        Assert.assertTrue(ahmetRegistrationPage.verifyPassword.getText().contains("The password should be at least twelve characters long"));
         MediaUtils.takeScreenshotOfTheEntirePage();
-
-//        click sign out icon
-        ahmetMyAccountPage.signOut.click();
-        MediaUtils.takeScreenshotOfTheEntirePage();
-
-//        click on log out
-        ahmetMyAccountPage.logOut.click();
-        MediaUtils.takeScreenshotOfTheEntirePage();
-
-//        verify that user is on the "My Account" page
-        Assert.assertTrue(ahmetMyAccountPage.verifyLogout.isDisplayed());
-        MediaUtils.takeScreenshotOfTheEntirePage();
-
-//        close
-        Driver.getDriver().close();
-
     }
 }
