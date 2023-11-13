@@ -28,7 +28,7 @@ public class AllovCommerceShippingAddressPage {
     @FindBy(xpath = "(//span[@class='select2-selection__arrow'])[1]")
     public WebElement countryArrow;
 
-    @FindBy(xpath = "(//input[@class='select2-search__field'])[1]")
+    @FindBy(xpath = "//input[@class='select2-search__field']")
     public WebElement countrySearch;
 
     @FindBy(id = "shipping_address_1")
@@ -43,7 +43,7 @@ public class AllovCommerceShippingAddressPage {
     @FindBy(xpath = "(//span[@class='select2-selection__arrow'])[2]")
     public WebElement stateArrow;
 
-    @FindBy(xpath = "(//input[@tabindex='0'])")
+    @FindBy(xpath = "//input[@class='select2-search__field']")
     public WebElement stateSearch;
 
     @FindBy(id = "shipping_postcode")
@@ -51,6 +51,21 @@ public class AllovCommerceShippingAddressPage {
 
     @FindBy(xpath = "//button[@name='save_address']")
     public WebElement saveButton;
+
+    @FindBy(id = "shipping_address_1")
+    public  WebElement streetFieldAlert;
+
+    @FindBy(id = "shipping_city")
+    public WebElement cityFieldAlert;
+
+    @FindBy(id = "shipping_postcode")
+    public WebElement postCodeFieldAlert;
+
+    @FindBy(id = "shipping_first_name")
+    public WebElement firstNameFieldAlert;
+
+    @FindBy(id = "shipping_last_name")
+    public WebElement lastNameFieldAlert;
 
 
 
