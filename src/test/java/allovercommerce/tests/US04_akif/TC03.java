@@ -1,12 +1,14 @@
 package allovercommerce.tests.US04_akif;
 
 import allovercommerce.pages.akif.*;
-import allovercommerce.utilities.*;
+import allovercommerce.utilities.ConfigReader;
+import allovercommerce.utilities.Driver;
+import allovercommerce.utilities.JSUtils;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC01 {
+public class TC03 {
 
     AllovCommerceDefaultPage allovCommerceDefaultPage = new AllovCommerceDefaultPage();
     AllovCommerceSignInPage allovCommerceSignInPage = new AllovCommerceSignInPage();
@@ -14,9 +16,11 @@ public class TC01 {
     AllovCommerceMyAccountPage allovCommerceMyAccountPage = new AllovCommerceMyAccountPage();
     AllovCommerceShippingAddressPage allovCommerceShippingAddressPage = new AllovCommerceShippingAddressPage();
 
-    //User enters all information and should be able to add/save shipping address
+    //User leaves town/city empty and should not be able to add/save shipping address
+    //User should be able to see "Town / City is a required field." alert message on the page
     @Test
-    public void US04_TC01(){
+    public void US04_TC03(){
+
         Driver.getDriver().get("https://allovercommerce.com/");
         allovCommerceDefaultPage.signinButton.click();
         allovCommerceSignInPage.userName.sendKeys("Luna_Ravenclaw2007");
@@ -48,18 +52,14 @@ public class TC01 {
         allovCommerceShippingAddressPage.apartment.sendKeys(ConfigReader.getProperty("akif_US04_apartment"));
 
         allovCommerceShippingAddressPage.city.clear();
-        allovCommerceShippingAddressPage.city.sendKeys(ConfigReader.getProperty("akif_US04_city"));
+        //allovCommerceShippingAddressPage.city.sendKeys(ConfigReader.getProperty("akif_US04_city"));
 
         allovCommerceShippingAddressPage.postCode.clear();
         allovCommerceShippingAddressPage.postCode.sendKeys(ConfigReader.getProperty("akif_US04_postcode"));
 
         JSUtils.JSclickWithTimeout(allovCommerceShippingAddressPage.saveButton);
 
-        Assert.assertTrue(allovCommerceMyAccountPage.saveSuccessfullAlert.isDisplayed());
-
-
-
-
+        Assert.assertTrue(allovCommerceShippingAddressPage.cityFieldAlert.isDisplayed());
 
     }
 
