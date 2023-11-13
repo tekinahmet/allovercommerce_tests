@@ -52,6 +52,21 @@ public class AllovCommerceShippingAddressPage {
     @FindBy(xpath = "//button[@name='save_address']")
     public WebElement saveButton;
 
+    @FindBy(id = "shipping_address_1")
+    public  WebElement streetFieldAlert;
+
+    @FindBy(id = "shipping_city")
+    public WebElement cityFieldAlert;
+
+    @FindBy(id = "shipping_postcode")
+    public WebElement postCodeFieldAlert;
+
+    @FindBy(id = "shipping_first_name")
+    public WebElement firstNameFieldAlert;
+
+    @FindBy(id = "shipping_last_name")
+    public WebElement lastNameFieldAlert;
+
 
 
 
