@@ -19,14 +19,10 @@ public class TC01 {
     public void US07_TC01(){
 
         Driver.getDriver().get("https://allovercommerce.com/");
-        allovCommerceDefaultPage.signinButton.click();
-        allovCommerceSignInPage.userName.sendKeys("Luna_Ravenclaw2007");
-        allovCommerceSignInPage.password.sendKeys("Lunalovegood2007!!!");
-        allovCommerceSignInPage.loginButton.click();
 
-        allovCommerceHomePage.searchButton = Driver.getDriver().findElement(By.xpath("(//button[@class='btn btn-search'])[1]"));
-        allovCommerceHomePage.searchButton.click();
-        allovCommerceHomePage.searchBox.sendKeys(ConfigReader.getProperty("akif_US07_item1") + Keys.ENTER);
+        allovCommerceDefaultPage.searchButton = Driver.getDriver().findElement(By.xpath("(//button[@class='btn btn-search'])[1]"));
+        allovCommerceDefaultPage.searchButton.click();
+        allovCommerceDefaultPage.searchBox.sendKeys(ConfigReader.getProperty("akif_US07_item1") + Keys.ENTER);
 
 
 

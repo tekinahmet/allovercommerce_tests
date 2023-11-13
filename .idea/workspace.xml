@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceDefaultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceDefaultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +41,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.TC01 (1)">
+}</component>
+  <component name="RunManager" selected="TestNG.TC01.US07_TC01">
     <configuration name="TC01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
@@ -140,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC01 (1)" />
         <item itemvalue="TestNG.TC01.US07_TC01" />
+        <item itemvalue="TestNG.TC01 (1)" />
         <item itemvalue="TestNG.TC02" />
         <item itemvalue="TestNG.TC02.US04_TC02" />
         <item itemvalue="TestNG.TC01" />
