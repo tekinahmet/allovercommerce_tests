@@ -16,6 +16,8 @@ public class TC02 {
     AllovCommerceMyAccountPage allovCommerceMyAccountPage = new AllovCommerceMyAccountPage();
     AllovCommerceShippingAddressPage allovCommerceShippingAddressPage = new AllovCommerceShippingAddressPage();
 
+    //User leaves street address empty and should not be able to add/save shipping address
+    //User should be able to see "Street address is a required field." alert message on the page
     @Test
     public void US04_TC02(){
 
@@ -41,10 +43,11 @@ public class TC02 {
         allovCommerceShippingAddressPage.company.sendKeys(ConfigReader.getProperty("akif_US04_company"));
 
         allovCommerceShippingAddressPage.countryArrow.click();
-        allovCommerceShippingAddressPage.countrySearch.sendKeys("United States" + Keys.ENTER);
+        allovCommerceShippingAddressPage.countrySearch.sendKeys(ConfigReader.getProperty("akif_US04_country") + Keys.ENTER);
+
 
         allovCommerceShippingAddressPage.street.clear();
-        allovCommerceShippingAddressPage.street.sendKeys(ConfigReader.getProperty("akif_US04_street"));
+        //allovCommerceShippingAddressPage.street.sendKeys(ConfigReader.getProperty("akif_US04_street"));
 
         allovCommerceShippingAddressPage.apartment.clear();
         allovCommerceShippingAddressPage.apartment.sendKeys(ConfigReader.getProperty("akif_US04_apartment"));
@@ -52,15 +55,12 @@ public class TC02 {
         allovCommerceShippingAddressPage.city.clear();
         allovCommerceShippingAddressPage.city.sendKeys(ConfigReader.getProperty("akif_US04_city"));
 
-        allovCommerceShippingAddressPage.stateArrow.click(); // ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1368, 949)
-        allovCommerceShippingAddressPage.stateSearch.sendKeys(ConfigReader.getProperty("akif_US04_state") + Keys.ENTER);
-
-
         allovCommerceShippingAddressPage.postCode.clear();
         allovCommerceShippingAddressPage.postCode.sendKeys(ConfigReader.getProperty("akif_US04_postcode"));
 
-        //JSUtils.JSclickWithTimeout(allovCommerceShippingAddressPage.saveButton);
+        JSUtils.JSclickWithTimeout(allovCommerceShippingAddressPage.saveButton);
 
+        Assert.assertTrue(allovCommerceShippingAddressPage.streetFieldAlert.isDisplayed());
     }
 
 }

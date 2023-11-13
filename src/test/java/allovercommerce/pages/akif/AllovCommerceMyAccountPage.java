@@ -23,6 +23,9 @@ public class AllovCommerceMyAccountPage {
     @FindBy(xpath = "//a[@href='https://allovercommerce.com/my-account-2/edit-address/shipping/']")
     public WebElement shippingAddressButton;
 
+    @FindBy(xpath = "//div[text()='Address changed successfully.']")
+    public WebElement saveSuccessfullAlert;
+
 
 
 }
