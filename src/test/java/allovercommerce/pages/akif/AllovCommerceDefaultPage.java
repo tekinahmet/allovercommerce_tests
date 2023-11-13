@@ -19,8 +19,6 @@ public class AllovCommerceDefaultPage {
     @FindBy(name = "s")
     public WebElement searchBox;
 
-    @FindBy(xpath = "(//button[@class='btn btn-search'])[1]")
-    public WebElement searchButton;
 
 
 }
