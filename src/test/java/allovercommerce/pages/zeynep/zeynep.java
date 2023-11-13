@@ -1,4 +1,4 @@
-package allovercommerce.pages.asuman;
+package allovercommerce.pages.zeynep;
 
 public class zeynep {
     public static void main(String[] args) {
