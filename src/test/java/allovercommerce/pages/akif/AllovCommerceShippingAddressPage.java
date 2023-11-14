@@ -67,6 +67,9 @@ public class AllovCommerceShippingAddressPage {
     @FindBy(id = "shipping_last_name")
     public WebElement lastNameFieldAlert;
 
+    @FindBy(id = "shipping_country")
+    public WebElement countryRegionFieldAlert;
+
 
 
 
