@@ -1,17 +1,12 @@
 package allovercommerce.tests.US07_akif;
 
 import allovercommerce.pages.akif.*;
-import allovercommerce.utilities.ConfigReader;
-import allovercommerce.utilities.Driver;
-import allovercommerce.utilities.JSUtils;
-import allovercommerce.utilities.WaitUtils;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import org.openqa.selenium.By;
+import allovercommerce.utilities.*;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC01 {
+public class TC06 {
 
     AllovCommerceDefaultPage allovCommerceDefaultPage = new AllovCommerceDefaultPage();
     AllovCommerceSignInPage allovCommerceSignInPage = new AllovCommerceSignInPage();
@@ -22,8 +17,9 @@ public class TC01 {
     AllovCommerceComparePage allovCommerceComparePage = new AllovCommerceComparePage();
 
     //User should be able to add and compare items on the Compare Page
+    //Then user should be able to change item places by clicking arrows
     @Test
-    public void US07_TC01(){
+    public void US07_TC06(){
 
         Driver.getDriver().get("https://allovercommerce.com/");
 
@@ -51,12 +47,20 @@ public class TC01 {
 
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("compare"));
 
-        Assert.assertTrue(allovCommerceComparePage.item1.isDisplayed());
-        Assert.assertTrue(allovCommerceComparePage.item2.isDisplayed());
-
-
+        ActionsUtils.actionsHoverOverOnElement(allovCommerceComparePage.removeItem1);
+        WaitUtils.waitFor(2);
+        JSUtils.JSclickWithTimeout(allovCommerceComparePage.rightArrow1);
+        WaitUtils.waitFor(2);
+        ActionsUtils.actionsHoverOverOnElement(allovCommerceComparePage.removeItem1);
+        WaitUtils.waitFor(2);
+        JSUtils.JSclickWithTimeout(allovCommerceComparePage.rightArrow1);
+        WaitUtils.waitFor(2);
+        ActionsUtils.actionsHoverOverOnElement(allovCommerceComparePage.removeItem2);
+        WaitUtils.waitFor(2);
+        JSUtils.JSclickWithTimeout(allovCommerceComparePage.leftArrow2);
 
 
     }
+
 
 }
