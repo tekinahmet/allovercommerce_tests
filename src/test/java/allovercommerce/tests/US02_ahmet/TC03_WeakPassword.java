@@ -41,7 +41,7 @@ public class TC03_WeakPassword {
         ahmetRegistrationPage.password.sendKeys(" ");
         MediaUtils.takeScreenshotOfTheEntirePage();
 
-//        click on "I agree to the privacy policy" box"
+//        click on "I agree to the privacy policy"
         ahmetRegistrationPage.policyCheckBox.click();
         MediaUtils.takeScreenshotOfTheEntirePage();
 
