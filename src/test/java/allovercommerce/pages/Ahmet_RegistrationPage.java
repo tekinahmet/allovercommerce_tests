@@ -23,6 +23,16 @@ public class Ahmet_RegistrationPage {
     public WebElement policyCheckBox;
     @FindBy(xpath = "//button[@value='Sign Up']")
     public WebElement signUpButton;
+    @FindBy(xpath = "//p[.='Please enter a valid account username.']")
+    public WebElement verifyUsername;
+    @FindBy(xpath = "//p[.='Please provide a valid email address.']")
+    public WebElement verifyEmail;
+    @FindBy(xpath = "//p[.='An account is already registered with that username. Please choose another.']")
+    public WebElement verifyRegisteredUsername;
+    @FindBy(xpath = "(//p[@class='submit-status'])[2]")
+    public WebElement verifyRegisteredEmail;
+    @FindBy(xpath = "//small[@class='woocommerce-password-hint']")
+    public WebElement verifyPassword;
 
 
 }
