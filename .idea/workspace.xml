@@ -13,10 +13,97 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="gnyr5m3u" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2YAjmgstRuL0aFRQ1CmgFgZ3mAD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.TC03_WeakPassword.weakPassword">
+    <configuration name="TC01_RegisteredUsername.registeredUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US02_ahmet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US02_ahmet" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US02_ahmet.TC01_RegisteredUsername" />
+      <option name="METHOD_NAME" value="registeredUsername" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC02_RegisteredEmail.successfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US02_ahmet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US02_ahmet" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US02_ahmet.TC02_RegisteredEmail" />
+      <option name="METHOD_NAME" value="successfulRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC03_WeakPassword.weakPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US02_ahmet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US02_ahmet" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US02_ahmet.TC03_WeakPassword" />
+      <option name="METHOD_NAME" value="weakPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC03_WeakPassword.weakPassword" />
+        <item itemvalue="TestNG.TC02_RegisteredEmail.successfulRegistration" />
+        <item itemvalue="TestNG.TC01_RegisteredUsername.registeredUsername" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25ce283f-44ab-4e56-82c0-f57b34a3e97e" name="Changes" comment="" />
+      <created>1699975451088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699975451088</updated>
+    </task>
     <servers />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
