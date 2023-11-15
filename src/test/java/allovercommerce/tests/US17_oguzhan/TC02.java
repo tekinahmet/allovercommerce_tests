@@ -1,24 +1,19 @@
 package allovercommerce.tests.US17_oguzhan;
 
-
 import allovercommerce.pages.oguzhan.Oguzhan_LoginPage;
 import allovercommerce.pages.oguzhan.Oguzhan_VendorAccountPage;
 import allovercommerce.pages.oguzhan.Oguzhan_VendorBillingPage;
 import allovercommerce.utilities.*;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class TC01 {
-
-
+public class TC02 {
     @Test
 
-    public void testCase01() throws InterruptedException, IOException {
+    public void testCase02() throws InterruptedException, IOException {
         Oguzhan_LoginPage oguzhanLoginPage = new Oguzhan_LoginPage();
         Oguzhan_VendorAccountPage oguzhanVendorAccountPage = new Oguzhan_VendorAccountPage();
         Oguzhan_VendorBillingPage oguzhanVendorBillingPage = new Oguzhan_VendorBillingPage();
@@ -48,7 +43,14 @@ public class TC01 {
         //vendor verifies number of products to be purchased can be increased or decreased
         oguzhanVendorAccountPage.increaseButton.click();
         Thread.sleep(2000);
-        //7. vendor adds the item into cart
+        // 7. vendor adds the item into cart
+        oguzhanVendorAccountPage.addToCart.click();
+        Thread.sleep(1000);
+        // vendor searches a new item
+        oguzhanVendorAccountPage.searchBar.sendKeys("Nutraxin C Vitamini"+ Keys.ENTER);
+        //vendor verifies new item
+        oguzhanVendorAccountPage.product.getText().equalsIgnoreCase("Nutraxin C Vitamini");
+        // vendor adds the item into cart
         oguzhanVendorAccountPage.addToCart.click();
         Thread.sleep(1000);
         //8. vendor goes to cart by clicking cart icon
@@ -105,19 +107,19 @@ public class TC01 {
         JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.wireTransfer);
         WaitUtils.waitFor(2);
         Assert.assertTrue(oguzhanVendorBillingPage.wireTransfer.isDisplayed());
-        // vendor clicks pay at the door
-        JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.payAtTheDoor);
-        WaitUtils.waitFor(2);
-        Assert.assertTrue(oguzhanVendorBillingPage.payAtTheDoor.isDisplayed());
+//        // vendor clicks pay at the door  !! in this test case vendor chooses "Wire Transfer/EFT"
+//        JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.payAtTheDoor);
+//        WaitUtils.waitFor(2);
+//        Assert.assertTrue(oguzhanVendorBillingPage.payAtTheDoor.isDisplayed());
 
         //Vendor verifies total amount is visible
-         String verifyText3 ="Total";
+        String verifyText3 ="Total";
         Assert.assertTrue(oguzhanVendorBillingPage.totalAmount.isDisplayed(), verifyText3);
 
         // vendor clicks on Place Order button
         WaitUtils.waitFor(2);
         JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.placeOrder);
-    WaitUtils.waitFor(3);
+        WaitUtils.waitFor(3);
         //vendor verifies shopping is completed
         String verifyText2 ="Thank you. Your order has been received.";
         Assert.assertTrue(oguzhanVendorBillingPage.orderCompleteText.isDisplayed(), verifyText2);
@@ -125,10 +127,8 @@ public class TC01 {
         JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.shoppingDetails);
         MediaUtils.takeScreenshotOfTheEntirePage();
         //vendor closes driver
-         Driver.closeDriver();
+        Driver.closeDriver();
 
 
     }
-
-
 }

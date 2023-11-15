@@ -26,4 +26,10 @@ public class Oguzhan_VendorAccountPage {
     @FindBy(xpath ="//span[contains(text(),'Sign Out')]")
     public WebElement signOutSign;
 
+    @FindBy(xpath = "//i[@class='fas fa-times']")
+    public WebElement removeItem;
+
+    @FindBy(xpath = "//p[@class='woocommerce-mini-cart__empty-message empty-msg']\n")
+    public WebElement emptyCartMessage;
+
 }
