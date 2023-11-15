@@ -52,27 +52,23 @@
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.XYZBankTest.xyzBankTest">
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_report.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
+  <component name="RunManager" selected="TestNG.TC02_InvalidUsername">
+    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_parallel_setup.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter" />
-        <listener class="org.testng.reporters.FailedReporter" />
-        <listener class="org.testng.reporters.SuiteHTMLReporter" />
-        <listener class="org.testng.reporters.TestHTMLReporter" />
-      </listeners>
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_smoketest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,46 +100,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC19_ViewCartBrandProducts.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
+    <configuration name="TC01_SuccessfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myapp.myowntests.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myapp.myowntests" />
-      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC19_ViewCartBrandProducts" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC01_SuccessfulRegistration" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC1_RegisterUser.accountCreateDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
+    <configuration name="TC02_InvalidUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myapp.myowntests.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="myapp.myowntests" />
-      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC1_RegisterUser" />
-      <option name="METHOD_NAME" value="accountCreateDeleteTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC02_InvalidUsername" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -168,39 +152,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.accountCreateDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.myowntests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.myowntests" />
-      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.test" />
-      <option name="METHOD_NAME" value="accountCreateDeleteTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.Day13_Annotations" />
+      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
+      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_smoketest.xml" />
+      <item itemvalue="TestNG.TC01_SuccessfulRegistration" />
+      <item itemvalue="TestNG.TC02_InvalidUsername" />
       <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
-      <item itemvalue="TestNG.TC19_ViewCartBrandProducts.test" />
-      <item itemvalue="TestNG.test.accountCreateDeleteTest" />
-      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
-      <item itemvalue="TestNG.TC1_RegisterUser.accountCreateDeleteTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC02_InvalidUsername" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_smoketest.xml" />
+        <item itemvalue="TestNG.TC01_SuccessfulRegistration" />
         <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
-        <item itemvalue="TestNG.TC19_ViewCartBrandProducts.test" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
-        <item itemvalue="TestNG.test.accountCreateDeleteTest" />
-        <item itemvalue="TestNG.TC1_RegisterUser.accountCreateDeleteTest" />
       </list>
     </recent_temporary>
   </component>
