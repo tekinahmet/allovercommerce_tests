@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
 
     <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US04_akif/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US04_akif/TC01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java" afterDir="false" />
@@ -37,6 +39,7 @@
 
 
 
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
