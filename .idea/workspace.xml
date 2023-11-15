@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00069089-0549-4c2d-8369-e012a5cecaed" name="Changes" comment="yasin-23.11.06-v1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/Oguzhan_LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/oguzhan/Oguzhan_LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/oguzhan/Oguzhan_VendorAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/oguzhan/Oguzhan_VendorBillingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/ahmet_MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/Ahmet_MyAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/ahmet_RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/Ahmet_RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/Oguzhan_LoginPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US17_oguzhan/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US17_oguzhan/TC01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/JSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ElementScreenshot/20231025095700image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ElementScreenshot/20231025095904image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ElementScreenshot/20231025100220image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ElementScreenshot/20231025100249image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231025095658image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231025095902image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231025100217image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231025100246image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231025100250image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +85,7 @@
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC01">
+  <component name="RunManager" selected="TestNG.TC01.testCase01 (1)">
     <configuration name="TC01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC01" />
       <module name="team03" />
@@ -195,8 +207,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC01" />
         <item itemvalue="TestNG.TC01.testCase01 (1)" />
+        <item itemvalue="TestNG.TC01" />
         <item itemvalue="TestNG.TC01.testCase01" />
         <item itemvalue="Application.TC01" />
         <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
