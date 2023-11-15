@@ -8,7 +8,7 @@ import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC01 {
+public class TC07 {
 
     AllovCommerceDefaultPage allovCommerceDefaultPage = new AllovCommerceDefaultPage();
     AllovCommerceSignInPage allovCommerceSignInPage = new AllovCommerceSignInPage();
@@ -16,13 +16,14 @@ public class TC01 {
     AllovCommerceMyAccountPage allovCommerceMyAccountPage = new AllovCommerceMyAccountPage();
     AllovCommerceShippingAddressPage allovCommerceShippingAddressPage = new AllovCommerceShippingAddressPage();
 
-    //User enters all information and should be able to add/save shipping address
+    //User leaves country/region empty and should not be able to add/save shipping address
+    //User should be able to see "Country/region is a required field." alert message on the page
     @Test
-    public void US04_TC01(){
+    public void US04_TC07(){
         Driver.getDriver().get("https://allovercommerce.com/");
         allovCommerceDefaultPage.signinButton.click();
-        allovCommerceSignInPage.userName.sendKeys("Luna_Ravenclaw2007");
-        allovCommerceSignInPage.password.sendKeys("Lunalovegood2007!!!");
+        allovCommerceSignInPage.userName.sendKeys("LovegoodLuna2007");
+        allovCommerceSignInPage.password.sendKeys("lovegoodluna2007!!!");
         allovCommerceSignInPage.loginButton.click();
         allovCommerceHomePage.signOutButton.click();
         Assert.assertTrue(allovCommerceMyAccountPage.pageTitle.isDisplayed());
@@ -40,9 +41,6 @@ public class TC01 {
         allovCommerceShippingAddressPage.company.clear();
         allovCommerceShippingAddressPage.company.sendKeys(ConfigReader.getProperty("akif_US04_company"));
 
-        allovCommerceShippingAddressPage.countryArrow.click();
-        allovCommerceShippingAddressPage.countrySearch.sendKeys(ConfigReader.getProperty("akif_US04_country") + Keys.ENTER);
-
         allovCommerceShippingAddressPage.street.clear();
         allovCommerceShippingAddressPage.street.sendKeys(ConfigReader.getProperty("akif_US04_street"));
 
@@ -57,12 +55,12 @@ public class TC01 {
 
         JSUtils.JSclickWithTimeout(allovCommerceShippingAddressPage.saveButton);
 
-        Assert.assertTrue(allovCommerceMyAccountPage.saveSuccessfullAlert.isDisplayed());
-
+        Assert.assertTrue(allovCommerceShippingAddressPage.countryRegionFieldAlert.isDisplayed());
 
 
 
 
     }
+
 
 }

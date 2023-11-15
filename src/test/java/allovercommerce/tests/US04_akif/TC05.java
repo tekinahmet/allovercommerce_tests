@@ -8,7 +8,7 @@ import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC01 {
+public class TC05 {
 
     AllovCommerceDefaultPage allovCommerceDefaultPage = new AllovCommerceDefaultPage();
     AllovCommerceSignInPage allovCommerceSignInPage = new AllovCommerceSignInPage();
@@ -16,9 +16,10 @@ public class TC01 {
     AllovCommerceMyAccountPage allovCommerceMyAccountPage = new AllovCommerceMyAccountPage();
     AllovCommerceShippingAddressPage allovCommerceShippingAddressPage = new AllovCommerceShippingAddressPage();
 
-    //User enters all information and should be able to add/save shipping address
+    //User leaves First name empty and should not be able to add/save shipping address
+    //User should be able to see "First name is a required field." alert message on the page
     @Test
-    public void US04_TC01(){
+    public void US04_TC05(){
         Driver.getDriver().get("https://allovercommerce.com/");
         allovCommerceDefaultPage.signinButton.click();
         allovCommerceSignInPage.userName.sendKeys("Luna_Ravenclaw2007");
@@ -32,7 +33,7 @@ public class TC01 {
         Assert.assertTrue(allovCommerceShippingAddressPage.pageHeader.isDisplayed());
 
         allovCommerceShippingAddressPage.firstName.clear();
-        allovCommerceShippingAddressPage.firstName.sendKeys(ConfigReader.getProperty("akif_US04_name"));
+        //allovCommerceShippingAddressPage.firstName.sendKeys(ConfigReader.getProperty("akif_US04_name"));
 
         allovCommerceShippingAddressPage.lastName.clear();
         allovCommerceShippingAddressPage.lastName.sendKeys(ConfigReader.getProperty("akif_US04_lastname"));
@@ -57,12 +58,13 @@ public class TC01 {
 
         JSUtils.JSclickWithTimeout(allovCommerceShippingAddressPage.saveButton);
 
-        Assert.assertTrue(allovCommerceMyAccountPage.saveSuccessfullAlert.isDisplayed());
+        Assert.assertTrue(allovCommerceShippingAddressPage.firstNameFieldAlert.isDisplayed());
 
 
 
 
 
     }
+
 
 }

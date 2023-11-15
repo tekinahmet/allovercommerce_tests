@@ -26,22 +26,36 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
+<<<<<<< HEAD
     &quot;associatedIndex&quot;: 5
     }</component>
+=======
+  &quot;associatedIndex&quot;: 5
+}</component>
+>>>>>>> master
   <component name="ProjectId" id="2Wl6ixhRZ7QhKQezjYGXUagCSUW" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
+<<<<<<< HEAD
     &quot;keyToString&quot;: {
+=======
+  &quot;keyToString&quot;: {
+>>>>>>> master
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+<<<<<<< HEAD
     }
     }</component>
+=======
+  }
+}</component>
+>>>>>>> master
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\resources" />

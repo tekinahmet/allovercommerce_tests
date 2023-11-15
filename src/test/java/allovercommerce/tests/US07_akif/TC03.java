@@ -4,14 +4,11 @@ import allovercommerce.pages.akif.*;
 import allovercommerce.utilities.ConfigReader;
 import allovercommerce.utilities.Driver;
 import allovercommerce.utilities.JSUtils;
-import allovercommerce.utilities.WaitUtils;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC01 {
+public class TC03 {
 
     AllovCommerceDefaultPage allovCommerceDefaultPage = new AllovCommerceDefaultPage();
     AllovCommerceSignInPage allovCommerceSignInPage = new AllovCommerceSignInPage();
@@ -22,8 +19,9 @@ public class TC01 {
     AllovCommerceComparePage allovCommerceComparePage = new AllovCommerceComparePage();
 
     //User should be able to add and compare items on the Compare Page
+    //Then user should be able to verify that item availability info are displayed on the page
     @Test
-    public void US07_TC01(){
+    public void US07_TC03(){
 
         Driver.getDriver().get("https://allovercommerce.com/");
 
@@ -54,7 +52,8 @@ public class TC01 {
         Assert.assertTrue(allovCommerceComparePage.item1.isDisplayed());
         Assert.assertTrue(allovCommerceComparePage.item2.isDisplayed());
 
-
+        Assert.assertFalse(allovCommerceComparePage.availabilityItem1.getText().isBlank());
+        Assert.assertFalse(allovCommerceComparePage.availabilityItem2.getText().isBlank());
 
 
     }
