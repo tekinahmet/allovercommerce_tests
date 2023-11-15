@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/mertcan/mertcan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/mertcan/Mertcan_HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/sibel/sibel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC01.java" afterDir="false" />
-    </list>
+    <list default="true" id="00069089-0549-4c2d-8369-e012a5cecaed" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,48 +13,103 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="euaxu08a" />
+    <option name="directoryName" value="drb4mgx3" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
-        &quot;associatedIndex&quot;: 4
-        }</component>
-  <component name="ProjectId" id="2XyGsJbAjEOJx6CT6jQnSy78Dxf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+    &quot;associatedIndex&quot;: 5
+    }</component>
+  <component name="ProjectId" id="2Wl6ixhRZ7QhKQezjYGXUagCSUW" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/mertc/IdeaProjects/mytestNGproject"
-  }
-}]]></component>
-  <component name="RunManager" selected="TestNG.TC05.test05">
-    <configuration name="TC01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="PropertiesComponent">{
+    &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    }
+    }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\resources" />
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\src\test\java\myapp\pages" />
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\src\test\java\myapp\tests\practices" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="myapp.pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TC02_InvalidUsername">
+    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_parallel_setup.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_smoketest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day13_Annotations" type="TestNG" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
+          <option name="PATTERN" value="myapp.tests.topics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC01" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="myapp.tests.topics" />
+      <option name="MAIN_CLASS_NAME" value="myapp.tests.topics.Day13_Annotations" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC01_SuccessfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC01_SuccessfulRegistration" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -68,34 +117,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC01.US07_TC01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC02_InvalidUsername" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC01" />
-      <option name="METHOD_NAME" value="US07_TC01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US04_akif.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US04_akif" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US04_akif.TC02" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC02_InvalidUsername" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -103,17 +134,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC04.test04" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
+    <configuration name="XYZBankTest.xyzBankTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
+          <option name="PATTERN" value="myapp.tests.practices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC04" />
-      <option name="METHOD_NAME" value="test04" />
+      <option name="PACKAGE_NAME" value="myapp.tests.practices" />
+      <option name="MAIN_CLASS_NAME" value="myapp.tests.practices.XYZBankTest" />
+      <option name="METHOD_NAME" value="xyzBankTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,42 +152,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC05.test05" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC05" />
-      <option name="METHOD_NAME" value="test05" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.Day13_Annotations" />
+      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
+      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_smoketest.xml" />
+      <item itemvalue="TestNG.TC01_SuccessfulRegistration" />
+      <item itemvalue="TestNG.TC02_InvalidUsername" />
+      <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC05.test05" />
-        <item itemvalue="TestNG.TC04.test04" />
-        <item itemvalue="TestNG.TC01 (1)" />
-        <item itemvalue="TestNG.TC01.US07_TC01" />
-        <item itemvalue="TestNG.TC02" />
+        <item itemvalue="TestNG.TC02_InvalidUsername" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_smoketest.xml" />
+        <item itemvalue="TestNG.TC01_SuccessfulRegistration" />
+        <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="" />
-      <created>1699594124504</created>
+      <changelist id="00069089-0549-4c2d-8369-e012a5cecaed" name="Changes" comment="" />
+      <created>1697294954245</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699594124504</updated>
+      <updated>1697294954245</updated>
     </task>
     <servers />
   </component>

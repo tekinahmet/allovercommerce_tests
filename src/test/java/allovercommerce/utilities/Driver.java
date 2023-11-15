@@ -52,7 +52,7 @@ public class Driver {
                 break;
         }
 //            driver -> driver.get()
-        driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
         driver.get().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
         driver.get().manage().window().maximize();
     }
