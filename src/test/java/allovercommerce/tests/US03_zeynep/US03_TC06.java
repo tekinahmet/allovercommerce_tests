@@ -9,6 +9,8 @@ import allovercommerce.utilities.JSUtils;
 import allovercommerce.utilities.WaitUtils;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -75,10 +77,15 @@ public class US03_TC06 {
         zeynepAddressesPage.zipcode.sendKeys("12345");
 
         //Choose state in the State field
+        Select select1 = new Select(zeynepAddressesPage.state);
+        select1.selectByVisibleText("Wyoming");
 
 
         //Click SAVE ADDRESS button
         JSUtils.JSclickWithTimeout(zeynepAddressesPage.saveAddress);
+
+        //Verify that message shows up
+        Assert.assertTrue(zeynepAddressesPage.assertMessage.isDisplayed());
 
     }
 }

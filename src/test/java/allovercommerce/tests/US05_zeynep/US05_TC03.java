@@ -4,6 +4,10 @@ import allovercommerce.pages.zeynep.Zeynep_AccountDetailsPage;
 import allovercommerce.pages.zeynep.Zeynep_SignInPage;
 import allovercommerce.utilities.Driver;
 import allovercommerce.utilities.JSUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class US05_TC03 {
@@ -11,6 +15,7 @@ public class US05_TC03 {
     Zeynep_SignInPage zeynepSignInPage = new Zeynep_SignInPage();
     Zeynep_AccountDetailsPage zeynepAccountDetailsPage = new Zeynep_AccountDetailsPage();
 
+    Actions actions=new Actions(Driver.getDriver());
     @Test
     public void US05_TC02() {
 
@@ -35,13 +40,16 @@ public class US05_TC03 {
         JSUtils.JSclickWithTimeout(zeynepSignInPage.accountDetailsButton);
 
         //Enter text in Biography field
-        //zeynepAccountDetailsPage.biography1.click();
-        //zeynepAccountDetailsPage.biography2.sendKeys("ABcdefg123546");
+        Driver.getDriver().switchTo().frame(0);
+        JSUtils.JSclickWithTimeout(zeynepAccountDetailsPage.biography);
+        zeynepAccountDetailsPage.biography.sendKeys("ABcdefg123546");
+        Driver.getDriver().switchTo().defaultContent();
 
         //Click on SAVE CHANGES button
         JSUtils.JSclickWithTimeout(zeynepAccountDetailsPage.saveChangesButton);
 
         //Verify that biography has been changed
+        Assert.assertTrue(zeynepAccountDetailsPage.verifyMessage.isDisplayed());
 
 
 

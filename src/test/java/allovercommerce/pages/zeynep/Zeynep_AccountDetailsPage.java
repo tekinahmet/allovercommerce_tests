@@ -50,5 +50,8 @@ public class Zeynep_AccountDetailsPage {
     @FindBy(xpath = "//*[@id=\"password_2\"]")
     public WebElement confirmPassword;
 
+    @FindBy (css = "#tinymce")
+    public WebElement biography;
+
 
 }

@@ -29,19 +29,21 @@ public class Zeynep_AddressesPage {
     @FindBy(name = "save_address")
     public WebElement saveAddress;
 
-    //@FindBy(xpath = "//*[@id=\"select2-billing_country-container\"]/span")
-    //public WebElement country;
     @FindBy(xpath = "(//span[@class='select2-selection__arrow'])[1]")
     public WebElement country1;
 
     @FindBy(xpath = "//input[@class='select2-search__field']")
     public WebElement country2;
 
-    @FindBy(id = "//*[@id=\"billing_state_field\"]/span/span/span[1]/span/span[2]")
-    public WebElement state1;
+    @FindBy(xpath = "//select[@id='billing_state']")
+    public WebElement state;
 
-    @FindBy(id = "select2-billing_state-container")
-    public WebElement state2;
+    @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div/div/div/div/div/ul/li")
+    public WebElement assertMessage;
+
+
+
+
 
 
 

@@ -9,6 +9,7 @@ import allovercommerce.utilities.JSUtils;
 import allovercommerce.utilities.WaitUtils;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -80,6 +81,9 @@ public class US03_TC04 {
 
         //Click SAVE ADDRESS button
         JSUtils.JSclickWithTimeout(zeynepAddressesPage.saveAddress);
+
+        //Verify that message shows up
+        Assert.assertTrue(zeynepAddressesPage.assertMessage.isDisplayed());
 
     }
 }
