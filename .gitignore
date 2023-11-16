@@ -5,7 +5,7 @@ target/
 
 ### IntelliJ IDEA ###
 .test-output
-.idea/**/workspace.xml
+.idea/workspace.xml
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml

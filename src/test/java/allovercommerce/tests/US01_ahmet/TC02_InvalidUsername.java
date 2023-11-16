@@ -4,14 +4,15 @@ import allovercommerce.pages.ahmet.Ahmet_MyAccountPage;
 import allovercommerce.pages.ahmet.Ahmet_RegistrationPage;
 import allovercommerce.utilities.*;
 import com.github.javafaker.Faker;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import javax.print.attribute.standard.Media;
 import java.io.IOException;
 
-public class TC02_InvalidUsername {
+public class TC01_SuccessfulRegistration {
     @Test
+
     public void invalidUsername() throws IOException {
 
         ExtentReportUtils.createTestReport("invalidUsername", "verify the steps");
@@ -37,6 +38,7 @@ public class TC02_InvalidUsername {
         ahmetRegistrationPage.signUp.click();
         WaitUtils.waitFor(1);
         MediaUtils.takeScreenshotOfTheEntirePage();
+
 
 //        enter a invalid username
         JSUtils.flashElement(ahmetRegistrationPage.userName);
@@ -68,10 +70,12 @@ public class TC02_InvalidUsername {
         WaitUtils.waitFor(1);
         MediaUtils.takeScreenshotOfTheEntirePage();
 
+
 //        verify that user sees "Please provide a valid email address." message
         JSUtils.flashElement(ahmetRegistrationPage.verifyUsername);
         Assert.assertTrue(ahmetRegistrationPage.verifyUsername.isDisplayed());
         WaitUtils.waitFor(1);
+
         MediaUtils.takeScreenshotOfTheEntirePage();
 
 //        close
