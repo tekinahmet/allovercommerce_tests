@@ -4,13 +4,12 @@ import allovercommerce.pages.ahmet.Ahmet_MyAccountPage;
 import allovercommerce.pages.ahmet.Ahmet_RegistrationPage;
 import allovercommerce.utilities.*;
 import com.github.javafaker.Faker;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class TC01_SuccessfulRegistration {
+public class TC02_InvalidUsername {
     @Test
     public void invalidUsername() throws IOException {
 

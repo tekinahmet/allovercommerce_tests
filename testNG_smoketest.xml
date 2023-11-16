@@ -2,7 +2,7 @@
 <suite name="Smoke Test Suite" verbose="1" >
     <test name="Smoke Test 1"   >
         <packages>
-            <package name="allovercommerce.tests.US01_ahmet.TC01_SuccessfulRegistration" />
+            <package name="allovercommerce.tests.US01_ahmet" />
         </packages>
     </test>
 </suite>
