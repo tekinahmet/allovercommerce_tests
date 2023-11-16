@@ -32,4 +32,9 @@ public class Oguzhan_VendorAccountPage {
     @FindBy(xpath = "//p[@class='woocommerce-mini-cart__empty-message empty-msg']\n")
     public WebElement emptyCartMessage;
 
+    @FindBy(xpath = "//a[@class='btn btn-dark btn-link btn-icon-right btn-close']\n")
+    public WebElement closeButton;
+
+    @FindBy(xpath = "//div[@class='woocommerce-info alert alert-simple alert-icon alert-close-top alert-info']\n")
+    public WebElement alertMessage;
 }

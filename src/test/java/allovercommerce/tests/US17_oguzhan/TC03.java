@@ -5,6 +5,7 @@ import allovercommerce.pages.oguzhan.Oguzhan_VendorAccountPage;
 import allovercommerce.pages.oguzhan.Oguzhan_VendorBillingPage;
 import allovercommerce.utilities.*;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -49,12 +50,81 @@ public class TC03 {
         //8. vendor goes to cart by clicking cart icon
         oguzhanVendorAccountPage.cart.click();
         MediaUtils.takeScreenshotOfTheEntirePage();
-        // vendor removes the item from the cart
+        //9. vendor clicks checkout
+        oguzhanVendorAccountPage.checkout.click();
+        Thread.sleep(1000);
+        MediaUtils.takeScreenshotOfTheEntirePage();
+        //10. vendor enters firstname into billing details
+        oguzhanVendorBillingPage.billingFirstName.clear();
+        oguzhanVendorBillingPage.billingFirstName.sendKeys(ConfigReader.getProperty("oguzhan_US17_billingFirstName"));
+        MediaUtils.takeScreenshotOfTheEntirePage();
+        //11. vendor enters lastname into billing details
+        oguzhanVendorBillingPage.billingLastName.clear();
+        oguzhanVendorBillingPage.billingLastName.sendKeys(ConfigReader.getProperty("oguzhan_US17_billingLastName"));
+        //12. vendor types company name into billing details
+        oguzhanVendorBillingPage.companyName.clear();
+        oguzhanVendorBillingPage.companyName.sendKeys(ConfigReader.getProperty("oguzhan_US17_companyName"));
+
+        //13. vendor chooses country
+        oguzhanVendorBillingPage.countryArrow.click();
+        oguzhanVendorBillingPage.countrySearch.sendKeys(ConfigReader.getProperty("oguzhan_US17_country")+Keys.ENTER);
+        // vendor types street address
+        oguzhanVendorBillingPage.streetAddress.clear();
+        oguzhanVendorBillingPage.streetAddress.sendKeys(ConfigReader.getProperty("oguzhan_US17_streetAddress"));
+        //vendor types street address line 2
+        oguzhanVendorBillingPage.StreetAddress2.clear();
+        oguzhanVendorBillingPage.StreetAddress2.sendKeys(ConfigReader.getProperty("oguzhan_US17_streetAddress2"));
+        //vendor types city/town info
+        oguzhanVendorBillingPage.billingCity.clear();
+        oguzhanVendorBillingPage.billingCity.sendKeys(ConfigReader.getProperty("oguzhan_US17_billingCity"));
+        //Vendor Chooses state
+        Select select1 = new Select(oguzhanVendorBillingPage.state);
+        select1.selectByVisibleText("Wyoming");
+        //vendor types ZIP CODE
+        oguzhanVendorBillingPage.ZipCode.clear();
+        oguzhanVendorBillingPage.ZipCode.sendKeys(ConfigReader.getProperty("oguzhan_US17_zipCode"));
+        // Vendor types phone number
+        oguzhanVendorBillingPage.phoneNumber.clear();
+        oguzhanVendorBillingPage.phoneNumber.sendKeys(ConfigReader.getProperty("oguzhan_US7_phoneNumber"));
+        //Vendor types e-mail address
+        oguzhanVendorBillingPage.emailAddress.clear();
+        oguzhanVendorBillingPage.emailAddress.sendKeys(ConfigReader.getProperty("oguzhan_US17_emailAddress"));
+        // vendor types order notes
+        oguzhanVendorBillingPage.orderNote.clear();
+        oguzhanVendorBillingPage.orderNote.sendKeys("fragile");
+        WaitUtils.waitFor(1);
+        MediaUtils.takeScreenshotOfTheEntirePage();
+        // vendor chooses payment method  !!!
+        // vendor clicks wireTransfer method
+        JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.wireTransfer);
+        WaitUtils.waitFor(2);
+        Assert.assertTrue(oguzhanVendorBillingPage.wireTransfer.isDisplayed());
+        // vendor clicks pay at the door
+        JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.payAtTheDoor);
+        WaitUtils.waitFor(2);
+        Assert.assertTrue(oguzhanVendorBillingPage.payAtTheDoor.isDisplayed());
+        //Vendor verifies total amount is visible
+        String verifyText3 ="Total";
+        Assert.assertTrue(oguzhanVendorBillingPage.totalAmount.isDisplayed(), verifyText3);
+
+        //vendor opens shopping cart
+        JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.cart2);
+        // Vendor removes the product
         oguzhanVendorAccountPage.removeItem.click();
         //vendor verifies shopping cart is empty
         String verifyText4 ="No Products In The Cart.";
         Assert.assertTrue(oguzhanVendorAccountPage.emptyCartMessage.isDisplayed(), verifyText4);
         MediaUtils.takeScreenshotOfTheEntirePage();
+
+        // Vendor closes the shopping cart
+        oguzhanVendorAccountPage.closeButton.click();
+        // Vendor verifies shopping is not possible whilst kart is empty
+        String verifyText5 ="Checkout is not available whilst your cart is empty.";
+        Assert.assertTrue(oguzhanVendorAccountPage.emptyCartMessage.isDisplayed(), verifyText5);
+        WaitUtils.waitFor(3);
+        MediaUtils.takeScreenshotOfTheEntirePage();
+        //vendor closes driver
+        Driver.closeDriver();
 
 
 

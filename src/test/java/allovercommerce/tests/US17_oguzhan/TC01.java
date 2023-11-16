@@ -7,6 +7,7 @@ import allovercommerce.pages.oguzhan.Oguzhan_VendorBillingPage;
 import allovercommerce.utilities.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -81,11 +82,9 @@ public class TC01 {
         //vendor types city/town info
         oguzhanVendorBillingPage.billingCity.clear();
         oguzhanVendorBillingPage.billingCity.sendKeys(ConfigReader.getProperty("oguzhan_US17_billingCity"));
-
-//         !!!  check this line of, messes up the rest of the test case
-//        oguzhanVendorBillingPage.stateArrow.click();
-//        oguzhanVendorBillingPage.stateSearch.sendKeys(ConfigReader.getProperty("oguzhan_US17_state")+Keys.ENTER);
-
+        //Vendor Chooses state
+        Select select1 = new Select(oguzhanVendorBillingPage.state);
+        select1.selectByVisibleText("Wyoming");
         //vendor types ZIP CODE
         oguzhanVendorBillingPage.ZipCode.clear();
         oguzhanVendorBillingPage.ZipCode.sendKeys(ConfigReader.getProperty("oguzhan_US17_zipCode"));
@@ -109,7 +108,6 @@ public class TC01 {
         JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.payAtTheDoor);
         WaitUtils.waitFor(2);
         Assert.assertTrue(oguzhanVendorBillingPage.payAtTheDoor.isDisplayed());
-
         //Vendor verifies total amount is visible
          String verifyText3 ="Total";
         Assert.assertTrue(oguzhanVendorBillingPage.totalAmount.isDisplayed(), verifyText3);
