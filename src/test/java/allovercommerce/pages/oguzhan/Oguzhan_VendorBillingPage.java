@@ -73,5 +73,11 @@ public class Oguzhan_VendorBillingPage {
     @FindBy(xpath = "//i[@class='w-icon-cart']\n")
     public WebElement cart2;
 
+    @FindBy(xpath = "//tbody/tr[1]/td[5]/a[1]")
+    public WebElement viewOrder;
+
+    @FindBy(xpath = "//h2[contains(text(),'Order details')]")
+    public WebElement orderDetails;
+
 }
 

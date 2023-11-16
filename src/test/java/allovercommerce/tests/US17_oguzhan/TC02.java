@@ -20,6 +20,12 @@ public class TC02 {
         Oguzhan_VendorBillingPage oguzhanVendorBillingPage = new Oguzhan_VendorBillingPage();
 
 
+        LoggerUtils.info("Test Case 02 begins...");
+        ExtentReportUtils.createTestReport("US17_TC03 Test Report", "Vendor should be able to buy product");
+        ExtentReportUtils.pass("starting the testCase02");
+
+
+
         // 1. vendor navigates to https://allovercommerce.com/
         Driver.getDriver().get("https://allovercommerce.com/");
         MediaUtils.takeScreenshotOfTheEntirePage();
@@ -48,10 +54,15 @@ public class TC02 {
         oguzhanVendorAccountPage.addToCart.click();
         Thread.sleep(1000);
         // vendor searches a new item
-        oguzhanVendorAccountPage.searchBar.sendKeys("Nutraxin C Vitamini"+ Keys.ENTER);
+        // I have added some new items to see how it goes, adjust the rest of the code accordingly
+        oguzhanVendorAccountPage.searchBar.sendKeys("Macbook V20.1"+Keys.ENTER);
+      //  oguzhanVendorAccountPage.anotherItem.click();
+
+      //  oguzhanVendorAccountPage.searchBar.sendKeys("Nutraxin C Vitamini"+ Keys.ENTER);
         //vendor verifies new item
-        oguzhanVendorAccountPage.product.getText().equalsIgnoreCase("Nutraxin C Vitamini");
+     //   oguzhanVendorAccountPage.product.getText().equalsIgnoreCase("Nutraxin C Vitamini");
         // vendor adds the item into cart
+        WaitUtils.waitFor(2);
         oguzhanVendorAccountPage.addToCart.click();
         Thread.sleep(1000);
         //8. vendor goes to cart by clicking cart icon
@@ -119,14 +130,27 @@ public class TC02 {
         WaitUtils.waitFor(2);
         JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.placeOrder);
         WaitUtils.waitFor(3);
-        //vendor verifies shopping is completed
-        String verifyText2 ="Thank you. Your order has been received.";
-        Assert.assertTrue(oguzhanVendorBillingPage.orderCompleteText.isDisplayed(), verifyText2);
+        //vendor verifies shopping is completed  // !!! check these 2 steps below
+         String verifyText2 ="Thank you. Your order has been received.";
+        Assert.assertTrue(oguzhanVendorBillingPage.orderCompleteText.isDisplayed(),verifyText2);
         //vendor clicks  "My Account - My Orders"
         JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.shoppingDetails);
+        //vendor clicks view
+        oguzhanVendorBillingPage.viewOrder.click();
+        // vendor sees order details
+        Assert.assertTrue(oguzhanVendorBillingPage.orderDetails.getText().contains("ORDER DETAILS"));
         MediaUtils.takeScreenshotOfTheEntirePage();
+
+        ExtentReportUtils.passAndCaptureScreenshot("ORDER DETAILS");
+
         //vendor closes driver
         Driver.closeDriver();
+
+        ExtentReportUtils.pass("Driver is closed...Test case passed successfully...");
+
+        ExtentReportUtils.flush();
+
+        LoggerUtils.info("Test completed...");
 
 
     }

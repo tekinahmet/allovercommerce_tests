@@ -16,13 +16,17 @@ import java.io.IOException;
 
 public class TC01 {
 
-
+    Actions actions = new Actions(Driver.getDriver());
     @Test
 
     public void testCase01() throws InterruptedException, IOException {
         Oguzhan_LoginPage oguzhanLoginPage = new Oguzhan_LoginPage();
         Oguzhan_VendorAccountPage oguzhanVendorAccountPage = new Oguzhan_VendorAccountPage();
         Oguzhan_VendorBillingPage oguzhanVendorBillingPage = new Oguzhan_VendorBillingPage();
+
+        LoggerUtils.info("Test Case 01 begins...");
+        ExtentReportUtils.createTestReport("US17_TC03 Test Report", "Vendor should be able to buy product");
+        ExtentReportUtils.pass("starting the testCase01");
 
 
         // 1. vendor navigates to https://allovercommerce.com/
@@ -99,6 +103,7 @@ public class TC01 {
         oguzhanVendorBillingPage.orderNote.sendKeys("fragile");
         WaitUtils.waitFor(1);
         MediaUtils.takeScreenshotOfTheEntirePage();
+       // actions.sendKeys(Keys.PAGE_UP).perform();  // optional
         // vendor chooses payment method  !!!
         // vendor clicks wireTransfer method
         JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.wireTransfer);
@@ -115,15 +120,30 @@ public class TC01 {
         // vendor clicks on Place Order button
         WaitUtils.waitFor(2);
         JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.placeOrder);
-    WaitUtils.waitFor(3);
+        WaitUtils.waitFor(3);
         //vendor verifies shopping is completed
         String verifyText2 ="Thank you. Your order has been received.";
         Assert.assertTrue(oguzhanVendorBillingPage.orderCompleteText.isDisplayed(), verifyText2);
         //vendor clicks  "My Account - My Orders"
         JSUtils.JSclickWithTimeout(oguzhanVendorBillingPage.shoppingDetails);
+        //vendor clicks view
+        oguzhanVendorBillingPage.viewOrder.click();
+        // vendor sees order details
+        Assert.assertTrue(oguzhanVendorBillingPage.orderDetails.getText().contains("ORDER DETAILS"));
+      //  actions.sendKeys(Keys.PAGE_DOWN).perform();  // optional
+        WaitUtils.waitFor(1);
         MediaUtils.takeScreenshotOfTheEntirePage();
+
+        ExtentReportUtils.passAndCaptureScreenshot("ORDER DETAILS");
+
         //vendor closes driver
-         Driver.closeDriver();
+        Driver.closeDriver();
+
+        ExtentReportUtils.pass("Driver is closed...Test case passed successfully...");
+
+        ExtentReportUtils.flush();
+
+        LoggerUtils.info("Test completed...");
 
 
     }

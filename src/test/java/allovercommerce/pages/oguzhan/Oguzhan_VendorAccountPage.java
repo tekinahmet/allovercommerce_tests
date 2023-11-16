@@ -37,4 +37,7 @@ public class Oguzhan_VendorAccountPage {
 
     @FindBy(xpath = "//div[@class='woocommerce-info alert alert-simple alert-icon alert-close-top alert-info']\n")
     public WebElement alertMessage;
+
+    @FindBy(xpath = "/html/body/a[@href='https://allovercommerce.com/urun/hiphone-25/']\n")
+    public WebElement anotherItem;
 }

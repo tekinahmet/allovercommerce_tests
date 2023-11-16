@@ -19,6 +19,10 @@ public class TC03 {
         Oguzhan_VendorAccountPage oguzhanVendorAccountPage = new Oguzhan_VendorAccountPage();
         Oguzhan_VendorBillingPage oguzhanVendorBillingPage = new Oguzhan_VendorBillingPage();
 
+        LoggerUtils.info("Test Case 03 begins...");
+        ExtentReportUtils.createTestReport("US17_TC03 Test Report", "Vendor should be able to buy product");
+        ExtentReportUtils.pass("starting the testCase03");
+
 
         // 1. vendor navigates to https://allovercommerce.com/
         Driver.getDriver().get("https://allovercommerce.com/");
@@ -113,18 +117,28 @@ public class TC03 {
         oguzhanVendorAccountPage.removeItem.click();
         //vendor verifies shopping cart is empty
         String verifyText4 ="No Products In The Cart.";
-        Assert.assertTrue(oguzhanVendorAccountPage.emptyCartMessage.isDisplayed(), verifyText4);
+        Assert.assertTrue(oguzhanVendorAccountPage.emptyCartMessage.isDisplayed(),verifyText4);
         MediaUtils.takeScreenshotOfTheEntirePage();
 
         // Vendor closes the shopping cart
         oguzhanVendorAccountPage.closeButton.click();
         // Vendor verifies shopping is not possible whilst kart is empty
         String verifyText5 ="Checkout is not available whilst your cart is empty.";
-        Assert.assertTrue(oguzhanVendorAccountPage.emptyCartMessage.isDisplayed(), verifyText5);
+        Assert.assertTrue(oguzhanVendorAccountPage.alertMessage.isDisplayed(),verifyText5);
         WaitUtils.waitFor(3);
         MediaUtils.takeScreenshotOfTheEntirePage();
+
+        ExtentReportUtils.passAndCaptureScreenshot("Checkout is not available whilst your cart is empty.");
+
+
         //vendor closes driver
         Driver.closeDriver();
+
+        ExtentReportUtils.pass("Driver is closed...Test case passed successfully...");
+
+        ExtentReportUtils.flush();
+
+        LoggerUtils.info("Test completed...");
 
 
 
