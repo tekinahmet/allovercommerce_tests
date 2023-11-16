@@ -12,7 +12,6 @@ import java.io.IOException;
 
 public class TC01_SuccessfulRegistration {
     @Test
-
     public void invalidUsername() throws IOException {
 
         ExtentReportUtils.createTestReport("invalidUsername", "verify the steps");
@@ -70,12 +69,10 @@ public class TC01_SuccessfulRegistration {
         WaitUtils.waitFor(1);
         MediaUtils.takeScreenshotOfTheEntirePage();
 
-
 //        verify that user sees "Please provide a valid email address." message
         JSUtils.flashElement(ahmetRegistrationPage.verifyUsername);
         Assert.assertTrue(ahmetRegistrationPage.verifyUsername.isDisplayed());
         WaitUtils.waitFor(1);
-
         MediaUtils.takeScreenshotOfTheEntirePage();
 
 //        close
