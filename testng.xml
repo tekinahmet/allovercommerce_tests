@@ -1,8 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testng.xml">
-        <classes/>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Akif/IdeaProjects/team03_testNG_project/src/test/java/allovercommerce/tests/US04_akif"><classes><class name="allovercommerce.tests.US04_akif.TC01"><methods><include name="US04_TC01"/></methods></class><class name="allovercommerce.tests.US04_akif.TC02"><methods><include name="US04_TC02"/></methods></class><class name="allovercommerce.tests.US04_akif.TC03"><methods><include name="US04_TC03"/></methods></class><class name="allovercommerce.tests.US04_akif.TC04"><methods><include name="US04_TC04"/></methods></class><class name="allovercommerce.tests.US04_akif.TC05"><methods><include name="US04_TC05"/></methods></class><class name="allovercommerce.tests.US04_akif.TC06"><methods><include name="US04_TC01"/></methods></class><class name="allovercommerce.tests.US04_akif.TC07"><methods><include name="US04_TC07"/></methods></class></classes></test></suite>
