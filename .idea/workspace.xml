@@ -1,285 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/zeynep/Zeynep_AddressesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/zeynep/Zeynep_AddressesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US05_zeynep/US05_TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US05_zeynep/US05_TC01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US05_zeynep/US05_TC02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US05_zeynep/US05_TC02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US05_zeynep/US05_TC03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US05_zeynep/US05_TC03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US05_zeynep/US05_TC04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US05_zeynep/US05_TC04.java" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="AnnotationType" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="4d669a14-ec1e-4543-a14b-2f1af61588ab" />
-        <option name="url" value="https://github.com/tekinahmet/team03_testNG_project.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="MacroExpansionManager">
-    <option name="directoryName" value="drb4mgx3" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2Wl6ixhRZ7QhKQezjYGXUagCSUW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zeynep/Desktop/Yeni klasör (7)/TestNGProje_Team04&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\team03_testNG_project" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\resources" />
-      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\src\test\java\myapp\pages" />
-      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\src\test\java\myapp\tests\practices" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="allovercommerce.pages" />
-      <recent name="myapp.pages" />
-    </key>
-  </component>
-  <component name="RunManager" selected="TestNG.US05_TC03">
-    <configuration name="Day13_Annotations" type="TestNG" nameIsGenerated="true">
-      <module name="team03" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.tests.topics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="myapp.tests.topics" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.topics.Day13_Annotations" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US03_TC01.US03_TC01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US03_zeynep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US03_zeynep" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US03_zeynep.US03_TC01" />
-      <option name="METHOD_NAME" value="US03_TC01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US03_TC07" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US03_zeynep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US03_zeynep" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US03_zeynep.US03_TC07" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US03_TC07.US03_TC07" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US03_zeynep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US03_zeynep" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US03_zeynep.US03_TC07" />
-      <option name="METHOD_NAME" value="US03_TC07" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US05_TC02.US05_TC02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US05_zeynep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US05_zeynep" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US05_zeynep.US05_TC02" />
-      <option name="METHOD_NAME" value="US05_TC02" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US05_TC03" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US05_zeynep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US05_zeynep" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US05_zeynep.US05_TC03" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.US05_TC03" />
-        <item itemvalue="TestNG.US05_TC02.US05_TC02" />
-        <item itemvalue="TestNG.US03_TC07" />
-        <item itemvalue="TestNG.US03_TC07.US03_TC07" />
-        <item itemvalue="TestNG.US03_TC01.US03_TC01" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="" />
-      <created>1699975451088</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1699975451088</updated>
-    </task>
-    <task>
-      <created>1700045829893</created>
-      <updated>1700045829893</updated>
-    </task>
-    <task id="LOCAL-00001" summary="yasin-23.11.06-v1">
-      <option name="closed" value="true" />
-      <created>1699268246560</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1699268246560</updated>
-    </task>
-    <task id="LOCAL-00002" summary="yasin-23.11.06-v1">
-      <option name="closed" value="true" />
-      <created>1699268387486</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1699268387486</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
-    <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="yasin-23.11.06-v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="yasin-23.11.06-v1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/allovercommerce/tests/US03_zeynep/US03_TC01.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/allovercommerce/tests/US05_zeynep/US05_TC04.java</url>
-          <line>25</line>
-          <properties class="allovercommerce.tests.US05_zeynep.US05_TC04" method="US05_TC02">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mytestNGproject$HW05_BookACar.ic" NAME="HW05_BookACar Coverage Results" MODIFIED="1697985610819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>myapp.homework.*</FILTER>
-    </SUITE>
-  </component>
+    <component name="AutoImportSettings">
+        <option name="autoReloadType" value="SELECTIVE" />
+    </component>
+    <component name="ChangeListManager">
+        <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="" />
+        <option name="SHOW_DIALOG" value="false" />
+        <option name="HIGHLIGHT_CONFLICTS" value="true" />
+        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+        <option name="LAST_RESOLUTION" value="IGNORE" />
+    </component>
+    <component name="FileTemplateManagerImpl">
+        <option name="RECENT_TEMPLATES">
+            <list>
+                <option value="Interface" />
+                <option value="Class" />
+            </list>
+        </option>
+    </component>
+    <component name="MacroExpansionManager">
+        <option name="directoryName" value="51ktl3qu" />
+    </component>
+    <component name="ProjectCodeStyleSettingsMigration">
+        <option name="version" value="2" />
+    </component>
+    <component name="ProjectColorInfo">{
+        &quot;associatedIndex&quot;: 4
+        }</component>
+    <component name="ProjectId" id="2VnpeaaZIEiJByJmZi2oFYQ8Nur" />
+    <component name="ProjectViewState">
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+    </component>
+    <component name="PropertiesComponent">{
+        &quot;keyToString&quot;: {
+        &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+        &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+        &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+        &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/myseleniumproject/resources&quot;,
+        &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+        &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+        &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
+        &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+        }
+        }</component>
+    <component name="RecentsManager">
+        <key name="CopyFile.RECENT_KEYS">
+            <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
+        </key>
+        <key name="MoveFile.RECENT_KEYS">
+            <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
+            <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\src\test\java" />
+            <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\src\test" />
+            <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\drivers" />
+        </key>
+    </component>
+    <component name="RunManager" selected="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml">
+        <configuration name="TC14_PlaceOrderRegisterWhileCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+            <module name="myseleniumproject" />
+            <extension name="coverage">
+                <pattern>
+                    <option name="PATTERN" value="automationexercise.*" />
+                    <option name="ENABLED" value="true" />
+                </pattern>
+            </extension>
+            <option name="PACKAGE_NAME" value="automationexercise" />
+            <option name="MAIN_CLASS_NAME" value="automationexercise.TC14_PlaceOrderRegisterWhileCheckout" />
+            <option name="TEST_OBJECT" value="class" />
+            <method v="2">
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
+        <configuration name="TC14_PlaceOrderRegisterWhileCheckout.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+            <module name="myseleniumproject" />
+            <extension name="coverage">
+                <pattern>
+                    <option name="PATTERN" value="automationexercise.*" />
+                    <option name="ENABLED" value="true" />
+                </pattern>
+            </extension>
+            <option name="PACKAGE_NAME" value="automationexercise" />
+            <option name="MAIN_CLASS_NAME" value="automationexercise.TC14_PlaceOrderRegisterWhileCheckout" />
+            <option name="METHOD_NAME" value="test" />
+            <option name="TEST_OBJECT" value="method" />
+            <method v="2">
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
+        <configuration name="TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+            <module name="myseleniumproject" />
+            <extension name="coverage">
+                <pattern>
+                    <option name="PATTERN" value="automationexercise.*" />
+                    <option name="ENABLED" value="true" />
+                </pattern>
+            </extension>
+            <option name="PACKAGE_NAME" value="automationexercise" />
+            <option name="MAIN_CLASS_NAME" value="automationexercise.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" />
+            <option name="TEST_OBJECT" value="class" />
+            <method v="2">
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
+        <configuration name="TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+            <module name="myseleniumproject" />
+            <extension name="coverage">
+                <pattern>
+                    <option name="PATTERN" value="automationexercise.*" />
+                    <option name="ENABLED" value="true" />
+                </pattern>
+            </extension>
+            <option name="PACKAGE_NAME" value="automationexercise" />
+            <option name="MAIN_CLASS_NAME" value="automationexercise.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" />
+            <option name="METHOD_NAME" value="test" />
+            <option name="TEST_OBJECT" value="method" />
+            <method v="2">
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
+        <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+            <module name="team03" />
+            <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_parallel_setup.xml" />
+            <option name="TEST_OBJECT" value="SUITE" />
+            <properties />
+            <listeners />
+            <method v="2">
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
+        <recent_temporary>
+            <list>
+                <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
+                <item itemvalue="JUnit.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver.test" />
+                <item itemvalue="JUnit.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" />
+                <item itemvalue="JUnit.TC14_PlaceOrderRegisterWhileCheckout.test" />
+                <item itemvalue="JUnit.TC14_PlaceOrderRegisterWhileCheckout" />
+            </list>
+        </recent_temporary>
+    </component>
+    <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+    <component name="TaskManager">
+        <task active="true" id="Default" summary="Default task">
+            <changelist id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="" />
+            <created>1695481796942</created>
+            <option name="number" value="Default" />
+            <option name="presentableId" value="Default" />
+            <updated>1695481796942</updated>
+        </task>
+        <servers />
+    </component>
+    <component name="XDebuggerManager">
+        <breakpoint-manager>
+            <breakpoints>
+                <line-breakpoint enabled="true" type="java-line">
+                    <url>file://$PROJECT_DIR$/src/test/java/assignment/homework02/Task6_Synchronization3.java</url>
+                    <line>15</line>
+                    <option name="timeStamp" value="1" />
+                </line-breakpoint>
+            </breakpoints>
+        </breakpoint-manager>
+    </component>
 </project>
