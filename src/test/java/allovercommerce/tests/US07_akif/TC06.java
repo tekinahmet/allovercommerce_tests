@@ -21,11 +21,22 @@ public class TC06 {
     @Test
     public void US07_TC06(){
 
+        LoggerUtils.info("Test case begins...");
+
+        ExtentReportUtils.createTestReport("US07_TC06 Test Report", "Compare Products Page Test");
+        ExtentReportUtils.pass("Starting the compare products page test...");
+
         Driver.getDriver().get("https://allovercommerce.com/");
+
+        ExtentReportUtils.pass("User in on the default page...");
 
         allovCommerceDefaultPage.searchBox.sendKeys(ConfigReader.getProperty("akif_US07_item1") + Keys.ENTER);
 
+        ExtentReportUtils.passAndCaptureScreenshot("Item name entered and searched successfully...");
+
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("chess"));
+
+        ExtentReportUtils.passAndCaptureScreenshot("Navigate to the item page successfully...");
 
         JSUtils.JSclickWithTimeout(allovCommerceItemPage.compareButton);
 
@@ -33,9 +44,15 @@ public class TC06 {
 
         Assert.assertTrue(allovCommerceItemPage.imageItem1.isDisplayed());
 
+        ExtentReportUtils.passAndCaptureScreenshot("Compare Console is opened and item(s) displayed...");
+
         allovCommerceDefaultPage.searchBox.sendKeys(ConfigReader.getProperty("akif_US07_item2") + Keys.ENTER);
 
+        ExtentReportUtils.passAndCaptureScreenshot("Item name entered and searched successfully...");
+
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("pants"));
+
+        ExtentReportUtils.passAndCaptureScreenshot("Navigate to the item page successfully...");
 
         JSUtils.JSclickWithTimeout(allovCommerceItemPage.compareButton);
 
@@ -43,21 +60,42 @@ public class TC06 {
 
         Assert.assertTrue(allovCommerceItemPage.imageItem2.isDisplayed());
 
+        ExtentReportUtils.passAndCaptureScreenshot("Compare Console is opened and item(s) displayed...");
+
         JSUtils.JSclickWithTimeout(allovCommerceItemPage.startCompareButton);
 
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("compare"));
 
+        ExtentReportUtils.passAndCaptureScreenshot("Navigate to the Compare Products Page successfully...");
+
         ActionsUtils.actionsHoverOverOnElement(allovCommerceComparePage.removeItem1);
         WaitUtils.waitFor(2);
         JSUtils.JSclickWithTimeout(allovCommerceComparePage.rightArrow1);
         WaitUtils.waitFor(2);
+
+        ExtentReportUtils.passAndCaptureScreenshot("Item places changed successfully...");
+
         ActionsUtils.actionsHoverOverOnElement(allovCommerceComparePage.removeItem1);
         WaitUtils.waitFor(2);
         JSUtils.JSclickWithTimeout(allovCommerceComparePage.rightArrow1);
         WaitUtils.waitFor(2);
+
+        ExtentReportUtils.passAndCaptureScreenshot("Item places changed successfully...");
+
         ActionsUtils.actionsHoverOverOnElement(allovCommerceComparePage.removeItem2);
         WaitUtils.waitFor(2);
         JSUtils.JSclickWithTimeout(allovCommerceComparePage.leftArrow2);
+        WaitUtils.waitFor(2);
+
+        ExtentReportUtils.passAndCaptureScreenshot("Item places changed successfully...");
+
+        Driver.closeDriver();
+
+        ExtentReportUtils.pass("Driver is closed...Test case passed successfully...");
+
+        ExtentReportUtils.flush();
+
+        LoggerUtils.info("Test completed...");
 
 
     }
