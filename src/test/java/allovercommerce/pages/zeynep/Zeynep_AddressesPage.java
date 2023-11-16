@@ -41,6 +41,11 @@ public class Zeynep_AddressesPage {
     @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div/div/div/div/div/ul/li")
     public WebElement assertMessage;
 
+    @FindBy(xpath = "//*[@id=\"main\"]/div/div/div/div/div/div/div/div[1]/div")
+    public WebElement assert2;
+
+
+
 
 
 
