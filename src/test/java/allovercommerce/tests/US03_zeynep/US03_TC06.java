@@ -3,10 +3,7 @@ package allovercommerce.tests.US03_zeynep;
 import allovercommerce.pages.ahmet.Ahmet_RegistrationPage;
 import allovercommerce.pages.zeynep.Zeynep_AddressesPage;
 import allovercommerce.pages.zeynep.Zeynep_SignInPage;
-import allovercommerce.utilities.ConfigReader;
-import allovercommerce.utilities.Driver;
-import allovercommerce.utilities.JSUtils;
-import allovercommerce.utilities.WaitUtils;
+import allovercommerce.utilities.*;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -36,16 +33,19 @@ public class US03_TC06 {
     Zeynep_SignInPage zeynepSignInPage =new Zeynep_SignInPage();
     @Test
     public void US03_TC06(){
+        ExtentReportUtils.createTestReport("US03_TC06", "Adding Billing Address");
+        ExtentReportUtils.pass("Starting the adding billing address test...");
 
 
         //Go to webpage
         Driver.getDriver().get("https://allovercommerce.com/");
+        ExtentReportUtils.pass("User is on the page...");
 
         //Click the Sign In button
         zeynepSignInPage.signInButton.click();
-
+        ExtentReportUtils.pass("Entering the username and password...");
         //Enter username in the username field
-        zeynepSignInPage.userName.sendKeys("zeynepsguler4");
+        zeynepSignInPage.userName.sendKeys("zeynepsguler5");
 
         //Enter password in the password field
         zeynepSignInPage.password.sendKeys("123zeynep");
@@ -53,7 +53,7 @@ public class US03_TC06 {
         //Click the Sign In button
         zeynepSignInPage.signInButton2.click();
         WaitUtils.waitFor(5);
-
+        ExtentReportUtils.pass("Clicked on the sign in button successfully");
         //Click on My Account
         JSUtils.JSclickWithTimeout(zeynepSignInPage.myAccount);
 
@@ -80,12 +80,16 @@ public class US03_TC06 {
         Select select1 = new Select(zeynepAddressesPage.state);
         select1.selectByVisibleText("Wyoming");
 
-
         //Click SAVE ADDRESS button
         JSUtils.JSclickWithTimeout(zeynepAddressesPage.saveAddress);
+        ExtentReportUtils.pass("Entered billing address information except Phone Number");
 
         //Verify that message shows up
         Assert.assertTrue(zeynepAddressesPage.assertMessage.isDisplayed());
+        ExtentReportUtils.passAndCaptureScreenshot("Billing address could not save successfully, ''Phone number is a required field.'' alert message is displayed on the page...");
+        Driver.closeDriver();
+        ExtentReportUtils.pass("Driver is closed... Test is completed successfully...");
+        ExtentReportUtils.flush();
 
     }
 }
