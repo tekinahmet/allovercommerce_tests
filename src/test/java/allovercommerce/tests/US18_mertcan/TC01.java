@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 package allovercommerce.tests.US18_mertcan;
 
 import allovercommerce.pages.mertcan.MertcanPage;
@@ -11,3 +13,4 @@ public class TC01 {
 
 
 }
+>>>>>>> master

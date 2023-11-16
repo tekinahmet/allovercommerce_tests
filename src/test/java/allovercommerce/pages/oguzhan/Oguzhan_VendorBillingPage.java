@@ -49,12 +49,15 @@ public class Oguzhan_VendorBillingPage {
     @FindBy(id="order_comments")
     public WebElement orderNote;
 
-
     @FindBy(id="payment_method_cod")
     public WebElement payAtTheDoor;
 
     @FindBy(id="payment_method_bacs")
     public WebElement wireTransfer;
+
+    @FindBy(xpath = "//tr[@class='order-total']\n")
+    public WebElement totalAmount;
+
     @FindBy(xpath = "//button[@id='place_order']") //!!!
     public WebElement placeOrder;
 
@@ -64,7 +67,17 @@ public class Oguzhan_VendorBillingPage {
     @FindBy(xpath = "//a[@href='/my-account-2/orders/']\n")
     public WebElement shoppingDetails;
 
+    @FindBy(xpath = "//select[@id='billing_state']")
+    public WebElement state;
 
+    @FindBy(xpath = "//i[@class='w-icon-cart']\n")
+    public WebElement cart2;
+
+    @FindBy(xpath = "//tbody/tr[1]/td[5]/a[1]")
+    public WebElement viewOrder;
+
+    @FindBy(xpath = "//h2[contains(text(),'Order details')]")
+    public WebElement orderDetails;
 
 }
 

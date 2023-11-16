@@ -3,7 +3,11 @@
     <test name="Smoke Test 1"   >
         <packages>
             <!--            running regression test in parallel-->
+<<<<<<< HEAD
+            <package name="allovercommerce.tests.US17_oguzhan" />
+=======
             <package name="allovercommerce.tests.US01_ahmet.TC02_InvalidUsername" />
+>>>>>>> master
         </packages>
     </test>
 </suite>
