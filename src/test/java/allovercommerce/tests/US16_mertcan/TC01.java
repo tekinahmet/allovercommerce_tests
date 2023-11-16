@@ -1,42 +1,64 @@
 package allovercommerce.tests.US16_mertcan;
 
-import allovercommerce.pages.mertcan.Mertcan_HomePage;
-import allovercommerce.pages.mertcan.Mertcan_RegistrationPage;
+import allovercommerce.pages.mertcan.MertcanPage;
 import allovercommerce.utilities.Driver;
+import allovercommerce.utilities.JSUtils;
 import allovercommerce.utilities.WaitUtils;
 import com.github.javafaker.Faker;
 import org.testng.annotations.Test;
 
+
 public class TC01 {
 
     @Test
-    public void testcase1(){
-        Mertcan_RegistrationPage mertcanRegistrationPage = new Mertcan_RegistrationPage();
-        Mertcan_HomePage mertcanHomePage = new Mertcan_HomePage();
+    public void testcase1() throws InterruptedException {
+        MertcanPage mertcanPage = new MertcanPage();
         Faker faker = new Faker();
 
-        //navigate to homepage
+        // Go to https://allovercommerce.com/
         Driver.getDriver().get("https://allovercommerce.com/");
-        WaitUtils.waitFor(1);
-        //click on register button
-        mertcanHomePage.RegisterButton.click();
-        WaitUtils.waitFor(1);
-        //click sign up as a vendor
-        mertcanHomePage.SignupAsaVendorButton.click();
-        WaitUtils.waitFor(1);
-        //enter email
-        mertcanRegistrationPage.email.sendKeys(faker.internet().emailAddress());
-        WaitUtils.waitFor(1);
-        Driver.getDriver().navigate().refresh();
-        WaitUtils.waitFor(1);
-        //enter password
-        mertcanRegistrationPage.password.sendKeys(faker.internet().password());
-        WaitUtils.waitFor(1);
-        //re enter password
-        mertcanRegistrationPage.password.sendKeys(faker.internet().password());
-        WaitUtils.waitFor(1);
-        mertcanRegistrationPage.registerButton.click();
-        WaitUtils.waitFor(1);
+        Thread.sleep(3000);
 
-}
+        //Click on "Register" button
+        mertcanPage.regLink.click();
+        //Click on "Become a Vendor"
+        mertcanPage.SignAsVenLink.click();
+        Thread.sleep(3000);
+        // Enter an email
+        Driver.getDriver().get("https://www.fakemail.net/");
+        String fakeMail = mertcanPage.fakeMail.getText();
+        System.out.println("fakeMail = " + fakeMail);
+        Driver.getDriver().navigate().back();
+        mertcanPage.email.sendKeys(fakeMail);
+        Thread.sleep(3000);
+
+        // Enter the verification code
+        mertcanPage.verifyCode.click();
+        mertcanPage.password.sendKeys("");
+        WaitUtils.waitForVisibility(mertcanPage.verifycodesentmessage,10);
+        Driver.getDriver().navigate().forward();
+        Thread.sleep(5000);
+        WaitUtils.waitForVisibility(mertcanPage.clickToFakeMail,10);
+        mertcanPage.clickToFakeMail.click();
+        String fakeCode = mertcanPage.fakeCode.getText().replaceAll("\\D", "");
+
+        Driver.getDriver().navigate().back();
+        mertcanPage.verifyCode.sendKeys(fakeCode);
+
+        //Enter your password
+        mertcanPage.password.sendKeys("deneme1234");
+        Thread.sleep(3000);
+
+        //Retype your password
+        mertcanPage.confrmpwd.sendKeys("deneme1234");
+        Thread.sleep(3000);
+        //Click on register button
+        mertcanPage.regBut.click();
+        Thread.sleep(3000);
+        //Skip Welcome to Allover Commerce Text
+        mertcanPage.nrnbutton.click();
+        Thread.sleep(3000);
+
+
+        }
 }
