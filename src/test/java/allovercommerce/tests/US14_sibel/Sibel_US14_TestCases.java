@@ -1,10 +1,7 @@
 package allovercommerce.tests.US14_sibel;
 
 import allovercommerce.pages.sibel.*;
-import allovercommerce.utilities.Driver;
-import allovercommerce.utilities.ExtentReportUtils;
-import allovercommerce.utilities.JSUtils;
-import allovercommerce.utilities.WaitUtils;
+import allovercommerce.utilities.*;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
