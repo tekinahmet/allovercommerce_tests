@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3">
+    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_002_SuccessfulOrder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_002_SuccessfulOrder2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_002_SuccessfulOrder2">
+  <component name="RunManager" selected="TestNG.TC_001_SuccesfulOrder1.TestCase001">
     <configuration name="TC_001_SuccesfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
@@ -82,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_001_SuccesfulOrder1.TestCase02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_001_SuccesfulOrder1.TestCase0" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +93,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
-      <option name="METHOD_NAME" value="TestCase02" />
+      <option name="METHOD_NAME" value="TestCase0" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_001_SuccesfulOrder1.TestCase001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
+      <option name="METHOD_NAME" value="TestCase001" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,31 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_003_InvalidUserName.InvalidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_003_InvalidUserName" />
-      <option name="METHOD_NAME" value="InvalidPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_002_SuccessfulOrder2" />
+        <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase001" />
         <item itemvalue="TestNG.TC_001_SuccesfulOrder1" />
         <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase02" />
+        <item itemvalue="TestNG.TC_002_SuccessfulOrder2" />
         <item itemvalue="TestNG.TC_003_InvalidUserName" />
-        <item itemvalue="TestNG.TC_003_InvalidUserName.InvalidPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700234396694</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="yasin-2023.11.17-v5">
+      <option name="closed" value="true" />
+      <created>1700235731875</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700235731875</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,7 +244,8 @@
     <MESSAGE value="yasin-2023.11.17-v1" />
     <MESSAGE value="yasin-2023.11.17-v2" />
     <MESSAGE value="yasin-2023.11.17-v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="yasin-2023.11.17-v3" />
+    <MESSAGE value="yasin-2023.11.17-v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="yasin-2023.11.17-v5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
