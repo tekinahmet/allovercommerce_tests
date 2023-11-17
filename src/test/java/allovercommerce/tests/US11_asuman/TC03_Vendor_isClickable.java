@@ -39,57 +39,57 @@ public class TC03_Vendor_isClickable {
         //1. Go to  homepage	https://allovercommerce.com and enter login credentials
         Driver.getDriver().get("https://allovercommerce.com/");
 
-        Asu_Homepage.signInItem.click();
+       asuHomepage.signInItem.click();
 
-        Asu_Homepage.username.sendKeys("asudeyaz01@gmail.com");
+        asuHomepage.username.sendKeys("asudeyaz01@gmail.com");
 
-        Asu_Homepage.password.sendKeys("Raskolnikov1895");
+        asuHomepage.password.sendKeys("Raskolnikov1895");
 
-        Asu_Homepage.signInButton.click();
+        asuHomepage.signInButton.click();
 
-        Asu_VendorSignInPage.signOutButton.click();
+        asuVendorSignInPage.signOutButton.click();
 
 
 
        // 2. Verify that "Dashboard" is visible
-        assertTrue(Asu_VendorDashboardPage.dashboardMenu.isEnabled());
-        JSUtils.flashElement(Asu_VendorDashboardPage.dashboardMenu);
+        assertTrue(asuVendorDashboardPage.dashboardMenu.isEnabled());
+        JSUtils.flashElement(asuVendorDashboardPage.dashboardMenu);
 
        //3.  Verify that "Store Manager" is clickable
-        assertTrue(Asu_VendorDashboardPage.storeManagerMenu.isEnabled());
-        JSUtils.flashElement(Asu_VendorDashboardPage.storeManagerMenu);
+        assertTrue(asuVendorDashboardPage.storeManagerMenu.isEnabled());
+        JSUtils.flashElement(asuVendorDashboardPage.storeManagerMenu);
 
        //4. Verify that "Orders" is clickable.
-        assertTrue(Asu_VendorDashboardPage.ordersMenu.isEnabled());
-        JSUtils.flashElement(Asu_VendorDashboardPage.ordersMenu);
+        assertTrue(asuVendorDashboardPage.ordersMenu.isEnabled());
+        JSUtils.flashElement(asuVendorDashboardPage.ordersMenu);
 
         // 5. Verify that "Downloads" is clickable
-        assertTrue(Asu_VendorDashboardPage.downloadsMenu.isEnabled());
-        JSUtils.flashElement(Asu_VendorDashboardPage.downloadsMenu);
+        assertTrue(asuVendorDashboardPage.downloadsMenu.isEnabled());
+        JSUtils.flashElement(asuVendorDashboardPage.downloadsMenu);
 
         //6. Verify that "Adresses" is clickable
-        assertTrue(Asu_VendorDashboardPage.adressesMenu.isEnabled());
-        JSUtils.flashElement(Asu_VendorDashboardPage.adressesMenu);
+        assertTrue(asuVendorDashboardPage.adressesMenu.isEnabled());
+        JSUtils.flashElement(asuVendorDashboardPage.adressesMenu);
 
         // 7. Verify that "Account Details" is clickable
-        assertTrue(Asu_VendorDashboardPage.accountDetailsMenu.isEnabled());
-        JSUtils.flashElement(Asu_VendorDashboardPage.accountDetailsMenu);
+        assertTrue(asuVendorDashboardPage.accountDetailsMenu.isEnabled());
+        JSUtils.flashElement(asuVendorDashboardPage.accountDetailsMenu);
 
         //8. Verify that "Wishlist" is clickable
-        assertTrue(Asu_VendorDashboardPage.wishlistMenu.isEnabled());
-        JSUtils.flashElement(Asu_VendorDashboardPage.wishlistMenu);
+        assertTrue(asuVendorDashboardPage.wishlistMenu.isEnabled());
+        JSUtils.flashElement(asuVendorDashboardPage.wishlistMenu);
 
         //9. Verify that " Support Tickets" is clickable
-        assertTrue(Asu_VendorDashboardPage.supportTicketsMenu.isEnabled());
-        JSUtils.flashElement(Asu_VendorDashboardPage.supportTicketsMenu);
+        assertTrue(asuVendorDashboardPage.supportTicketsMenu.isEnabled());
+        JSUtils.flashElement(asuVendorDashboardPage.supportTicketsMenu);
 
         //10. Verify that  "Followings" is clickable
-        assertTrue(Asu_VendorDashboardPage.followingsMenu.isEnabled());
-        JSUtils.flashElement(Asu_VendorDashboardPage.followingsMenu);
+        assertTrue(asuVendorDashboardPage.followingsMenu.isEnabled());
+        JSUtils.flashElement(asuVendorDashboardPage.followingsMenu);
 
         //11. Verify that "Logout" is clickable
-        assertTrue(Asu_VendorDashboardPage.logoutMenu.isEnabled());
-        JSUtils.flashElement(Asu_VendorDashboardPage.logoutMenu);
+        assertTrue(asuVendorDashboardPage.logoutMenu.isEnabled());
+        JSUtils.flashElement(asuVendorDashboardPage.logoutMenu);
 
         MediaUtils.takeScreenshotOfTheEntirePage();
 

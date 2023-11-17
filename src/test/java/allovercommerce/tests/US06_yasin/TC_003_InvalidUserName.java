@@ -49,8 +49,8 @@ import java.io.IOException;
 
             yasinHomePage yasinHomePage = new yasinHomePage();
             yasinProductPage yasinProductPage = new yasinProductPage();
-            yasinSignPage yasinSignPage= new yasinSignPage();
-            yasinOrderPage yasinOrderPage= new yasinOrderPage();
+            yasinSignPage yasinSignPage = new yasinSignPage();
+            yasinOrderPage yasinOrderPage = new yasinOrderPage();
 
 //      Go to homepage
             Driver.getDriver().get("https://allovercommerce.com/");
@@ -86,7 +86,7 @@ import java.io.IOException;
             WaitUtils.waitFor(2);
 
 //        Verify invalid username text on the page
-            String unverifiedText ="Wrong username or password.";
+            String unverifiedText = "Wrong username or password.";
             Assert.assertTrue(yasinSignPage.unverifiedMessage.isDisplayed(), unverifiedText);
             MediaUtils.takeScreenshotOfTheEntirePage();
 
