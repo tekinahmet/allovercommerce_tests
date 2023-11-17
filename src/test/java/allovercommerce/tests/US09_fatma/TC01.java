@@ -28,21 +28,27 @@ public class TC01 {
 
 
 
-
-
     @Test
-    public void TC01() throws InterruptedException {
+    public void test01() throws InterruptedException {
         FatmaPage fatmaPage = new FatmaPage();
+
+        ExtentReportUtils.createTestReport("Vendor Registration","User creates account successfully as a vendor");
+        ExtentReportUtils.info("Starting the Vendor Registration test");
 
         // Go to https://allovercommerce.com/
         Driver.getDriver().get("https://allovercommerce.com/");
-        //String alloverHandle =Driver.getDriver().getWindowHandle();
+
+        ExtentReportUtils.info("User goes to the website");
 
         //Click on "Register" button
         fatmaPage.registerPageLink.click();
+        ExtentReportUtils.pass("User clicks on the register link");
+
 
         //Click on "Become a Vendor"
         fatmaPage.becomeVendorLink.click();
+        ExtentReportUtils.info("User clicks on the 'Become a Vendor' link");
+
 
         // Enter an email
         Driver.getDriver().get("https://www.fakemail.net/");
@@ -52,12 +58,15 @@ public class TC01 {
         Driver.getDriver().navigate().back();
         fatmaPage.emailInput.sendKeys(fakeMail);
 
-        // Enter the verification code
+        ExtentReportUtils.info("To be able to get a verification code user has to use fake mail");
+        ExtentReportUtils.passAndCaptureScreenshot("User received a fake mail");
 
+        // Enter the verification code
         fatmaPage.verificationCode.click();
         fatmaPage.passwordInput.sendKeys("");
         WaitUtils.waitForVisibility(fatmaPage.verificationCodeSentMessage,15);
 
+        //
         Driver.getDriver().navigate().forward();
         Thread.sleep(5000);
         WaitUtils.waitForVisibility(fatmaPage.clickToFakeMail,15);
@@ -67,36 +76,46 @@ public class TC01 {
         JSUtils.flashElement(fatmaPage.fakeCode);
         System.out.println("fakeCode = " + fakeCode);
 
+        ExtentReportUtils.info("To be able to receive the verification code user goes again the 'fakeMail' website");
+        ExtentReportUtils.passAndCaptureScreenshot("User received the verification code");
+
+        //
         Driver.getDriver().navigate().back();
         fatmaPage.verificationCode.sendKeys(fakeCode);
 
 
+        ExtentReportUtils.passAndCaptureScreenshot("User sends the verification code to the text box");
+
         //Driver.getDriver().switchTo().window(alloverHandle);
+
 
         //Enter your password
         fatmaPage.passwordInput.sendKeys("Abcd.0987");
+        ExtentReportUtils.info("User sends the password");
+
 
         //Retype your password
         fatmaPage.confirmPassword.sendKeys("Abcd.0987");
+        ExtentReportUtils.info("User retypes the password");
+
 
         //Click on register button
         JSUtils.JSscrollIntoView(fatmaPage.registerButton);
         JSUtils.JSclickWithTimeout(fatmaPage.registerButton);
         JSUtils.flashElement(fatmaPage.registerButton);
         JSUtils.JSscrollAllTheWayUp();
-        ExtentReportUtils.passAndCaptureScreenshot("PASSED");
+
+        ExtentReportUtils.pass("User clicks on register button");
 
 
-        //Then registration should be succesfull
+        //Then registration should be successful
         assertTrue(fatmaPage.setUpPage.isDisplayed());
         Driver.closeDriver();
 
-
-
-
-        ExtentReportUtils.createTestReport("Vendor registration","User navigates to the setup page and see the Welcome message");
-        ExtentReportUtils.passAndCaptureScreenshot("PASSED");
+        ExtentReportUtils.passAndCaptureScreenshot("User sees the Welcome message");
         ExtentReportUtils.flush();
+
+
 
     }
 }
