@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="" />
+    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="51ktl3qu" />
   </component>
@@ -28,10 +31,14 @@
     &quot;associatedIndex&quot;: 4
     }</component>
   <component name="ProjectId" id="2VnpeaaZIEiJByJmZi2oFYQ8Nur" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -44,6 +51,21 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nhryz/IdeaProjects/team03_testNG_project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  }
+}</component>
+>>>>>>> master
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
@@ -54,74 +76,92 @@
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\src\test" />
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\drivers" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="allovercommerce.tests.US11_asuman" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml">
-    <configuration name="TC14_PlaceOrderRegisterWhileCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.TC14_PlaceOrderRegisterWhileCheckout" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC14_PlaceOrderRegisterWhileCheckout.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.TC14_PlaceOrderRegisterWhileCheckout" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myseleniumproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TC_002_SuccessfulOrder2">
+    <configuration name="TC_001_SuccesfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_parallel_setup.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_001_SuccesfulOrder1.TestCase02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
+      <option name="METHOD_NAME" value="TestCase02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_002_SuccessfulOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_003_InvalidUserName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_003_InvalidUserName" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_003_InvalidUserName.InvalidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_003_InvalidUserName" />
+      <option name="METHOD_NAME" value="InvalidPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -130,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
-        <item itemvalue="JUnit.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver.test" />
-        <item itemvalue="JUnit.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" />
-        <item itemvalue="JUnit.TC14_PlaceOrderRegisterWhileCheckout.test" />
-        <item itemvalue="JUnit.TC14_PlaceOrderRegisterWhileCheckout" />
+        <item itemvalue="TestNG.TC_002_SuccessfulOrder2" />
+        <item itemvalue="TestNG.TC_001_SuccesfulOrder1" />
+        <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase02" />
+        <item itemvalue="TestNG.TC_003_InvalidUserName" />
+        <item itemvalue="TestNG.TC_003_InvalidUserName.InvalidPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +187,71 @@
       <option name="presentableId" value="Default" />
       <updated>1695481796942</updated>
     </task>
+    <task id="LOCAL-00001" summary="git commit">
+      <option name="closed" value="true" />
+      <created>1700227073825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700227073825</updated>
+    </task>
+    <task id="LOCAL-00002" summary="yasin-2023.11.17-v1">
+      <option name="closed" value="true" />
+      <created>1700227384964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700227384964</updated>
+    </task>
+    <task id="LOCAL-00003" summary="yasin-2023.11.17-v1">
+      <option name="closed" value="true" />
+      <created>1700227613601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700227613601</updated>
+    </task>
+    <task id="LOCAL-00004" summary="yasin-2023.11.17-v2">
+      <option name="closed" value="true" />
+      <created>1700229626653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700229626653</updated>
+    </task>
+    <task id="LOCAL-00005" summary="yasin-2023.11.17-v2">
+      <option name="closed" value="true" />
+      <created>1700229716299</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700229716299</updated>
+    </task>
+    <task id="LOCAL-00006" summary="yasin-2023.11.17-v3">
+      <option name="closed" value="true" />
+      <created>1700230243872</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700230243872</updated>
+    </task>
+    <task id="LOCAL-00007" summary="yasin-2023.11.17-v3">
+      <option name="closed" value="true" />
+      <created>1700234396694</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700234396694</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit" />
+    <MESSAGE value="yasin-2023.11.17-v1" />
+    <MESSAGE value="yasin-2023.11.17-v2" />
+    <MESSAGE value="yasin-2023.11.17-v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="yasin-2023.11.17-v3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -159,5 +263,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mytestNGproject$HW05_BookACar.ic" NAME="HW05_BookACar Coverage Results" MODIFIED="1697985610819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>myapp.homework.*</FILTER>
+    </SUITE>
   </component>
 </project>

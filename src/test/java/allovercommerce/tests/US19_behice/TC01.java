@@ -5,3 +5,7 @@ public class TC01 {
     // hello friends!
     //hello
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
