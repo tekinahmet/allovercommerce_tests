@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-23.11.06-v1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinOrderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC01.java" afterDir="false" />
+    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +154,54 @@
       <option name="presentableId" value="Default" />
       <updated>1695481796942</updated>
     </task>
+    <task id="LOCAL-00001" summary="git commit">
+      <option name="closed" value="true" />
+      <created>1700227073825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700227073825</updated>
+    </task>
+    <task id="LOCAL-00002" summary="yasin-2023.11.17-v1">
+      <option name="closed" value="true" />
+      <created>1700227384964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700227384964</updated>
+    </task>
+    <task id="LOCAL-00003" summary="yasin-2023.11.17-v1">
+      <option name="closed" value="true" />
+      <created>1700227613601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700227613601</updated>
+    </task>
+    <task id="LOCAL-00004" summary="yasin-2023.11.17-v2">
+      <option name="closed" value="true" />
+      <created>1700229626653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700229626653</updated>
+    </task>
+    <task id="LOCAL-00005" summary="yasin-2023.11.17-v2">
+      <option name="closed" value="true" />
+      <created>1700229716299</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700229716299</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit" />
+    <MESSAGE value="yasin-2023.11.17-v1" />
+    <MESSAGE value="yasin-2023.11.17-v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="yasin-2023.11.17-v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

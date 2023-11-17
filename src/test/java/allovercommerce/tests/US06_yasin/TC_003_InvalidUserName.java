@@ -1,5 +1,6 @@
 package allovercommerce.tests.US06_yasin;
 
+
 import allovercommerce.pages.yasin.yasinHomePage;
 import allovercommerce.pages.yasin.yasinOrderPage;
 import allovercommerce.pages.yasin.yasinProductPage;
@@ -16,25 +17,6 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class TC_003_InvalidUserName {
-    package allovercommerce.tests.US06_yasin;
-
-import allovercommerce.pages.yasin.yasinHomePage;
-import allovercommerce.pages.yasin.yasinOrderPage;
-import allovercommerce.pages.yasin.yasinProductPage;
-import allovercommerce.pages.yasin.yasinSignPage;
-import allovercommerce.utilities.Driver;
-import allovercommerce.utilities.JSUtils;
-import allovercommerce.utilities.MediaUtils;
-import allovercommerce.utilities.WaitUtils;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
-import java.io.IOException;
-
-    public class TC03_InvalidPassword {
 
         @Test
         public void InvalidPassword() throws IOException {
@@ -51,7 +33,7 @@ import java.io.IOException;
 //        click sign in
 //        Verify invalid username text on the page
 
-            yasinHomePage yasinHomePage = new yasinHomePage();
+            yasinHomePage yasinHomePage =new yasinHomePage();
             yasinProductPage yasinProductPage = new yasinProductPage();
             yasinSignPage yasinSignPage= new yasinSignPage();
             yasinOrderPage yasinOrderPage= new yasinOrderPage();
@@ -101,4 +83,4 @@ import java.io.IOException;
         }
     }
 
-}
+
