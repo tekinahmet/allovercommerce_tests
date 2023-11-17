@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/Driver.java" afterDir="false" />
-    </list>
+    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,120 +13,115 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="euaxu08a" />
+    <option name="directoryName" value="51ktl3qu" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
-        &quot;associatedIndex&quot;: 4
-        }</component>
-  <component name="ProjectId" id="2XyGsJbAjEOJx6CT6jQnSy78Dxf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+    &quot;associatedIndex&quot;: 4
+    }</component>
+  <component name="ProjectId" id="2VnpeaaZIEiJByJmZi2oFYQ8Nur" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
+    &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
-  }
-}</component>
-  <component name="RunManager" selected="TestNG.TC01.test01">
-    <configuration name="TC01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/myseleniumproject/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+    }
+    }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\src\test\java" />
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\src\test" />
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml">
+    <configuration name="TC14_PlaceOrderRegisterWhileCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
+          <option name="PATTERN" value="automationexercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.TC14_PlaceOrderRegisterWhileCheckout" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC01.test01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
+    <configuration name="TC14_PlaceOrderRegisterWhileCheckout.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
+          <option name="PATTERN" value="automationexercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC01" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.TC14_PlaceOrderRegisterWhileCheckout" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC02.test02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
+    <configuration name="TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
+          <option name="PATTERN" value="automationexercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC02" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC04.test04" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
+    <configuration name="TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myseleniumproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
+          <option name="PATTERN" value="automationexercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC04" />
-      <option name="METHOD_NAME" value="test04" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC05.test05" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC05" />
-      <option name="METHOD_NAME" value="test05" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_parallel_setup.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,39 +130,34 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC01.test01" />
-        <item itemvalue="TestNG.TC02.test02" />
-        <item itemvalue="TestNG.TC01" />
-        <item itemvalue="TestNG.TC05.test05" />
-        <item itemvalue="TestNG.TC04.test04" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
+        <item itemvalue="JUnit.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver.test" />
+        <item itemvalue="JUnit.TC15_PlaceOrderRegisterBeforeCheckout_ChromeDriver" />
+        <item itemvalue="JUnit.TC14_PlaceOrderRegisterWhileCheckout.test" />
+        <item itemvalue="JUnit.TC14_PlaceOrderRegisterWhileCheckout" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="" />
-      <created>1699594124504</created>
+      <changelist id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="" />
+      <created>1695481796942</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699594124504</updated>
+      <updated>1695481796942</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mytestNGproject$HW05_BookACar.ic" NAME="HW05_BookACar Coverage Results" MODIFIED="1697985610819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>myapp.homework.*</FILTER>
-    </SUITE>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/assignment/homework02/Task6_Synchronization3.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

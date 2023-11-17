@@ -14,19 +14,50 @@ public class TC01 {
     AllovCommerceMyAccountPage allovCommerceMyAccountPage = new AllovCommerceMyAccountPage();
     AllovCommerceShippingAddressPage allovCommerceShippingAddressPage = new AllovCommerceShippingAddressPage();
 
+    //User enters all information and should be able to add/save shipping address
     @Test
     public void US04_TC01(){
+
+        LoggerUtils.info("Test case begins...");
+
+        ExtentReportUtils.createTestReport("US04_TC01 Test Report", "Adding Shipping Address Test");
+        ExtentReportUtils.pass("Starting the adding shipping address test...");
+
         Driver.getDriver().get("https://allovercommerce.com/");
+
+        ExtentReportUtils.pass("User in on the default page...");
+
         allovCommerceDefaultPage.signinButton.click();
+
+        ExtentReportUtils.pass("Navigated to the sign-in page...");
+
+        ExtentReportUtils.info("Entering Customer credentials...");
+
         allovCommerceSignInPage.userName.sendKeys("Luna_Ravenclaw2007");
         allovCommerceSignInPage.password.sendKeys("Lunalovegood2007!!!");
         allovCommerceSignInPage.loginButton.click();
+
+        ExtentReportUtils.passAndCaptureScreenshot("Entered Customer credentials, and clicked on login button successfully...");
+
+        Assert.assertTrue(allovCommerceHomePage.signOutButton.isDisplayed());
+        ExtentReportUtils.passAndCaptureScreenshot("Login is verified...");
+
         allovCommerceHomePage.signOutButton.click();
         Assert.assertTrue(allovCommerceMyAccountPage.pageTitle.isDisplayed());
+
+        ExtentReportUtils.pass("Navigated to the My Account page...");
+
         allovCommerceMyAccountPage.adresses.click();
         Assert.assertTrue(allovCommerceMyAccountPage.shippingAdress.isDisplayed());
+
+        ExtentReportUtils.pass("Navigated to the Addresses page...");
+
         JSUtils.JSclickWithTimeout(allovCommerceMyAccountPage.shippingAddressButton);
         Assert.assertTrue(allovCommerceShippingAddressPage.pageHeader.isDisplayed());
+
+        ExtentReportUtils.pass("Navigated to the Shipping Address page...");
+
+        ExtentReportUtils.info("Entering customer information for shipping address...");
 
         allovCommerceShippingAddressPage.firstName.clear();
         allovCommerceShippingAddressPage.firstName.sendKeys(ConfigReader.getProperty("akif_US04_name"));
@@ -49,14 +80,24 @@ public class TC01 {
         allovCommerceShippingAddressPage.city.clear();
         allovCommerceShippingAddressPage.city.sendKeys(ConfigReader.getProperty("akif_US04_city"));
 
-        //JSUtils.JSclickWithTimeout(allovCommerceShippingAddressPage.stateArrow);
-        //allovCommerceShippingAddressPage.stateSearch.sendKeys(ConfigReader.getProperty("akif_US04_state") + Keys.ENTER);
-
-
         allovCommerceShippingAddressPage.postCode.clear();
         allovCommerceShippingAddressPage.postCode.sendKeys(ConfigReader.getProperty("akif_US04_postcode"));
 
         JSUtils.JSclickWithTimeout(allovCommerceShippingAddressPage.saveButton);
+
+        ExtentReportUtils.passAndCaptureScreenshot("Entered customer information, and clicked on save button...");
+
+        Assert.assertTrue(allovCommerceMyAccountPage.saveSuccessfullAlert.isDisplayed());
+
+        ExtentReportUtils.passAndCaptureScreenshot("Shipping address saved successfully...");
+
+        Driver.closeDriver();
+
+        ExtentReportUtils.pass("Driver is closed...Test case passed successfully...");
+
+        ExtentReportUtils.flush();
+
+        LoggerUtils.info("Test completed...");
 
 
 

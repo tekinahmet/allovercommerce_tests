@@ -3,7 +3,9 @@
     <test name="Smoke Test 1"   >
         <packages>
             <!--            running regression test in parallel-->
+
             <package name="allovercommerce.tests.US01_ahmet" />
+
         </packages>
     </test>
 </suite>

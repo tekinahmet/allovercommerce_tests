@@ -16,5 +16,9 @@ public class AllovCommerceDefaultPage {
     @FindBy(xpath = "//a[@class='login inline-type']")
     public WebElement signinButton;
 
+    @FindBy(name = "s")
+    public WebElement searchBox;
+
+
 
 }

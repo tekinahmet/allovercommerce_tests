@@ -1,5 +1,9 @@
+<<<<<<< HEAD
+=======
 package allovercommerce.tests.US19_behice;
 
 public class TC01 {
     // hello friends!
+    //hello
 }
+>>>>>>> master

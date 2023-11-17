@@ -83,8 +83,13 @@ public class TC01 {
         Driver.getDriver().navigate().back();
         fatmaPage.verificationCode.sendKeys(fakeCode);
 
+<<<<<<< HEAD
         ExtentReportUtils.passAndCaptureScreenshot("User sends the verification code to the text box");
 
+=======
+
+        //Driver.getDriver().switchTo().window(alloverHandle);
+>>>>>>> master
 
         //Enter your password
         fatmaPage.passwordInput.sendKeys("Abcd.0987");
