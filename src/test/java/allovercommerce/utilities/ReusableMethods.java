@@ -23,4 +23,8 @@ public class ReusableMethods {
 
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 244bcbba35ca25187966963b1c99518e92fe88c5
