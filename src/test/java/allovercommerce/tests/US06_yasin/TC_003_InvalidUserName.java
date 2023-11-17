@@ -1,5 +1,9 @@
 package allovercommerce.tests.US06_yasin;
 
+import allovercommerce.pages.yasin.yasinHomePage;
+import allovercommerce.pages.yasin.yasinOrderPage;
+import allovercommerce.pages.yasin.yasinProductPage;
+import allovercommerce.pages.yasin.yasinSignPage;
 import allovercommerce.utilities.Driver;
 import allovercommerce.utilities.JSUtils;
 import allovercommerce.utilities.MediaUtils;
@@ -47,10 +51,10 @@ import java.io.IOException;
 //        click sign in
 //        Verify invalid username text on the page
 
-            yasinHomePage yasinHomePage = new yasinHomePage();
-            yasinProductPage yasinProductPage = new yasinProductPage();
-            yasinSignPage yasinSignPage= new yasinSignPage();
-            yasinOrderPage yasinOrderPage= new yasinOrderPage();
+            yasinHomePage yasinHomePage = new yasinHomePage()
+            yasinProductPage yasinProductPage = new yasinProductPage()
+            yasinSignPage yasinSignPage= new yasinSignPage()
+            yasinOrderPage yasinOrderPage= new yasinOrderPage()
 
 //      Go to homepage
             Driver.getDriver().get("https://allovercommerce.com/");
@@ -64,9 +68,11 @@ import java.io.IOException;
 //      Choose the product
             yasinHomePage.theProduct.click();
             WaitUtils.waitFor(2);
-            //       Click "Add to Cart"
+
+ //       Click "Add to Cart"
             JSUtils.JSclickWithTimeout(yasinProductPage.addToCartButton);
             WaitUtils.waitFor(2);
+
 //        Verify that the product is added the cart
             Assert.assertTrue(yasinProductPage.cartIcon.getText().contentEquals("1"));
             MediaUtils.takeScreenshotOfTheEntirePage();

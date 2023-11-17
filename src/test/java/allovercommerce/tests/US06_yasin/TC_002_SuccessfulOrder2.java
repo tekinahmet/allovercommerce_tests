@@ -21,6 +21,7 @@ public class TC_002_SuccessfulOrder2 {
         yasinProductPage yasinProductPage = new yasinProductPage();
         yasinSignPage yasinSignPage= new yasinSignPage();
         yasinOrderPage yasinOrderPage= new yasinOrderPage();
+
 //      navigate to homepage
         Driver.getDriver().get("https://allovercommerce.com/");
         WaitUtils.waitFor(1);
