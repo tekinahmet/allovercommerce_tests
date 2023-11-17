@@ -1,12 +1,16 @@
 package allovercommerce.utilities;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
 import static allovercommerce.utilities.MediaUtils.takeScreenshotOfTheEntirePageAsString;
+
 public class ExtentReportUtils {
     protected static ExtentReports extentReports;
     protected static ExtentSparkReporter extentSparkReporter;
@@ -19,8 +23,10 @@ public class ExtentReportUtils {
     static {
 //        WHAT WILL BE REPORT NAME AND WHERE THE REPORT IS CREATED
 //        PATH
+
         String now = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         String path = System.getProperty("user.dir") + "/test-output/Reports/" + now + "extent_reports.html";
+
 //        Create the HTML template using extent spark reporter in the path
         extentSparkReporter = new ExtentSparkReporter(path);
 //        Create extent report
@@ -74,6 +80,19 @@ public class ExtentReportUtils {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+
+
+    public static void failAndCaptureScreenshotEx(String message)  {
+        try {
+            extentTest
+                    .log(Status.FAIL,message)
+                    .addScreenCaptureFromPath(takeScreenshotOfTheEntirePageAsString());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 
     /*
