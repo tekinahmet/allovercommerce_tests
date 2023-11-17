@@ -61,12 +61,13 @@ public class TC_002_SuccessfulOrder2 {
         JSUtils.JSclickWithTimeout(yasinProductPage.proceedToCheckOutButton);
 //      click sign in
         yasinProductPage.signInButton.click();
+        WaitUtils.waitFor(2);
 //      enter username and password
         yasinSignPage.userNameBox.sendKeys("yaseko");
         yasinSignPage.passWordBox.sendKeys("12345.");
 //      click sign in
         yasinSignPage.singInAsUserButton.click();
-        WaitUtils.waitFor(3);
+        WaitUtils.waitFor(2);
 //      Verify that the billing address on the page is accurate
         String expectedName ="asdsadasda";
         Assert.assertTrue(yasinOrderPage.billingFirstName.isDisplayed(), expectedName);

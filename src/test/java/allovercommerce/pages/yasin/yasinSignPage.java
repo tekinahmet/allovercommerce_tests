@@ -11,13 +11,13 @@ public class yasinSignPage {
 
     }
 
-    @FindBy(xpath = "//label[@for='username']")
+    @FindBy(xpath = "//input[@autocomplete='username']")
     public WebElement userNameBox;
 
-    @FindBy(xpath = "//label[@for='password']")
+    @FindBy(xpath = "//input[@autocomplete='current-password']")
     public WebElement passWordBox;
 
-    @FindBy(name = "//*[@class='woocommerce-button button woocommerce-form-login__submit']")
+    @FindBy(xpath = "//*[@value='Sign In']")
     public WebElement singInAsUserButton;
 
     @FindBy(xpath = "//*[@class='submit-status']")

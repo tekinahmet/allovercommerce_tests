@@ -6,16 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinOrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_002_SuccessfulOrder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_002_SuccessfulOrder2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US18_mertcan/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US18_mertcan/TC01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US19_behice/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US19_behice/TC01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +64,18 @@
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_001_SuccesfulOrder1.TestCase02">
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TC_002_SuccessfulOrder2">
+    <configuration name="TC_001_SuccesfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_parallel_setup.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -100,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_002_SuccessfulOrder2.TestCase02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_002_SuccessfulOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +110,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
-      <option name="METHOD_NAME" value="TestCase02" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC_002_SuccessfulOrder2" />
+        <item itemvalue="TestNG.TC_001_SuccesfulOrder1" />
         <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase02" />
-        <item itemvalue="TestNG.TC_002_SuccessfulOrder2.TestCase02" />
-        <item itemvalue="TestNG.TC_003_InvalidUserName.InvalidPassword" />
         <item itemvalue="TestNG.TC_003_InvalidUserName" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
+        <item itemvalue="TestNG.TC_003_InvalidUserName.InvalidPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700230243872</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="yasin-2023.11.17-v3">
+      <option name="closed" value="true" />
+      <created>1700234396694</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700234396694</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

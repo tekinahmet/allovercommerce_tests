@@ -66,6 +66,7 @@ public class TC_003_InvalidUserName {
             WaitUtils.waitFor(1);
 //        click sign in linktext
             yasinProductPage.signInButton.click();
+            WaitUtils.waitFor(2);
 //        enter username and password
             yasinSignPage.userNameBox.sendKeys("yasin1");
            yasinSignPage.passWordBox.sendKeys("12345.");

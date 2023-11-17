@@ -47,7 +47,6 @@ public class TC_001_SuccesfulOrder1 {
 //        ExtentReportUtils.createTestReport("addcartbutton","report");
 
 //        Verify that the product is added the cart
-        // String cartItem = yasinProductPage.cartIcon.getText().trim();
         Assert.assertTrue(yasinProductPage.cartIcon.getText().contentEquals("1"));
         MediaUtils.takeScreenshotOfTheEntirePage();
 
@@ -57,8 +56,8 @@ public class TC_001_SuccesfulOrder1 {
         yasinProductPage.checkOutButton.click();
 //        click sign in
         yasinProductPage.signInButton.click();
+        WaitUtils.waitFor(2);
 //        enter username and password
-
         yasinSignPage.userNameBox.sendKeys("yaseko");
         yasinSignPage.passWordBox.sendKeys("12345.");
 //        click sign in
