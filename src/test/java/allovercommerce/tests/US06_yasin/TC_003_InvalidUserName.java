@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class TC_003 {
+public class TC_003_InvalidUserName {
     package allovercommerce.tests.US06_yasin;
 
 import allovercommerce.pages.yasin.yasinHomePage;

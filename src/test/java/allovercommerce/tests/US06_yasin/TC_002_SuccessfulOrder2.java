@@ -5,16 +5,14 @@ import allovercommerce.pages.yasin.yasinOrderPage;
 import allovercommerce.pages.yasin.yasinProductPage;
 import allovercommerce.pages.yasin.yasinSignPage;
 import allovercommerce.utilities.*;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.awt.*;
 import java.io.IOException;
 
-public class TC02_SuccessfulOrder2 {
+public class TC_002_SuccessfulOrder2 {
 
     @Test
     public void TestCase02() throws IOException {
