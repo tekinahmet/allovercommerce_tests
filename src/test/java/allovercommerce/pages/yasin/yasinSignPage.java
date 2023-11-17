@@ -19,4 +19,7 @@ public class yasinSignPage {
 
     @FindBy(name = "")
     public WebElement singIn;
+
+    @FindBy(name = "")
+    public WebElement unverifiedMessage;
 }

@@ -51,10 +51,10 @@ import java.io.IOException;
 //        click sign in
 //        Verify invalid username text on the page
 
-            yasinHomePage yasinHomePage = new yasinHomePage()
-            yasinProductPage yasinProductPage = new yasinProductPage()
-            yasinSignPage yasinSignPage= new yasinSignPage()
-            yasinOrderPage yasinOrderPage= new yasinOrderPage()
+            yasinHomePage yasinHomePage = new yasinHomePage();
+            yasinProductPage yasinProductPage = new yasinProductPage();
+            yasinSignPage yasinSignPage= new yasinSignPage();
+            yasinOrderPage yasinOrderPage= new yasinOrderPage();
 
 //      Go to homepage
             Driver.getDriver().get("https://allovercommerce.com/");
