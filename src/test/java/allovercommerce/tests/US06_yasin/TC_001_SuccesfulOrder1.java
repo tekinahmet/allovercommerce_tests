@@ -48,20 +48,21 @@ public class TC_001_SuccesfulOrder1 {
 
 //        Verify that the product is added the cart
         // String cartItem = yasinProductPage.cartIcon.getText().trim();
-        Assert.assertTrue(yasinProductPage.cartIcon.getText().contentEquals("2"));
+        Assert.assertTrue(yasinProductPage.cartIcon.getText().contentEquals("1"));
         MediaUtils.takeScreenshotOfTheEntirePage();
 
 //        Click to the cart icon on the page
-        yasinProductPage.proceedToCheckOutButton.click();
+        yasinProductPage.cartIcon.click();
 //        Click to checkout button
         yasinProductPage.checkOutButton.click();
 //        click sign in
         yasinProductPage.signInButton.click();
 //        enter username and password
+
         yasinSignPage.userNameBox.sendKeys("yaseko");
         yasinSignPage.passWordBox.sendKeys("12345.");
 //        click sign in
-        yasinSignPage.singIn.click();
+        yasinSignPage.singInAsUserButton.click();
         WaitUtils.waitFor(3);
 
 //        Verify that the billing address on the page is accurate

@@ -68,9 +68,9 @@ public class TC_003_InvalidUserName {
             yasinProductPage.signInButton.click();
 //        enter username and password
             yasinSignPage.userNameBox.sendKeys("yasin1");
-            yasinSignPage.passWordBox.sendKeys("12345.");
+           yasinSignPage.passWordBox.sendKeys("12345.");
 //        click sign in button
-            yasinSignPage.singIn.click();
+            yasinSignPage.singInAsUserButton.click();
             WaitUtils.waitFor(2);
 
 //        Verify invalid username text on the page

@@ -15,7 +15,7 @@ public class yasinHomePage {
     @FindBy(name = "s")
     public WebElement searchBox;
 
-    @FindBy(xpath = "//*[@class='attachment-woocommerce_thumbnail size-woocommerce_thumbnail']")
+    @FindBy(xpath = "//*[@href='https://allovercommerce.com/urun/hiphone-25/']")
     public WebElement theProduct ;
 
 

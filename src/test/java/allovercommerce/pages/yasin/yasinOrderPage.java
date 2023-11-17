@@ -11,22 +11,19 @@ public class yasinOrderPage {
 
     }
 
-    @FindBy(name = "")
+    @FindBy(name = "billing_first_name")
     public WebElement billingFirstName;
 
-    @FindBy(name = "")
+    @FindBy(name = "billing_last_name")
     public WebElement billingLastName;
 
-    @FindBy(name = "")
-    public WebElement userNameBox;
-
-    @FindBy(name = "")
+    @FindBy(name = "billing_email")
     public WebElement billingEmail;
 
-    @FindBy(name = "")
+    @FindBy(id = "select2-billing_country-container")
     public WebElement billingCountry;
 
-    @FindBy(name = "")
+    @FindBy(name = "billing_address_1")
     public WebElement billingStreet;
     @FindBy(id="payment_method_cod")
     public WebElement payAtTheDoor;
@@ -34,10 +31,10 @@ public class yasinOrderPage {
     @FindBy(id="payment_method_bacs")
     public WebElement wireTransfer;
 
-    @FindBy(id="")
+    @FindBy(id="place_order")
     public WebElement placeOrderButton;
 
-    @FindBy(id="")
+    @FindBy(xpath = "//*[@class='fas fa-check']")
     public WebElement orderCompleteText;
 }
 

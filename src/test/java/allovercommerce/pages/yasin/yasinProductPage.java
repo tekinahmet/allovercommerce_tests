@@ -21,23 +21,22 @@ public class yasinProductPage {
     @FindBy(xpath = "//*[@class='quantity-plus w-icon-plus']")
     public WebElement plusButton;
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//*[@class='checkout-button button alt wc-forward']")
     public WebElement proceedToCheckOutButton;
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//*[@class='button checkout wc-forward']")
     public WebElement checkOutButton;
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//*[@class='login inline-type']")
     public WebElement signInButton;
 
-
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//*[@class='button wc-forward']")
     public WebElement viewCartButton;
 
-    @FindBy(xpath = "")
+    @FindBy(name = "update_cart")
     public WebElement updateCartButton;
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//*[@class='w-icon-cart']")
     public WebElement cartIconFromviewCart;
 
 
