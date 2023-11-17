@@ -31,6 +31,7 @@ public class TC03 {
     // Go to https://allovercommerce.com/vendor-register/
         Driver.getDriver().get("https://allovercommerce.com/vendor-register/");
 
+
     // Enter an email address to the email textbox
       fatmaPage.emailInput.sendKeys("abcd@gmail.com");
 

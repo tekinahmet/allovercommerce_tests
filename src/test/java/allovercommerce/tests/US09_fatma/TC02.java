@@ -26,25 +26,35 @@ public class TC02 {
     public void test02() throws InterruptedException {
         FatmaPage fatmaPage =new FatmaPage();
 
+        ExtentReportUtils.createTestReport("Vendor Registration","Registration should not be successful");
+        ExtentReportUtils.info("Starting the Vendor Registration test");
+
 
     // Go to https://allovercommerce.com/vendor-register/
         Driver.getDriver().get("https://allovercommerce.com/vendor-register/");
+        ExtentReportUtils.info("User goes to directly registration page on the website");
 
 
     // Enter an email address to the email textbox
         fatmaPage.emailInput.sendKeys("abcdef@gmail.com");
+        ExtentReportUtils.info("User enters an email  ");
 
-    // Leave the blank Verification Code textbox
+
+     // Leave the blank Verification Code textbox
         fatmaPage.verificationCode.sendKeys("");
         Thread.sleep(2000);
+        ExtentReportUtils.info("User sends an empty input");
 
 
     // Enter a password
         fatmaPage.passwordInput.sendKeys("Abcd.1245");
         Thread.sleep(2000);
+        ExtentReportUtils.info("User sends a password");
+
 
     // Retype the password
         fatmaPage.confirmPassword.sendKeys("Abcd.1245");
+        ExtentReportUtils.info("User retypes the password");
 
 
     //  Click on register button
@@ -54,14 +64,14 @@ public class TC02 {
         WaitUtils.waitFor(3);
         JSUtils.JSscrollAllTheWayUp();
 
+        ExtentReportUtils.pass("User clicks on register button");
 
 
-    // The user must see the "Email Verification Code: This field is required." Registration should not be successful.
+    // Then user must see the "Email Verification Code: This field is required." Registration should not be successful.
 
         Assert.assertTrue(fatmaPage.requiredMessage.isDisplayed());
 
-        ExtentReportUtils.createTestReport("Vendor registration","User should not be able to register");
-        ExtentReportUtils.passAndCaptureScreenshot("PASSED");
+        ExtentReportUtils.passAndCaptureScreenshot("User sees the 'This field is required' message");
         ExtentReportUtils.flush();
 
 

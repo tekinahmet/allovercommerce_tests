@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/fatma/FatmaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/fatma/FatmaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US09_fatma/TC03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,17 +49,17 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TC05.test05">
-    <configuration name="TC01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TC01.test01">
+    <configuration name="TC01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC01" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC01" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -66,17 +67,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC01.US07_TC01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC01.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC01" />
-      <option name="METHOD_NAME" value="US07_TC01" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC01" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,17 +85,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC02.test02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US04_akif.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US09_fatma.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US04_akif" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US04_akif.TC02" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US09_fatma" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US09_fatma.TC02" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -139,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC01.test01" />
+        <item itemvalue="TestNG.TC02.test02" />
+        <item itemvalue="TestNG.TC01" />
         <item itemvalue="TestNG.TC05.test05" />
         <item itemvalue="TestNG.TC04.test04" />
-        <item itemvalue="TestNG.TC01 (1)" />
-        <item itemvalue="TestNG.TC01.US07_TC01" />
-        <item itemvalue="TestNG.TC02" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +159,17 @@
       <updated>1699594124504</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mytestNGproject$HW05_BookACar.ic" NAME="HW05_BookACar Coverage Results" MODIFIED="1697985610819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
