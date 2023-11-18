@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00069089-0549-4c2d-8369-e012a5cecaed" name="Changes" comment="" />
+    <list default="true" id="00069089-0549-4c2d-8369-e012a5cecaed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US18_mertcan/TC02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_09_20_13_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_09_20_13__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_12__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_13__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_14__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_17__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2023_11_09_20_34_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2023_11_09_20_34__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_09_20_12_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_09_20_12__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_12_20_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_12_20_18__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_12_20_18__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_12_20_18__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/mertcan/MertcanPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/mertcan/MertcanPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US16_mertcan/TC02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US18_mertcan/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US18_mertcan/TC01.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="drb4mgx3" />
   </component>
@@ -26,36 +50,22 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
-<<<<<<< HEAD
     &quot;associatedIndex&quot;: 5
     }</component>
-=======
-  &quot;associatedIndex&quot;: 5
-}</component>
->>>>>>> master
   <component name="ProjectId" id="2Wl6ixhRZ7QhKQezjYGXUagCSUW" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-<<<<<<< HEAD
-    &quot;keyToString&quot;: {
-=======
   &quot;keyToString&quot;: {
->>>>>>> master
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
-<<<<<<< HEAD
-    }
-    }</component>
-=======
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
->>>>>>> master
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\resources" />
@@ -66,27 +76,7 @@
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC02_InvalidUsername">
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_parallel_setup.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_smoketest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TC03.testcase3">
     <configuration name="Day13_Annotations" type="TestNG" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <shortenClasspath name="NONE" />
@@ -114,16 +104,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC01_SuccessfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC01.testcase1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US16_mertcan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC01_SuccessfulRegistration" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US16_mertcan" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US16_mertcan.TC01" />
+      <option name="METHOD_NAME" value="testcase1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC02.testcase2 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US16_mertcan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US16_mertcan" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US16_mertcan.TC02" />
+      <option name="METHOD_NAME" value="testcase2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC02.testcase2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US18_mertcan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US18_mertcan" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US18_mertcan.TC02" />
+      <option name="METHOD_NAME" value="testcase2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC03" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US16_mertcan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US16_mertcan" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US16_mertcan.TC03" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -131,34 +175,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC02_InvalidUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC03.testcase3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US16_mertcan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC02_InvalidUsername" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XYZBankTest.xyzBankTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.tests.practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.practices" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.practices.XYZBankTest" />
-      <option name="METHOD_NAME" value="xyzBankTest" />
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US16_mertcan" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US16_mertcan.TC03" />
+      <option name="METHOD_NAME" value="testcase3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -168,19 +195,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Day13_Annotations" />
-      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
-      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_smoketest.xml" />
-      <item itemvalue="TestNG.TC01_SuccessfulRegistration" />
-      <item itemvalue="TestNG.TC02_InvalidUsername" />
-      <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
+      <item itemvalue="TestNG.TC02.testcase2 (1)" />
+      <item itemvalue="TestNG.TC03" />
+      <item itemvalue="TestNG.TC03.testcase3" />
+      <item itemvalue="TestNG.TC02.testcase2" />
+      <item itemvalue="TestNG.TC01.testcase1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC02_InvalidUsername" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_parallel_setup.xml" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/team03_testNG_project/testNG_smoketest.xml" />
-        <item itemvalue="TestNG.TC01_SuccessfulRegistration" />
-        <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
+        <item itemvalue="TestNG.TC03.testcase3" />
+        <item itemvalue="TestNG.TC02.testcase2 (1)" />
+        <item itemvalue="TestNG.TC01.testcase1" />
+        <item itemvalue="TestNG.TC03" />
+        <item itemvalue="TestNG.TC02.testcase2" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +221,17 @@
       <updated>1697294954245</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mytestNGproject$HW05_BookACar.ic" NAME="HW05_BookACar Coverage Results" MODIFIED="1697985610819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
