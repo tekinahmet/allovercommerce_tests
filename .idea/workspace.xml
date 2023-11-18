@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+
     <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3" />
+
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,35 +43,44 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-    &quot;keyToString&quot;: {
+  &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nhryz/IdeaProjects/team03_testNG_project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/c-bell/IdeaProjects/team03_testNG_project/src/test/java/allovercommerce/pages&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
-    }
-    }</component>
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\team03_testNG_project" />
+
+      <recent name="$PROJECT_DIR$/src/test/java/allovercommerce/pages" />
+      <recent name="$PROJECT_DIR$/src/test/java/allovercommerce/tests" />
+
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\src\test\java" />
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\src\test" />
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\drivers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="allovercommerce.utilities" />
       <recent name="allovercommerce.tests.US11_asuman" />
     </key>
   </component>
+
+
   <component name="RunManager" selected="TestNG.TC03_UploadProductImage">
     <configuration name="TC03_UploadProductImage" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -76,7 +89,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US14_sibel" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US14_sibel.TC03_UploadProductImage" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US14_sibel.Sibel_US14_TestCases" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -84,25 +97,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+
     <configuration name="TC03_UploadProductImage.addProductImage" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
       <module name="team03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US14_sibel.*" />
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
+
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US14_sibel" />
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US14_sibel.TC03_UploadProductImage" />
       <option name="METHOD_NAME" value="addProductImage" />
+
       <option name="TEST_OBJECT" value="METHOD" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+
     <configuration name="TC_001_SuccesfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +137,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
+
+
       <option name="TEST_OBJECT" value="CLASS" />
+
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+
     <configuration name="TC_001_SuccesfulOrder1.TestCase02" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -128,16 +161,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+
+
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
       <option name="METHOD_NAME" value="TestCase02" />
       <option name="TEST_OBJECT" value="METHOD" />
+
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+
     <configuration name="TC_002_SuccessfulOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -146,7 +187,11 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+
+
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
+
+
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -156,11 +201,15 @@
     </configuration>
     <recent_temporary>
       <list>
+
+
         <item itemvalue="TestNG.TC03_UploadProductImage" />
         <item itemvalue="TestNG.TC03_UploadProductImage.addProductImage" />
         <item itemvalue="TestNG.TC_002_SuccessfulOrder2" />
         <item itemvalue="TestNG.TC_001_SuccesfulOrder1" />
         <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase02" />
+
+
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +278,17 @@
       <option name="project" value="LOCAL" />
       <updated>1700234396694</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+
+    <task id="LOCAL-00008" summary="yasin-2023.11.17-v5">
+      <option name="closed" value="true" />
+      <created>1700235731875</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700235731875</updated>
+
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -237,7 +296,10 @@
     <MESSAGE value="yasin-2023.11.17-v1" />
     <MESSAGE value="yasin-2023.11.17-v2" />
     <MESSAGE value="yasin-2023.11.17-v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="yasin-2023.11.17-v3" />
+
+    <MESSAGE value="yasin-2023.11.17-v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="yasin-2023.11.17-v5" />
+
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

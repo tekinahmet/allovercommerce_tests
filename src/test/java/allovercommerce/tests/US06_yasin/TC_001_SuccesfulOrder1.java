@@ -18,7 +18,7 @@ import java.io.IOException;
 public class TC_001_SuccesfulOrder1 {
 
     @Test
-    public void TestCase02() throws IOException, IOException {
+    public void TestCase001() throws IOException, IOException {
 
         yasinHomePage yasinHomePage = new yasinHomePage();
         yasinProductPage yasinProductPage = new yasinProductPage();
@@ -36,10 +36,15 @@ public class TC_001_SuccesfulOrder1 {
         yasinHomePage.theProduct.click();
         WaitUtils.waitFor(2);
 
+
 //      check that the number of products to be purchased can be increased or decreased
+
         JSUtils.JSclickWithTimeout(yasinProductPage.plusButton);
+                WaitUtils.waitFor(2);
+
+        yasinProductPage.minusButton.click();
         WaitUtils.waitFor(2);
-        // MediaUtils.takeScreenshotOfTheEntirePage();
+        //MediaUtils.takeScreenshotOfTheEntirePage();
 
 //        Click "Add to Cart"
         JSUtils.JSclickWithTimeout(yasinProductPage.addToCartButton);

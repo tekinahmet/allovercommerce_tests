@@ -113,7 +113,7 @@ public class Sibel_US14_TestCases {
         ExtentReportUtils.createTestReport("UPLOAD PRODUCT IMAGE TEST"
                 ,"User will upload a product page");
         ExtentReportUtils.info("TEST OBJECTIVE : USER SHOULD BE ABLE TO UPLOAD A PRODUCT PICTURE");
-        String pathOfPicture = System.getProperty("./resources/IMG_5477.jpg");
+        String pathOfPicture = System.getProperty("./resources/IMG_5478.jpg");
 //https://drive.google.com/file/d/13GkVKcr-7vgopBb5fJTXpRzDyF8xkHW7/view?usp=sharing
 
         JSUtils.JSclickWithTimeout(newProductsPage.addMedia);
