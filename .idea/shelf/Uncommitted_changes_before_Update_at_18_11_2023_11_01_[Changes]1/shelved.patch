@@ -1,0 +1,82 @@
+Index: src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package allovercommerce.tests.US06_yasin;\r\n\r\nimport allovercommerce.pages.yasin.yasinHomePage;\r\nimport allovercommerce.pages.yasin.yasinOrderPage;\r\nimport allovercommerce.pages.yasin.yasinProductPage;\r\nimport allovercommerce.pages.yasin.yasinSignPage;\r\nimport allovercommerce.utilities.Driver;\r\nimport allovercommerce.utilities.JSUtils;\r\nimport allovercommerce.utilities.MediaUtils;\r\nimport allovercommerce.utilities.WaitUtils;\r\nimport org.openqa.selenium.Keys;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.testng.Assert;\r\nimport org.testng.annotations.Test;\r\n\r\nimport java.io.IOException;\r\n\r\npublic class TC_001_SuccesfulOrder1 {\r\n\r\n    @Test\r\n    public void TestCase02() throws IOException, IOException {\r\n\r\n        yasinHomePage yasinHomePage = new yasinHomePage();\r\n        yasinProductPage yasinProductPage = new yasinProductPage();\r\n        yasinSignPage yasinSignPage= new yasinSignPage();\r\n        yasinOrderPage yasinOrderPage= new yasinOrderPage();\r\n\r\n//        navigate to homepage\r\n        Driver.getDriver().get(\"https://allovercommerce.com/\");\r\n        WaitUtils.waitFor(1);\r\n//        search \"iphone\" in search box and click enter\r\n        WebElement searchBox = yasinHomePage.searchBox;\r\n        searchBox.sendKeys(\"iphone\");\r\n        searchBox.sendKeys(Keys.ENTER);\r\n//        choose the product\r\n        yasinHomePage.theProduct.click();\r\n        WaitUtils.waitFor(2);\r\n\r\n//      check that the number of products to be purchased can be increased or decreased\r\n        JSUtils.JSclickWithTimeout(yasinProductPage.plusButton);\r\n        WaitUtils.waitFor(2);\r\n        // MediaUtils.takeScreenshotOfTheEntirePage();\r\n\r\n//        Click \"Add to Cart\"\r\n        JSUtils.JSclickWithTimeout(yasinProductPage.addToCartButton);\r\n        WaitUtils.waitFor(2);\r\n//        ExtentReportUtils.createTestReport(\"addcartbutton\",\"report\");\r\n\r\n//        Verify that the product is added the cart\r\n        Assert.assertTrue(yasinProductPage.cartIcon.getText().contentEquals(\"1\"));\r\n        MediaUtils.takeScreenshotOfTheEntirePage();\r\n\r\n//        Click to the cart icon on the page\r\n        yasinProductPage.cartIcon.click();\r\n//        Click to checkout button\r\n        yasinProductPage.checkOutButton.click();\r\n//        click sign in\r\n        yasinProductPage.signInButton.click();\r\n        WaitUtils.waitFor(2);\r\n//        enter username and password\r\n        yasinSignPage.userNameBox.sendKeys(\"yaseko\");\r\n        yasinSignPage.passWordBox.sendKeys(\"12345.\");\r\n//        click sign in\r\n        yasinSignPage.singInAsUserButton.click();\r\n        WaitUtils.waitFor(3);\r\n\r\n//        Verify that the billing address on the page is accurate\r\n        String expectedName =\"asdsadasda\";\r\n        Assert.assertTrue(yasinOrderPage.billingFirstName.isDisplayed(), expectedName);\r\n        WaitUtils.waitFor(1);\r\n        //last name\r\n        String expectedLastName =\"sdffds\";\r\n        Assert.assertTrue(yasinOrderPage.billingLastName.isDisplayed(), expectedLastName);\r\n\r\n        // country\r\n\r\n        JSUtils.JSclickWithTimeout(yasinOrderPage.billingCountry);\r\n        String expectedCountry =\"United States (US)\";\r\n        Assert.assertTrue(yasinOrderPage.billingCountry.isDisplayed(), expectedCountry);\r\n\r\n\r\n        String expectedMail =\"ozturkyasin182@gmail.com\";\r\n        Assert.assertTrue(yasinOrderPage.billingEmail.isDisplayed(), expectedMail);\r\n        WaitUtils.waitFor(1);\r\n//        Check the payment options are on the page\r\n\r\n        JSUtils.JSclickWithTimeout(yasinOrderPage.payAtTheDoor);\r\n        Assert.assertTrue(yasinOrderPage.payAtTheDoor.isDisplayed());\r\n        WaitUtils.waitFor(1);\r\n\r\n//        Select a payment option\r\n        JSUtils.JSclickWithTimeout(yasinOrderPage.payAtTheDoor);\r\n        Assert.assertTrue(yasinOrderPage.payAtTheDoor.isDisplayed());\r\n        WaitUtils.waitFor(1);\r\n\r\n//        Click to place order button\r\n        JSUtils.JSclickWithTimeout(yasinOrderPage.placeOrderButton);\r\n\r\n\r\n//        Verify the message that your order has been succefully received\r\n        String verifyText =\"Thank you. Your order has been received.\";\r\n        Assert.assertTrue(yasinOrderPage.orderCompleteText.isDisplayed(), verifyText);\r\n\r\n        //close the driver\r\n        Driver.getDriver().close();\r\n\r\n\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java b/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java
+--- a/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java	
++++ b/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java	
+@@ -4,10 +4,9 @@
+ import allovercommerce.pages.yasin.yasinOrderPage;
+ import allovercommerce.pages.yasin.yasinProductPage;
+ import allovercommerce.pages.yasin.yasinSignPage;
+-import allovercommerce.utilities.Driver;
+-import allovercommerce.utilities.JSUtils;
+-import allovercommerce.utilities.MediaUtils;
+-import allovercommerce.utilities.WaitUtils;
++import allovercommerce.utilities.*;
++import org.openqa.selenium.By;
++import org.openqa.selenium.JavascriptExecutor;
+ import org.openqa.selenium.Keys;
+ import org.openqa.selenium.WebElement;
+ import org.testng.Assert;
+@@ -18,7 +17,10 @@
+ public class TC_001_SuccesfulOrder1 {
+ 
+     @Test
+-    public void TestCase02() throws IOException, IOException {
++    public void TestCase01() throws IOException, IOException {
++
++        ExtentReportUtils.createTestReport("BuyingProduct", "verify");
++        ExtentReportUtils.pass("...");
+ 
+         yasinHomePage yasinHomePage = new yasinHomePage();
+         yasinProductPage yasinProductPage = new yasinProductPage();
+@@ -34,12 +36,11 @@
+         searchBox.sendKeys(Keys.ENTER);
+ //        choose the product
+         yasinHomePage.theProduct.click();
+-        WaitUtils.waitFor(2);
++        WaitUtils.waitFor(3);
++
+ 
+ //      check that the number of products to be purchased can be increased or decreased
+-        JSUtils.JSclickWithTimeout(yasinProductPage.plusButton);
+-        WaitUtils.waitFor(2);
+-        // MediaUtils.takeScreenshotOfTheEntirePage();
++
+ 
+ //        Click "Add to Cart"
+         JSUtils.JSclickWithTimeout(yasinProductPage.addToCartButton);
+Index: src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package allovercommerce.tests.US06_yasin;\r\n\r\n\r\nimport allovercommerce.pages.yasin.yasinHomePage;\r\nimport allovercommerce.pages.yasin.yasinOrderPage;\r\nimport allovercommerce.pages.yasin.yasinProductPage;\r\nimport allovercommerce.pages.yasin.yasinSignPage;\r\nimport allovercommerce.utilities.Driver;\r\nimport allovercommerce.utilities.JSUtils;\r\nimport allovercommerce.utilities.MediaUtils;\r\nimport allovercommerce.utilities.WaitUtils;\r\nimport org.openqa.selenium.Keys;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.testng.Assert;\r\nimport org.testng.annotations.Test;\r\n\r\nimport java.io.IOException;\r\n\r\npublic class TC_003_InvalidUserName {\r\n\r\n        @Test\r\n        public void InvalidPassword() throws IOException {\r\n//        Go to the home page\r\n//        Enter the product name in the search box and click enter\r\n//        Choose a product\r\n//        Click \"Add to Cart\"\r\n//        Verify that the product is added the cart\r\n//        6Click to the cart icon on the page\r\n//        Click view cart button\r\n//        Click to checkout button\r\n//        click sign in\r\n//        enter username and password\r\n//        click sign in\r\n//        Verify invalid username text on the page\r\n\r\n            yasinHomePage yasinHomePage =new yasinHomePage();\r\n            yasinProductPage yasinProductPage = new yasinProductPage();\r\n            yasinSignPage yasinSignPage= new yasinSignPage();\r\n            yasinOrderPage yasinOrderPage= new yasinOrderPage();\r\n\r\n//      Go to homepage\r\n            Driver.getDriver().get(\"https://allovercommerce.com/\");\r\n            WaitUtils.waitFor(1);\r\n\r\n//      Enter the product name in the search box and click enter\r\n            WebElement searchBox = yasinHomePage.searchBox;\r\n            searchBox.sendKeys(\"iphone\");\r\n            searchBox.sendKeys(Keys.ENTER);\r\n\r\n//      Choose the product\r\n            yasinHomePage.theProduct.click();\r\n            WaitUtils.waitFor(2);\r\n\r\n //       Click \"Add to Cart\"\r\n            JSUtils.JSclickWithTimeout(yasinProductPage.addToCartButton);\r\n            WaitUtils.waitFor(2);\r\n\r\n//        Verify that the product is added the cart\r\n            Assert.assertTrue(yasinProductPage.cartIcon.getText().contentEquals(\"1\"));\r\n            MediaUtils.takeScreenshotOfTheEntirePage();\r\n//        Click to the cart icon on the page\r\n            JSUtils.JSclickWithTimeout(yasinProductPage.cartIcon);\r\n            WaitUtils.waitFor(2);\r\n//        Click to checkout button\r\n            yasinProductPage.checkOutButton.click();\r\n            WaitUtils.waitFor(1);\r\n//        click sign in linktext\r\n            yasinProductPage.signInButton.click();\r\n            WaitUtils.waitFor(2);\r\n//        enter username and password\r\n            yasinSignPage.userNameBox.sendKeys(\"yasin1\");\r\n           yasinSignPage.passWordBox.sendKeys(\"12345.\");\r\n//        click sign in button\r\n            yasinSignPage.singInAsUserButton.click();\r\n            WaitUtils.waitFor(2);\r\n\r\n//        Verify invalid username text on the page\r\n            String unverifiedText =\"Wrong username or password.\";\r\n            Assert.assertTrue(yasinSignPage.unverifiedMessage.isDisplayed(), unverifiedText);\r\n            MediaUtils.takeScreenshotOfTheEntirePage();\r\n\r\n            // Close the page\r\n            Driver.closeDriver();\r\n        }\r\n    }\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java b/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java
+--- a/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java	
++++ b/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java	
+@@ -20,18 +20,7 @@
+ 
+         @Test
+         public void InvalidPassword() throws IOException {
+-//        Go to the home page
+-//        Enter the product name in the search box and click enter
+-//        Choose a product
+-//        Click "Add to Cart"
+-//        Verify that the product is added the cart
+-//        6Click to the cart icon on the page
+-//        Click view cart button
+-//        Click to checkout button
+-//        click sign in
+-//        enter username and password
+-//        click sign in
+-//        Verify invalid username text on the page
++
+ 
+             yasinHomePage yasinHomePage =new yasinHomePage();
+             yasinProductPage yasinProductPage = new yasinProductPage();

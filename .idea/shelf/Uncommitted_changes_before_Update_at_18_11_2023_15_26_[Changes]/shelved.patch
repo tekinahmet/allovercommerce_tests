@@ -1,0 +1,1411 @@
+Index: src/test/java/allovercommerce/utilities/ReusableMethods.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package allovercommerce.utilities;\r\n\r\nimport java.awt.*;\r\nimport java.awt.datatransfer.StringSelection;\r\nimport java.awt.event.KeyEvent;\r\n\r\npublic class ReusableMethods {\r\n    public static void uploadFile(String pathOfTheFile) {\r\n        try {\r\n            WaitUtils.waitFor(3);\r\n            StringSelection stringSelection = new StringSelection(pathOfTheFile);\r\n            Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);\r\n            Robot robot = new Robot();\r\n            robot.keyPress(KeyEvent.VK_CONTROL);\r\n            robot.keyPress(KeyEvent.VK_V);\r\n            robot.keyRelease(KeyEvent.VK_CONTROL);\r\n            robot.keyRelease(KeyEvent.VK_V);\r\n            robot.delay(3000);\r\n            robot.keyPress(KeyEvent.VK_ENTER);\r\n            robot.keyRelease(KeyEvent.VK_ENTER);\r\n            robot.delay(3000);\r\n        } catch (Exception ignored) {\r\n\r\n        }\r\n\r\n    }}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/allovercommerce/utilities/ReusableMethods.java b/src/test/java/allovercommerce/utilities/ReusableMethods.java
+--- a/src/test/java/allovercommerce/utilities/ReusableMethods.java	(revision 6fc429216b75e08994f1477fd2c98467f88e82b0)
++++ b/src/test/java/allovercommerce/utilities/ReusableMethods.java	(date 1700310351872)
+@@ -22,5 +22,5 @@
+         } catch (Exception ignored) {
+ 
+         }
++    }}
+ 
+-    }}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e9e2081b-8636-4899-b0bb-d9ac4e8cf250\" name=\"Changes\" comment=\"yasin-2023.11.17-v3\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccessfulOrder1.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_002_SuccessfulOrder2.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_002_SuccessfulOrder2.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/TC09_NegAddSameCatgNamesMultipleTimes.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/TC09_NegAddSameCatgNamesMultipleTimes.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ExtentReportUtils.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ExtentReportUtils.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ReusableMethods.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ReusableMethods.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MacroExpansionManager\">\r\n    <option name=\"directoryName\" value=\"51ktl3qu\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n    &quot;associatedIndex&quot;: 4\r\n    }</component>\r\n  <component name=\"ProjectId\" id=\"2VnpeaaZIEiJByJmZi2oFYQ8Nur\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"dart.analysis.tool.window.visible\": \"false\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/Users/nhryz/IdeaProjects/team03_testNG_project\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.3137931\",\r\n    \"settings.editor.selected.configurable\": \"preferences.editor\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\resources\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\resources\" />\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\src\\test\\java\" />\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\src\\test\" />\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\drivers\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"allovercommerce.tests.US11_asuman\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"TestNG.TC_002_SuccessfulOrder2.TestCase002\">\r\n    <configuration name=\"TC_001_SuccessfulOrder1\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_001_SuccessfulOrder1\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TC_001_SuccessfulOrder1.TestCase01\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_001_SuccessfulOrder1\" />\r\n      <option name=\"METHOD_NAME\" value=\"TestCase01\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TC_002_SuccessfulOrder2\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TC_002_SuccessfulOrder2.TestCase002\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2\" />\r\n      <option name=\"METHOD_NAME\" value=\"TestCase002\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TC_003_InvalidUserName\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_003_InvalidUserName\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.TC_002_SuccessfulOrder2.TestCase002\" />\r\n        <item itemvalue=\"TestNG.TC_002_SuccessfulOrder2\" />\r\n        <item itemvalue=\"TestNG.TC_001_SuccessfulOrder1.TestCase01\" />\r\n        <item itemvalue=\"TestNG.TC_001_SuccessfulOrder1\" />\r\n        <item itemvalue=\"TestNG.TC_003_InvalidUserName\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e9e2081b-8636-4899-b0bb-d9ac4e8cf250\" name=\"Changes\" comment=\"\" />\r\n      <created>1695481796942</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1695481796942</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"git commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700227073825</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700227073825</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"yasin-2023.11.17-v1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700227384964</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700227384964</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"yasin-2023.11.17-v1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700227613601</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700227613601</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"yasin-2023.11.17-v2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700229626653</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700229626653</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"yasin-2023.11.17-v2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700229716299</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700229716299</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"yasin-2023.11.17-v3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700230243872</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700230243872</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"yasin-2023.11.17-v3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700234396694</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700234396694</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"yasin-2023.11.17-v5\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700235731875</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700235731875</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"git commit\" />\r\n    <MESSAGE value=\"yasin-2023.11.17-v1\" />\r\n    <MESSAGE value=\"yasin-2023.11.17-v2\" />\r\n    <MESSAGE value=\"yasin-2023.11.17-v3\" />\r\n    <MESSAGE value=\"yasin-2023.11.17-v5\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"yasin-2023.11.17-v5\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/test/java/assignment/homework02/Task6_Synchronization3.java</url>\r\n          <line>15</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/mytestNGproject$HW05_BookACar.ic\" NAME=\"HW05_BookACar Coverage Results\" MODIFIED=\"1697985610819\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>myapp.homework.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6fc429216b75e08994f1477fd2c98467f88e82b0)
++++ b/.idea/workspace.xml	(date 1700310249078)
+@@ -4,16 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccessfulOrder1.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_002_SuccessfulOrder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_002_SuccessfulOrder2.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/TC09_NegAddSameCatgNamesMultipleTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/TC09_NegAddSameCatgNamesMultipleTimes.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ExtentReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ExtentReportUtils.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ReusableMethods.java" afterDir="false" />
+-    </list>
++
++    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3" />
++
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -47,19 +40,19 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "dart.analysis.tool.window.visible": "false",
+-    "git-widget-placeholder": "master",
+-    "last_opened_file_path": "C:/Users/nhryz/IdeaProjects/team03_testNG_project",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.3137931",
+-    "settings.editor.selected.configurable": "preferences.editor"
+-  }
+-}]]></component>
++  <component name="PropertiesComponent">{
++    &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/nhryz/IdeaProjects/team03_testNG_project&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
++    }
++    }</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
+@@ -74,17 +67,19 @@
+       <recent name="allovercommerce.tests.US11_asuman" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="TestNG.TC_002_SuccessfulOrder2.TestCase002">
+-    <configuration name="TC_001_SuccessfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
++
++  <component name="RunManager" selected="TestNG.TC03_UploadProductImage">
++    <configuration name="TC03_UploadProductImage" type="TestNG" temporary="true" nameIsGenerated="true">
++
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
++          <option name="PATTERN" value="allovercommerce.tests.US14_sibel.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccessfulOrder1" />
++      <option name="PACKAGE_NAME" value="allovercommerce.tests.US14_sibel" />
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US14_sibel.TC03_UploadProductImage" />
+       <option name="TEST_OBJECT" value="CLASS" />
+       <properties />
+       <listeners />
+@@ -92,17 +87,21 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TC_001_SuccessfulOrder1.TestCase01" type="TestNG" temporary="true" nameIsGenerated="true">
++
++    <configuration name="TC03_UploadProductImage.addProductImage" type="TestNG" temporary="true" nameIsGenerated="true">
++
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
++          <option name="PATTERN" value="allovercommerce.tests.US14_sibel.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccessfulOrder1" />
+-      <option name="METHOD_NAME" value="TestCase01" />
++
++      <option name="PACKAGE_NAME" value="allovercommerce.tests.US14_sibel" />
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US14_sibel.TC03_UploadProductImage" />
++      <option name="METHOD_NAME" value="addProductImage" />
++
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -110,7 +109,9 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TC_002_SuccessfulOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
++
++    <configuration name="TC_001_SuccesfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
++
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+@@ -119,15 +120,19 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
++
+       <option name="TEST_OBJECT" value="CLASS" />
++>
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TC_002_SuccessfulOrder2.TestCase002" type="TestNG" temporary="true" nameIsGenerated="true">
++
++    <configuration name="TC_001_SuccesfulOrder1.TestCase02" type="TestNG" temporary="true" nameIsGenerated="true">
++
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+@@ -136,16 +141,20 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
+-      <option name="METHOD_NAME" value="TestCase002" />
++
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
++      <option name="METHOD_NAME" value="TestCase02" />
+       <option name="TEST_OBJECT" value="METHOD" />
++
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TC_003_InvalidUserName" type="TestNG" temporary="true" nameIsGenerated="true">
++
++    <configuration name="TC_002_SuccessfulOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
++
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+@@ -154,7 +163,9 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_003_InvalidUserName" />
++
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
++
+       <option name="TEST_OBJECT" value="CLASS" />
+       <properties />
+       <listeners />
+@@ -164,11 +175,13 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="TestNG.TC_002_SuccessfulOrder2.TestCase002" />
++
++        <item itemvalue="TestNG.TC03_UploadProductImage" />
++        <item itemvalue="TestNG.TC03_UploadProductImage.addProductImage" />
+         <item itemvalue="TestNG.TC_002_SuccessfulOrder2" />
+-        <item itemvalue="TestNG.TC_001_SuccessfulOrder1.TestCase01" />
+-        <item itemvalue="TestNG.TC_001_SuccessfulOrder1" />
+-        <item itemvalue="TestNG.TC_003_InvalidUserName" />
++        <item itemvalue="TestNG.TC_001_SuccesfulOrder1" />
++        <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase02" />
++
+       </list>
+     </recent_temporary>
+   </component>
+Index: src/test/java/allovercommerce/utilities/ExtentReportUtils.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package allovercommerce.utilities;\r\n\r\nimport com.aventstack.extentreports.ExtentReports;\r\nimport com.aventstack.extentreports.ExtentTest;\r\nimport com.aventstack.extentreports.Status;\r\nimport com.aventstack.extentreports.reporter.ExtentSparkReporter;\r\n\r\nimport java.io.IOException;\r\nimport java.text.SimpleDateFormat;\r\nimport java.util.Date;\r\n\r\nimport static allovercommerce.utilities.MediaUtils.takeScreenshotOfTheEntirePageAsString;\r\n\r\npublic class ExtentReportUtils {\r\n    protected static ExtentReports extentReports;\r\n    protected static ExtentSparkReporter extentSparkReporter;\r\n    protected static ExtentTest extentTest;\r\n\r\n    /*\r\n     Using static block will be called when ever I call ExtentReportUtils.somemethod....\r\n     then the pre-requisites will be executed by the static block\r\n    */\r\n    static {\r\n//        WHAT WILL BE REPORT NAME AND WHERE THE REPORT IS CREATED\r\n//        PATH\r\n\r\n        String now = new SimpleDateFormat(\"yyyyMMddhhmmss\").format(new Date());\r\n        String path = System.getProperty(\"user.dir\") + \"/test-output/Reports/\" + now + \"extent_reports.html\";\r\n\r\n//        Create the HTML template using extent spark reporter in the path\r\n        extentSparkReporter = new ExtentSparkReporter(path);\r\n//        Create extent report\r\n        extentReports = new ExtentReports();\r\n//        ***********ADDING CUSTOM SYSTEM INFORMATION ***********\r\n        extentReports.setSystemInfo(\"Application Name\", \"Apple M1 Unit\");\r\n        extentReports.setSystemInfo(\"Test Environment\", \"Regression\");\r\n        extentReports.setSystemInfo(\"Browser\", \"Chrome\");\r\n        extentReports.setSystemInfo(\"Team Name\", \"Lions\");\r\n        extentReports.setSystemInfo(\"SQA\", \"Seren\");\r\n        extentReports.setSystemInfo(\"Feature Number\", \"FE1056\");\r\n//        ***********DOCUMENT INFORMATION************************\r\n        extentSparkReporter.config().setReportName(\"My Regression Report\");\r\n        extentSparkReporter.config().setDocumentTitle(\"My Regression Extent Reports\");\r\n//        ***********DONE WITH CONFIGURATIONS********************\r\n//        connecting extent reports and extent spark reporter\r\n        extentReports.attachReporter(extentSparkReporter);\r\n    }\r\n\r\n    //\r\n    /*\r\n     **********CREATE EXTENT TEST THAT IS ALSO KNOWN AS LOGGER**\r\n     * use this before any other report method to create test, otherwise you get exception\r\n     */\r\n    public static void createTestReport(String name, String description) {\r\n        extentTest = extentReports.createTest(name, description);\r\n    }\r\n\r\n    //    LOGGER METHODS\r\n//    ExtentReportUtils.pass(\"message\") -> Marks the log as pass , and the message shows up on the report\r\n    public static void pass(String message) {\r\n        extentTest.log(Status.PASS, message);\r\n    }\r\n\r\n    //    ExtentReportUtils.info(\"message\") -> Marks the log as info , and the message shows up on the report\r\n    public static void info(String message) {\r\n        extentTest.log(Status.INFO, message);\r\n    }\r\n\r\n    //    ExtentReportUtils.fail(\"message\") -> Marks the log as fail , and the message shows up on the report\r\n    public static void fail(String message) {\r\n        extentTest.log(Status.FAIL, message);\r\n    }\r\n\r\n    //    This method will log AND captures screenshot AND attached them to the html report\r\n    public static void passAndCaptureScreenshot(String message) {\r\n        try {\r\n            extentTest\r\n                    .log(Status.PASS, message)\r\n                    .addScreenCaptureFromPath(takeScreenshotOfTheEntirePageAsString());\r\n        } catch (IOException e) {\r\n            throw new RuntimeException(e);\r\n        }\r\n    }\r\n\r\n\r\n\r\n\r\n    /*\r\n    FLUSH MUST BE USED AT THE VERY END TO GENERATE THE REPORT\r\n    ExtentReportUtils.flush\r\n    */\r\n    public static void flush() { extentReports.flush();\r\n    }\r\n\r\n    public static void failAndCaptureScreenshotEx(String message) {\r\n        try {\r\n            extentTest\r\n                    .log(Status.FAIL, message)\r\n                    .addScreenCaptureFromPath(takeScreenshotOfTheEntirePageAsString());\r\n        } catch (IOException e) {\r\n            throw new RuntimeException(e);\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/allovercommerce/utilities/ExtentReportUtils.java b/src/test/java/allovercommerce/utilities/ExtentReportUtils.java
+--- a/src/test/java/allovercommerce/utilities/ExtentReportUtils.java	(revision 6fc429216b75e08994f1477fd2c98467f88e82b0)
++++ b/src/test/java/allovercommerce/utilities/ExtentReportUtils.java	(date 1700309986263)
+@@ -24,7 +24,7 @@
+ //        WHAT WILL BE REPORT NAME AND WHERE THE REPORT IS CREATED
+ //        PATH
+ 
+-        String now = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
++        String now = new SimpleDateFormat("yyyyMMddhhmm").format(new Date());
+         String path = System.getProperty("user.dir") + "/test-output/Reports/" + now + "extent_reports.html";
+ 
+ //        Create the HTML template using extent spark reporter in the path
+@@ -92,13 +92,4 @@
+     public static void flush() { extentReports.flush();
+     }
+ 
+-    public static void failAndCaptureScreenshotEx(String message) {
+-        try {
+-            extentTest
+-                    .log(Status.FAIL, message)
+-                    .addScreenCaptureFromPath(takeScreenshotOfTheEntirePageAsString());
+-        } catch (IOException e) {
+-            throw new RuntimeException(e);
+-        }
+-    }
+ }
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_17_11_2023__23_57__Changes_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2023__23_57__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2023__23_57__Changes_.xml
+new file mode 100644
+--- /dev/null	(date 1700309986246)
++++ b/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2023__23_57__Changes_.xml	(date 1700309986246)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Update_at_17_11_2023,_23_57_[Changes]" date="1700258346024" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2023,_23_57_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Update at 17/11/2023, 23:57 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: src/test/java/allovercommerce/tests/US14_sibel/Sibel_US14_TestCases.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package allovercommerce.tests.US14_sibel;\r\n\r\nimport allovercommerce.pages.sibel.*;\r\nimport allovercommerce.utilities.*;\r\nimport com.github.javafaker.Faker;\r\nimport org.openqa.selenium.support.ui.Select;\r\nimport org.testng.Assert;\r\nimport org.testng.annotations.BeforeTest;\r\nimport org.testng.annotations.Test;\r\n\r\npublic class Sibel_US14_TestCases {\r\n    MyAccount2LoginPage myAccount2DefaultPage = new MyAccount2LoginPage();\r\n    StoreManagerHomePage storeManagerHomePage = new StoreManagerHomePage();\r\n    AllProductsPage allProductsPage = new AllProductsPage();\r\n    NewProductsPage newProductsPage = new NewProductsPage();\r\n    MyAccountHomePage myAccountHomePage = new MyAccountHomePage();\r\n\r\n// 1.navigate to https://allovercommerce.com/store-manager/products-manage/\r\n\r\n    @BeforeTest\r\n    public void signInToVendorAcc() {\r\n\r\n        ExtentReportUtils.createTestReport(\"User sign-in Process to the Vendor Account\"\r\n                ,\"User should sign in Vendor Account\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : NEW BRAND MUST BE ADDED\");\r\n\r\n        Driver.getDriver().get(\"https://allovercommerce.com/my-account-2/\");\r\n        if(myAccount2DefaultPage.username.isDisplayed()) {\r\n            myAccount2DefaultPage.username.sendKeys(\"sibeltechpro@gmail.com\");\r\n            WaitUtils.waitFor(1);\r\n            myAccount2DefaultPage.password.sendKeys(\"vendortest1\");\r\n            WaitUtils.waitFor(1);\r\n            JSUtils.JSclickWithTimeout(myAccount2DefaultPage.signInButton);\r\n            WaitUtils.waitFor(1);\r\n            ExtentReportUtils.pass(\"User Signed in Successfully to the Vendor Account\");\r\n\r\n        }\r\n        JSUtils.JSclickWithTimeout(myAccountHomePage.toStoreManagerPage);\r\n        JSUtils.JSclickWithTimeout(storeManagerHomePage.productLink);\r\n        ExtentReportUtils.pass(\"User navigates to the Products Page\");\r\n        JSUtils.JSclickWithTimeout(allProductsPage.newProductButton);\r\n        ExtentReportUtils.pass(\"User click on the Add new Product Button\");\r\n    }\r\n    @Test\r\n    public void testC1AddNewProductVisibility() {\r\n        ExtentReportUtils.createTestReport(\"Add New Product Visibility\"\r\n                ,\"User Should See Add New Product Button/Link on the New Product Page\");\r\n\r\n        Assert.assertTrue(allProductsPage.newProductButton.isDisplayed());\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"Add New Product Button/Link Appeared Successfully\");\r\n    }\r\n    @Test\r\n    public void testC2ChooseFromProductTypes1() {\r\n        ExtentReportUtils.createTestReport(\"Choose Product Types : Simple\"\r\n                ,\"User should see and Choose Product Type as Simple\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : USER SHOULD CHOOSE DIFFERENT PRODUCT TYPES\");\r\n\r\n        JSUtils.JSclickWithTimeout(allProductsPage.newProductButton);\r\n\r\n        Select select = new Select(newProductsPage.product_type);\r\n        select.selectByValue(\"simple\");\r\n        Assert.assertTrue(newProductsPage.product_type.getText().contains(\"Simple Product\"));\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"User Choose Simple Product Successfully\");\r\n\r\n\r\n    }\r\n\r\n    @Test\r\n    public void testC2ChooseFromProductTypes2() {\r\n\r\n        ExtentReportUtils.createTestReport(\"Choose Product Types : VARIABLE\"\r\n                ,\"User should see and Choose Product Type as VARIABLE\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : USER SHOULD CHOOSE DIFFERENT PRODUCT TYPES\");\r\n\r\n\r\n        allProductsPage.newProductButton.click();\r\n        Select select = new Select(newProductsPage.product_type);\r\n        select.selectByValue(\"variable\");\r\n        Assert.assertTrue(newProductsPage.product_type.getText().contains(\"Variable Product\"));\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"User Choose Variable Product Successfully\");\r\n\r\n    }\r\n\r\n    @Test\r\n    public void testC2ChooseFromProductTypes3() {\r\n        ExtentReportUtils.createTestReport(\"Choose Product Types : GROUPED\"\r\n                ,\"User should see and Choose Product Type as GROUPED\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : USER SHOULD CHOOSE DIFFERENT PRODUCT TYPES\");\r\n\r\n        allProductsPage.newProductButton.click();\r\n        Select select = new Select(newProductsPage.product_type);\r\n        select.selectByValue(\"grouped\");\r\n        Assert.assertTrue(newProductsPage.product_type.getText().contains(\"Grouped Product\"));\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"User Choose Grouped Product Successfully\");\r\n\r\n    }\r\n\r\n    @Test\r\n    public void testC2ChooseFromProductTypes4() {\r\n        ExtentReportUtils.createTestReport(\"Choose Product Types : EXTERNAL/AFFILIATED\"\r\n                ,\"User should see and Choose Product Type as EXTERNAL/AFFILIATED\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : USER SHOULD CHOOSE DIFFERENT PRODUCT TYPES\");\r\n\r\n        allProductsPage.newProductButton.click();\r\n        Select select = new Select(newProductsPage.product_type);\r\n        select.selectByValue(\"external\");\r\n        Assert.assertTrue(newProductsPage.product_type.getText().contains(\"External\"));\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"User Choose External/Affiliated Product Successfully\");\r\n\r\n    }\r\n    @Test\r\n    public void testC3addProductImage(){\r\n        ExtentReportUtils.createTestReport(\"UPLOAD PRODUCT IMAGE TEST\"\r\n                ,\"User will upload a product page\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : USER SHOULD BE ABLE TO UPLOAD A PRODUCT PICTURE\");\r\n        String pathOfPicture = System.getProperty(\"./resources/IMG_5477.jpg\");\r\n//https://drive.google.com/file/d/13GkVKcr-7vgopBb5fJTXpRzDyF8xkHW7/view?usp=sharing\r\n\r\n        JSUtils.JSclickWithTimeout(newProductsPage.addMedia);\r\n        WaitUtils.waitFor(1);\r\n        newProductsPage.selectFiles.click();\r\n        WaitUtils.waitFor(1);\r\n        ReusableMethods.uploadFile(pathOfPicture);\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"Last Screen shown\");\r\n        // Set the file path in the file input element\r\n        // newProductsPage.selectFiles.sendKeys(pathOfPicture);\r\n        //  newProductsPage.selectFiles.sendKeys(new File(pathOfPicture).getAbsolutePath());\r\n        WaitUtils.waitFor(2);\r\n\r\n\r\n    }\r\n    @Test\r\n    public void testC4ProductATitle(){\r\n        ExtentReportUtils.createTestReport(\"PRODUCT TITLE TYPE\"\r\n                ,\"User should be able to type Product title\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : PRODUCT TITLE TYPING TEST\");\r\n        // newProductsPage.productTitle.sendKeys(\"Printable Colouring Plane Picture\");\r\n        JSUtils.JSscrollIntoView(newProductsPage.productTitle);\r\n        JSUtils.JSsetValueBy(newProductsPage.productTitle,\"Printable Plane Colouring\");\r\n        ExtentReportUtils.info(\"User Send title as a **Printable Plane Colouring\");\r\n        ExtentReportUtils.pass(\"User type the title successfully\");\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"Title appears\");\r\n        String valueOfTitle = JSUtils.JSgetValueBy(\"pro_title\");\r\n        WaitUtils.waitFor(2);\r\n        System.out.println(valueOfTitle);\r\n\r\n        Assert.assertTrue(valueOfTitle.contains(\"Plane\"));\r\n        ExtentReportUtils.pass(\"Asserted successfully title typed on the correct place\");\r\n\r\n    }\r\n\r\n    @Test\r\n    public void testC4ProductDescriptionTest(){\r\n        ExtentReportUtils.createTestReport(\"PRODUCT DESCRIPTION TYPE\"\r\n                ,\"User should be able to type Product Description\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : PRODUCT DESCRIPTION TYPING TEST\");\r\n\r\n\r\n        Driver.getDriver().switchTo().frame(\"excerpt_ifr\");\r\n        newProductsPage.productDescription.sendKeys(\"Printable A4 suitable coloring \" +\r\n                \"plane,suitable for all printer types\");\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"Description typed successfully\");\r\n        Assert.assertTrue(newProductsPage.productDescription.getText().contains(\"Printable A4\"));\r\n\r\n        Driver.getDriver().switchTo().defaultContent();\r\n\r\n        ExtentReportUtils.pass(\"Switch to frame annotation used and Description Succesfully typed and Asserted\");\r\n\r\n    }\r\n    @Test\r\n    public void testC5SelectProductCategory(){\r\n        ExtentReportUtils.createTestReport(\"SELECT PRODUCT CATEGORY TEST\"\r\n                ,\"User can be able to select a Category from Category list checkbox\");\r\n\r\n//     2.Select a product related category from the right side--- Banana category located and selected\r\n        ExtentReportUtils.info(\"User Select Banana Category CheckBox\");\r\n        if(!newProductsPage.bananaCheckbox.isSelected()) {\r\n            JSUtils.JSclickWithTimeout(newProductsPage.bananaCheckbox);\r\n            ExtentReportUtils.passAndCaptureScreenshot(\"User asserted Banana Category Checkbox is selected Successfully \");\r\n        }\r\n\r\n        //    3.Check if Categories can be selected\r\n\r\n        Assert.assertTrue(newProductsPage.bananaCheckbox.isSelected());\r\n\r\n    }\r\n    @Test\r\n    public void testC6addNewCategoryTest(){\r\n        ExtentReportUtils.createTestReport(\"ADD NEW CATEGORY TEST\",\"USER SHOULD ADD NEW CATEGORY\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : NEW CATEGORIES MUST BE ADDED\");\r\n\r\n// 2.Click on the add new category link under the categories\r\n\r\n        JSUtils.JSclickWithTimeout(newProductsPage.addNewCategory);\r\n        ExtentReportUtils.pass(\"User Click on the add New Category Link\");\r\n\r\n// 3.Type the Category name you like to add\r\n        Faker faker = new Faker();\r\n        String RandomCatName = faker.company().name();\r\n        JSUtils.JSsetValueBy(newProductsPage.categoryNameAdd,RandomCatName);\r\n\r\n        ExtentReportUtils.pass(\"User send the Category Name with Faker Class\");\r\n        Select select = new Select(newProductsPage.selectParentCategory);\r\n\r\n// 4.Select related parent category from the dropdown list (Uncategorized)\r\n\r\n        select.selectByValue(\"15\");\r\n        ExtentReportUtils.pass(\"User Choose Parent Category as Uncategorized\");\r\n\r\n// 5.Click add button\r\n\r\n        JSUtils.JSclickWithTimeout(newProductsPage.addCategoryButton);\r\n        WaitUtils.waitFor(1);\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"User Click on the ADD button successfully\");\r\n\r\n        Assert.assertTrue(newProductsPage.newCatCheckbox.isSelected());\r\n\r\n\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"User Assert if the new category in the list\");\r\n\r\n    }\r\n    @Test\r\n    public void testC7SelectProductBrand(){\r\n        ExtentReportUtils.createTestReport(\"SELECT PRODUCT BRAND\"\r\n                ,\"User should be able to see and Click Product Brands From the Brand List\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : PRODUCTS BRANDS OPTIONS MUST EXIST AND CLICKABLE\");\r\n\r\n\r\n//     2.Select a product related Brand from the right side--- ACK category located and selected\r\n        ExtentReportUtils.info(\"ACK brand located and Selected\");\r\n        if(!newProductsPage.brandAckCheckbox.isSelected()) {\r\n            JSUtils.JSclickWithTimeout(newProductsPage.brandAckCheckbox);\r\n        }\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"User Click on the Brand ACK from the List\");\r\n        //    3.Check if Categories can be selected\r\n\r\n        Assert.assertTrue(newProductsPage.brandAckCheckbox.isSelected());\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"ACK brand Selection Asserted\");\r\n\r\n    }\r\n    @Test\r\n    public void testC8AddNewBrandTest() {\r\n// 2.Click on the add new brand link under the Brands\r\n        ExtentReportUtils.createTestReport(\"Add New Brand Test\"\r\n                , \"User attempt to Add New Brand \");\r\n\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : NEW BRAND MUST BE ADDED\");\r\n\r\n        JSUtils.JSclickWithTimeout(newProductsPage.addNewBrand);\r\n\r\n// 3.Type the new Brand name you like to add (RandomBrandName)\r\n        Faker faker = new Faker();\r\n        String RandomBrandName = faker.company().name();\r\n        JSUtils.JSsetValueBy(newProductsPage.newBrandName, RandomBrandName);\r\n        ExtentReportUtils.pass(\"User Send New Brand Name with Faker Class\");\r\n        Select select = new Select(newProductsPage.parentTaxonomy);\r\n\r\n\r\n        // 4.Select related parent taxonomy from the dropdown list (JAN CARLUCCI)\r\n\r\n        select.selectByValue(\"980\");\r\n\r\n\r\n        // 5.Click add button\r\n\r\n        JSUtils.JSclickWithTimeout(newProductsPage.addBrandButton);\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"New Brand Added and Selected\");\r\n\r\n        WaitUtils.waitFor(2);\r\n\r\n        Assert.assertTrue(newProductsPage.newBrandCheckBox.isSelected());\r\n       Driver.getDriver().close();\r\n       ExtentReportUtils.pass(\"Driver Closed Successfully\");\r\n       ExtentReportUtils.flush();\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/allovercommerce/tests/US14_sibel/Sibel_US14_TestCases.java b/src/test/java/allovercommerce/tests/US14_sibel/Sibel_US14_TestCases.java
+--- a/src/test/java/allovercommerce/tests/US14_sibel/Sibel_US14_TestCases.java	(revision 6fc429216b75e08994f1477fd2c98467f88e82b0)
++++ b/src/test/java/allovercommerce/tests/US14_sibel/Sibel_US14_TestCases.java	(date 1700309986254)
+@@ -113,7 +113,7 @@
+         ExtentReportUtils.createTestReport("UPLOAD PRODUCT IMAGE TEST"
+                 ,"User will upload a product page");
+         ExtentReportUtils.info("TEST OBJECTIVE : USER SHOULD BE ABLE TO UPLOAD A PRODUCT PICTURE");
+-        String pathOfPicture = System.getProperty("./resources/IMG_5477.jpg");
++        String pathOfPicture = System.getProperty("./resources/IMG_5478.jpg");
+ //https://drive.google.com/file/d/13GkVKcr-7vgopBb5fJTXpRzDyF8xkHW7/view?usp=sharing
+ 
+         JSUtils.JSclickWithTimeout(newProductsPage.addMedia);
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_17_11_2023,_23_57_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2023,_23_57_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2023,_23_57_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1700309986244)
++++ b/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2023,_23_57_[Changes]/shelved.patch	(date 1700309986244)
+@@ -0,0 +1,58 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n\n    <list default=\"true\" id=\"e9e2081b-8636-4899-b0bb-d9ac4e8cf250\" name=\"Changes\" comment=\"yasin-2023.11.17-v3\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java\" afterDir=\"false\" />\n    </list>\n\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MacroExpansionManager\">\n    <option name=\"directoryName\" value=\"51ktl3qu\" />\n  </component>\n  <component name=\"ProjectCodeStyleSettingsMigration\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n    &quot;associatedIndex&quot;: 4\n    }</component>\n  <component name=\"ProjectId\" id=\"2VnpeaaZIEiJByJmZi2oFYQ8Nur\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"dart.analysis.tool.window.visible\": \"false\",\n    \"git-widget-placeholder\": \"master\",\n    \"last_opened_file_path\": \"C:/Users/nhryz/IdeaProjects/team03_testNG_project\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.3137931\",\n    \"settings.editor.selected.configurable\": \"preferences.editor\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\resources\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\resources\" />\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\src\\test\\java\" />\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\src\\test\" />\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\drivers\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"allovercommerce.tests.US11_asuman\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"TestNG.TC_002_SuccessfulOrder2\">\n    <configuration name=\"TC_001_SuccesfulOrder1\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"team03\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1\" />\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"TC_001_SuccesfulOrder1.TestCase02\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"team03\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1\" />\n      <option name=\"METHOD_NAME\" value=\"TestCase02\" />\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"TC_002_SuccessfulOrder2\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"team03\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2\" />\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"TC_003_InvalidUserName\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"team03\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_003_InvalidUserName\" />\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"TC_003_InvalidUserName.InvalidPassword\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"team03\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_003_InvalidUserName\" />\n      <option name=\"METHOD_NAME\" value=\"InvalidPassword\" />\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"TestNG.TC_002_SuccessfulOrder2\" />\n        <item itemvalue=\"TestNG.TC_001_SuccesfulOrder1\" />\n        <item itemvalue=\"TestNG.TC_001_SuccesfulOrder1.TestCase02\" />\n        <item itemvalue=\"TestNG.TC_003_InvalidUserName\" />\n        <item itemvalue=\"TestNG.TC_003_InvalidUserName.InvalidPassword\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"e9e2081b-8636-4899-b0bb-d9ac4e8cf250\" name=\"Changes\" comment=\"\" />\n      <created>1695481796942</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1695481796942</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"git commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700227073825</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700227073825</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"yasin-2023.11.17-v1\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700227384964</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700227384964</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"yasin-2023.11.17-v1\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700227613601</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700227613601</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"yasin-2023.11.17-v2\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700229626653</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700229626653</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"yasin-2023.11.17-v2\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700229716299</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700229716299</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"yasin-2023.11.17-v3\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700230243872</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700230243872</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"yasin-2023.11.17-v3\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700234396694</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700234396694</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"git commit\" />\n    <MESSAGE value=\"yasin-2023.11.17-v1\" />\n    <MESSAGE value=\"yasin-2023.11.17-v2\" />\n    <MESSAGE value=\"yasin-2023.11.17-v3\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"yasin-2023.11.17-v3\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/test/java/assignment/homework02/Task6_Synchronization3.java</url>\n          <line>15</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/mytestNGproject$HW05_BookACar.ic\" NAME=\"HW05_BookACar Coverage Results\" MODIFIED=\"1697985610819\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\n      <FILTER>myapp.homework.*</FILTER>\n    </SUITE>\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 4daaf818ef6d52aaa3efdf909efdde11913fda3d)
+++++ b/.idea/workspace.xml	(date 1700258177155)
++@@ -4,14 +4,7 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-
++-    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3">
++-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" afterDir="false" />
++-    </list>
++-
+++    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3" />
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++@@ -45,19 +38,19 @@
++     <option name="hideEmptyMiddlePackages" value="true" />
++     <option name="showLibraryContents" value="true" />
++   </component>
++-  <component name="PropertiesComponent"><![CDATA[{
++-  "keyToString": {
++-    "RunOnceActivity.OpenProjectViewOnStart": "true",
++-    "RunOnceActivity.ShowReadmeOnStart": "true",
++-    "dart.analysis.tool.window.visible": "false",
++-    "git-widget-placeholder": "master",
++-    "last_opened_file_path": "C:/Users/nhryz/IdeaProjects/team03_testNG_project",
++-    "project.structure.last.edited": "Modules",
++-    "project.structure.proportion": "0.15",
++-    "project.structure.side.proportion": "0.3137931",
++-    "settings.editor.selected.configurable": "preferences.editor"
+++  <component name="PropertiesComponent">{
+++  &quot;keyToString&quot;: {
+++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+++    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+++    &quot;last_opened_file_path&quot;: &quot;C:/Users/nhryz/IdeaProjects/team03_testNG_project&quot;,
+++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+++    &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
+++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
++   }
++-}]]></component>
+++}</component>
++   <component name="RecentsManager">
++     <key name="CopyFile.RECENT_KEYS">
++       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
+Index: src/test/java/allovercommerce/tests/US14_sibel/TC03_UploadProductImage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package allovercommerce.tests.US14_sibel;\r\n\r\nimport allovercommerce.pages.sibel.*;\r\nimport allovercommerce.utilities.*;\r\nimport org.testng.annotations.BeforeTest;\r\nimport org.testng.annotations.Test;\r\n\r\npublic class TC03_UploadProductImage {\r\n    MyAccount2LoginPage myAccount2DefaultPage = new MyAccount2LoginPage();\r\n    StoreManagerHomePage storeManagerHomePage = new StoreManagerHomePage();\r\n    AllProductsPage allProductsPage = new AllProductsPage();\r\n    NewProductsPage newProductsPage = new NewProductsPage();\r\n    MyAccountHomePage myAccountHomePage = new MyAccountHomePage();\r\n\r\n\r\n    @BeforeTest\r\n    public void signInToVendorAcc() {\r\n        ExtentReportUtils.createTestReport(\"User sign-in Process to the Vendor Account\"\r\n                ,\"User should sign in Vendor Account\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : USER SHOULD BE ABLE TO UPLOAD A PRODUCT PICTURE\");\r\n\r\n        Driver.getDriver().get(\"https://allovercommerce.com/my-account-2/\");\r\n        ExtentReportUtils.pass(\"User navigates to the my-Account-2 page for sign-in process\");\r\n        myAccount2DefaultPage.username.sendKeys(\"sibeltechpro@gmail.com\");\r\n        WaitUtils.waitFor(1);\r\n        myAccount2DefaultPage.password.sendKeys(\"vendortest1\");\r\n        WaitUtils.waitFor(1);\r\n        JSUtils.JSclickWithTimeout(myAccount2DefaultPage.signInButton);\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"User signed in successfully\");\r\n        JSUtils.JSclickWithTimeout(myAccountHomePage.toStoreManagerPage);\r\n        ExtentReportUtils.pass(\"User navigate to Store Manager Page\");\r\n        JSUtils.JSclickWithTimeout(storeManagerHomePage.productLink);\r\n        ExtentReportUtils.pass(\"User navigates to the Products Page\");\r\n        JSUtils.JSclickWithTimeout(allProductsPage.newProductButton);\r\n        ExtentReportUtils.pass(\"User click on the Add new Product Button\");\r\n    }\r\n\r\n//    @Test\r\n//    public void addProductImage() throws InterruptedException {\r\n//\r\n//        allProductsPage.newProductButton.click();\r\n//\r\n//        JSUtils.JSclickWithTimeout(newProductsPage.addMedia);\r\n//        WaitUtils.waitFor(2);\r\n//        newProductsPage.selectFiles.click();\r\n\r\n\r\n    @Test\r\n    public void addProductImage(){\r\n        ExtentReportUtils.createTestReport(\"UPLOAD PRODUCT IMAGE TEST\"\r\n                ,\"User will upload a product page\");\r\n        ExtentReportUtils.info(\"TEST OBJECTIVE : USER SHOULD BE ABLE TO UPLOAD A PRODUCT PICTURE\");\r\n        String pathOfPicture = System.getProperty(\"./resources/IMG_5477.jpg\");\r\n//https://drive.google.com/file/d/13GkVKcr-7vgopBb5fJTXpRzDyF8xkHW7/view?usp=sharing\r\n\r\n        JSUtils.JSclickWithTimeout(newProductsPage.addMedia);\r\n        WaitUtils.waitFor(1);\r\n        newProductsPage.selectFiles.click();\r\n        WaitUtils.waitFor(1);\r\n        ReusableMethods.uploadFile(pathOfPicture);\r\n        ExtentReportUtils.passAndCaptureScreenshot(\"Last Screen shown\");\r\n        // Set the file path in the file input element\r\n       // newProductsPage.selectFiles.sendKeys(pathOfPicture);\r\n      //  newProductsPage.selectFiles.sendKeys(new File(pathOfPicture).getAbsolutePath());\r\n        WaitUtils.waitFor(2);\r\n\r\n        Driver.getDriver().close();\r\n        ExtentReportUtils.flush();\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/allovercommerce/tests/US14_sibel/TC03_UploadProductImage.java b/src/test/java/allovercommerce/tests/US14_sibel/TC03_UploadProductImage.java
+--- a/src/test/java/allovercommerce/tests/US14_sibel/TC03_UploadProductImage.java	(revision 6fc429216b75e08994f1477fd2c98467f88e82b0)
++++ b/src/test/java/allovercommerce/tests/US14_sibel/TC03_UploadProductImage.java	(date 1700309986257)
+@@ -50,7 +50,7 @@
+         ExtentReportUtils.createTestReport("UPLOAD PRODUCT IMAGE TEST"
+                 ,"User will upload a product page");
+         ExtentReportUtils.info("TEST OBJECTIVE : USER SHOULD BE ABLE TO UPLOAD A PRODUCT PICTURE");
+-        String pathOfPicture = System.getProperty("./resources/IMG_5477.jpg");
++        String pathOfPicture = System.getProperty("./resources/IMG_5478.jpg");
+ //https://drive.google.com/file/d/13GkVKcr-7vgopBb5fJTXpRzDyF8xkHW7/view?usp=sharing
+ 
+         JSUtils.JSclickWithTimeout(newProductsPage.addMedia);
+Index: test-output/Reports/202311181221extent_reports.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test-output/Reports/202311181221extent_reports.html b/test-output/Reports/202311181221extent_reports.html
+new file mode 100644
+--- /dev/null	(date 1700309986269)
++++ b/test-output/Reports/202311181221extent_reports.html	(date 1700309986269)
+@@ -0,0 +1,1023 @@
++
++
++<!DOCTYPE html>
++<html>
++<head>
++<meta charset="UTF-8">
++<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
++<title>My Regression Extent Reports</title>
++<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
++<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
++<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
++<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
++<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
++<style type="text/css"></style></head><body class="spa -report standard">
++  <div class="app">
++    <div class="layout">
++<div class="header navbar">
++<div class="vheader">
++<div class="nav-logo">
++<a href="#">
++<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
++</a>
++</div>
++<ul class="nav-left">
++<li class="search-box">
++<a class="search-toggle" href="#">
++<i class="search-icon fa fa-search"></i>
++<i class="search-icon-close fa fa-close"></i>
++</a>
++</li>
++<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
++</ul>
++<ul class="nav-right">
++<li class="m-r-10">
++<a href="#"><span class="badge badge-primary">My Regression Report</span></a>
++</li>
++<li class="m-r-10">
++<a href="#"><span class="badge badge-primary">Nov 18, 2023 12:21:00 am</span></a>
++</li>
++</ul>
++</div>
++</div><div class="side-nav">
++<div class="side-nav-inner">
++<ul class="side-nav-menu">
++<li class="nav-item dropdown" onclick="toggleView('test-view')">
++<a id="nav-test" class="dropdown-toggle" href="#">
++<span class="ico"><i class="fa fa-list"></i></span>
++</a>
++</li>
++<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
++<a id="nav-dashboard" class="dropdown-toggle" href="#">
++<span class="ico"><i class="fa fa-bar-chart"></i></span>
++</a>
++</li>
++</ul>
++</div>
++</div>      <div class="vcontainer">
++        <div class="main-content">
++<div class="test-wrapper row view test-view">
++  <div class="test-list">
++    <div class="test-list-tools">
++<ul class="tools pull-left">
++<li><a href="#"><span class="font-size-14">Tests</span></a></li>
++</ul>
++<ul class="tools text-right">
++<li class="dropdown">
++<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
++<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
++<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
++<div class="dropdown-divider"></div>
++<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
++</ul>
++</li>
++</ul>
++</div>    <div class="test-list-wrapper scrollable">
++      <ul class="test-list-item">
++        <li class="test-item"  status="pass" test-id="1"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">User sign-in Process to the Vendor Account</p>
++            <p class="text-sm">
++              <span>00:21:01</span> / <span>00:00:29:650</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">User sign-in Process to the Vendor Account</h5>
++<span class='badge badge-success'>11.18.2023 00:21:01</span>
++<span class='badge badge-danger'>11.18.2023 00:21:31</span>
++<span class='badge badge-default'>00:00:29:650</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User should sign in Vendor Account</div>
++</div>
++</div><div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:21:01</td>
++        <td>
++          TEST OBJECTIVE : NEW BRAND MUST BE ADDED
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:21:12</td>
++        <td>
++          User Signed in Successfully to the Vendor Account
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:21:25</td>
++        <td>
++          User navigates to the Products Page
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:21:31</td>
++        <td>
++          User click on the Add new Product Button
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="2"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">Add New Product Visibility</p>
++            <p class="text-sm">
++              <span>00:21:31</span> / <span>00:00:00:792</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">Add New Product Visibility</h5>
++<span class='badge badge-success'>11.18.2023 00:21:31</span>
++<span class='badge badge-danger'>11.18.2023 00:21:31</span>
++<span class='badge badge-default'>00:00:00:792</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User Should See Add New Product Button/Link on the New Product Page</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122131image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122131image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:21:31</td>
++        <td>
++          Add New Product Button/Link Appeared Successfully
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="3"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">Choose Product Types : Simple</p>
++            <p class="text-sm">
++              <span>00:21:31</span> / <span>00:00:04:799</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">Choose Product Types : Simple</h5>
++<span class='badge badge-success'>11.18.2023 00:21:31</span>
++<span class='badge badge-danger'>11.18.2023 00:21:36</span>
++<span class='badge badge-default'>00:00:04:799</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User should see and Choose Product Type as Simple</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122136image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122136image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:21:31</td>
++        <td>
++          TEST OBJECTIVE : USER SHOULD CHOOSE DIFFERENT PRODUCT TYPES
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:21:36</td>
++        <td>
++          User Choose Simple Product Successfully
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="4"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">Choose Product Types : VARIABLE</p>
++            <p class="text-sm">
++              <span>00:21:36</span> / <span>00:00:05:049</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">Choose Product Types : VARIABLE</h5>
++<span class='badge badge-success'>11.18.2023 00:21:36</span>
++<span class='badge badge-danger'>11.18.2023 00:21:41</span>
++<span class='badge badge-default'>00:00:05:049</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User should see and Choose Product Type as VARIABLE</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122141image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122141image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:21:36</td>
++        <td>
++          TEST OBJECTIVE : USER SHOULD CHOOSE DIFFERENT PRODUCT TYPES
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:21:41</td>
++        <td>
++          User Choose Variable Product Successfully
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="5"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">Choose Product Types : GROUPED</p>
++            <p class="text-sm">
++              <span>00:21:41</span> / <span>00:00:04:997</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">Choose Product Types : GROUPED</h5>
++<span class='badge badge-success'>11.18.2023 00:21:41</span>
++<span class='badge badge-danger'>11.18.2023 00:21:46</span>
++<span class='badge badge-default'>00:00:04:997</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User should see and Choose Product Type as GROUPED</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122146image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122146image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:21:41</td>
++        <td>
++          TEST OBJECTIVE : USER SHOULD CHOOSE DIFFERENT PRODUCT TYPES
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:21:46</td>
++        <td>
++          User Choose Grouped Product Successfully
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="6"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">Choose Product Types : EXTERNAL/AFFILIATED</p>
++            <p class="text-sm">
++              <span>00:21:46</span> / <span>00:00:04:797</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">Choose Product Types : EXTERNAL/AFFILIATED</h5>
++<span class='badge badge-success'>11.18.2023 00:21:46</span>
++<span class='badge badge-danger'>11.18.2023 00:21:51</span>
++<span class='badge badge-default'>00:00:04:797</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User should see and Choose Product Type as EXTERNAL/AFFILIATED</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122151image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122151image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:21:46</td>
++        <td>
++          TEST OBJECTIVE : USER SHOULD CHOOSE DIFFERENT PRODUCT TYPES
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:21:51</td>
++        <td>
++          User Choose External/Affiliated Product Successfully
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="7"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">UPLOAD PRODUCT IMAGE TEST</p>
++            <p class="text-sm">
++              <span>00:21:51</span> / <span>00:00:17:151</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">UPLOAD PRODUCT IMAGE TEST</h5>
++<span class='badge badge-success'>11.18.2023 00:21:51</span>
++<span class='badge badge-danger'>11.18.2023 00:22:08</span>
++<span class='badge badge-default'>00:00:17:151</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User will upload a product page</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122208image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122208image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:21:51</td>
++        <td>
++          TEST OBJECTIVE : USER SHOULD BE ABLE TO UPLOAD A PRODUCT PICTURE
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:22:08</td>
++        <td>
++          Last Screen shown
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="8"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">PRODUCT TITLE TYPE</p>
++            <p class="text-sm">
++              <span>00:22:10</span> / <span>00:00:02:875</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">PRODUCT TITLE TYPE</h5>
++<span class='badge badge-success'>11.18.2023 00:22:10</span>
++<span class='badge badge-danger'>11.18.2023 00:22:13</span>
++<span class='badge badge-default'>00:00:02:875</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User should be able to type Product title</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122211image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122211image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:22:10</td>
++        <td>
++          TEST OBJECTIVE : PRODUCT TITLE TYPING TEST
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:22:10</td>
++        <td>
++          User Send title as a **Printable Plane Colouring
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:22:10</td>
++        <td>
++          User type the title successfully
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:22:10</td>
++        <td>
++          Title appears
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:22:13</td>
++        <td>
++          Asserted successfully title typed on the correct place
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="9"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">PRODUCT DESCRIPTION TYPE</p>
++            <p class="text-sm">
++              <span>00:22:13</span> / <span>00:00:51:416</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">PRODUCT DESCRIPTION TYPE</h5>
++<span class='badge badge-success'>11.18.2023 00:22:13</span>
++<span class='badge badge-danger'>11.18.2023 00:23:05</span>
++<span class='badge badge-default'>00:00:51:416</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User should be able to type Product Description</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122304image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122304image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:22:13</td>
++        <td>
++          TEST OBJECTIVE : PRODUCT DESCRIPTION TYPING TEST
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:04</td>
++        <td>
++          Description typed successfully
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:05</td>
++        <td>
++          Switch to frame annotation used and Description Succesfully typed and Asserted
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="10"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">SELECT PRODUCT CATEGORY TEST</p>
++            <p class="text-sm">
++              <span>00:23:05</span> / <span>00:00:01:170</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">SELECT PRODUCT CATEGORY TEST</h5>
++<span class='badge badge-success'>11.18.2023 00:23:05</span>
++<span class='badge badge-danger'>11.18.2023 00:23:06</span>
++<span class='badge badge-default'>00:00:01:170</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User can be able to select a Category from Category list checkbox</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122306image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122306image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:23:05</td>
++        <td>
++          User Select Banana Category CheckBox
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:05</td>
++        <td>
++          User asserted Banana Category Checkbox is selected Successfully 
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="11"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">ADD NEW CATEGORY TEST</p>
++            <p class="text-sm">
++              <span>00:23:06</span> / <span>00:00:04:872</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">ADD NEW CATEGORY TEST</h5>
++<span class='badge badge-success'>11.18.2023 00:23:06</span>
++<span class='badge badge-danger'>11.18.2023 00:23:11</span>
++<span class='badge badge-default'>00:00:04:872</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">USER SHOULD ADD NEW CATEGORY</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122308image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122308image.png">
++    
++    </div></div>
++    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122311image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122311image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:23:06</td>
++        <td>
++          TEST OBJECTIVE : NEW CATEGORIES MUST BE ADDED
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:06</td>
++        <td>
++          User Click on the add New Category Link
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:07</td>
++        <td>
++          User send the Category Name with Faker Class
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:07</td>
++        <td>
++          User Choose Parent Category as Uncategorized
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:08</td>
++        <td>
++          User Click on the ADD button successfully
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:10</td>
++        <td>
++          User Assert if the new category in the list
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="12"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">SELECT PRODUCT BRAND</p>
++            <p class="text-sm">
++              <span>00:23:11</span> / <span>00:00:01:216</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">SELECT PRODUCT BRAND</h5>
++<span class='badge badge-success'>11.18.2023 00:23:11</span>
++<span class='badge badge-danger'>11.18.2023 00:23:12</span>
++<span class='badge badge-default'>00:00:01:216</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User should be able to see and Click Product Brands From the Brand List</div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122311image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122311image.png">
++    
++    </div></div>
++    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122312image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122312image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:23:11</td>
++        <td>
++          TEST OBJECTIVE : PRODUCTS BRANDS OPTIONS MUST EXIST AND CLICKABLE
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:23:11</td>
++        <td>
++          ACK brand located and Selected
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:11</td>
++        <td>
++          User Click on the Brand ACK from the List
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:11</td>
++        <td>
++          ACK brand Selection Asserted
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++        <li class="test-item"  status="pass" test-id="13"
++          author=""
++          tag=""
++          device="">
++          <div class="test-detail">
++            <p class="name">Add New Brand Test</p>
++            <p class="text-sm">
++              <span>00:23:12</span> / <span>00:00:04:170</span>
++              <span class="badge pass-bg log float-right">Pass</span>
++            </p>
++          </div>
++          <div class="test-contents d-none">
++<div class="detail-head">
++<div class="p-v-10">
++<div class="info">
++<h5 class="test-status text-pass">Add New Brand Test</h5>
++<span class='badge badge-success'>11.18.2023 00:23:12</span>
++<span class='badge badge-danger'>11.18.2023 00:23:16</span>
++<span class='badge badge-default'>00:00:04:170</span>
++&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
++<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
++<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
++<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
++</div>
++<div class="m-t-10 m-l-5">User attempt to Add New Brand </div>
++</div>
++</div>    <div class="row mb-3"><div class="col-md-3">
++<img data-featherlight='/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122313image.png' src="/Users/c-bell/IdeaProjects/team03_testNG_project/test-output/Reports/Screenshots/20231118122313image.png">
++    
++    </div></div>
++<div class="detail-body mt-4">
++<table class="table table-sm">
++  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
++  <tbody>
++      <tr class="event-row">
++        <td><span class="badge log info-bg">Info</span></td>
++        <td>00:23:12</td>
++        <td>
++          TEST OBJECTIVE : NEW BRAND MUST BE ADDED
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:12</td>
++        <td>
++          User Send New Brand Name with Faker Class
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:13</td>
++        <td>
++          New Brand Added and Selected
++        </td>
++      </tr>
++      <tr class="event-row">
++        <td><span class="badge log pass-bg">Pass</span></td>
++        <td>00:23:16</td>
++        <td>
++          Driver Closed Successfully
++        </td>
++      </tr>
++  </tbody>
++</table>
++</div>
++          </div>
++        </li>
++      </ul>
++    </div>
++  </div>
++<div class="test-content scrollable">
++<div class="test-content-tools">
++<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
++</div>
++<div class="test-content-detail"><div class="detail-body"></div></div>
++</div></div>
++<div class="container-fluid p-4 view dashboard-view">
++<div class="row">
++<div class="col-md-3">
++<div class="card"><div class="card-body">
++<p class="m-b-0">Started</p>
++<h3>Nov 18, 2023 12:21:00 am</h3>
++</div></div>
++</div>
++<div class="col-md-3">
++<div class="card"><div class="card-body">
++<p class="m-b-0">Ended</p>
++<h3>Nov 18, 2023 12:23:16 am</h3>
++</div></div>
++</div>
++<div class="col-md-3">
++<div class="card"><div class="card-body">
++<p class="m-b-0 text-pass">Tests Passed</p>
++<h3>13</h3>
++</div></div>
++</div>
++<div class="col-md-3">
++<div class="card"><div class="card-body">
++<p class="m-b-0 text-fail">Tests Failed</p>
++<h3>0</h3>
++</div></div>
++</div>
++</div>
++<div class="row">
++<div class="col-md-6">
++<div class="card">
++<div class="card-header">
++<h6 class="card-title">Tests</h6>
++</div>
++<div class="card-body">
++<div class="">
++<canvas id='parent-analysis' width='115' height='90'></canvas>
++</div>
++</div>
++<div class="card-footer">
++<div><small data-tooltip='100%'>
++<b>13</b> tests passed
++</small>
++</div>
++<div>
++<small data-tooltip='0%'><b>0</b> tests failed,
++<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
++</small>
++</div>
++</div>
++</div>
++</div>
++<div class="col-md-6">
++<div class="card">
++<div class="card-header">
++<h6 class="card-title">Log events</h6>
++</div>
++<div class="card-body">
++<div class="">
++<canvas id='events-analysis' width='115' height='90'></canvas>
++</div>
++</div>
++<div class="card-footer">
++<div><small data-tooltip='64%'><b>25</b> events passed</small></div>
++<div>
++<small data-tooltip='0%'><b>0</b> events failed,
++<b data-tooltip='%'>14</b> others
++</small>
++</div>
++</div>
++</div>
++</div>
++</div>
++<div class="row"><div class="col-md-12">
++<div class="card"><div class="card-header"><p>Timeline</p></div>
++<div class="card-body pt-0"><div>
++<canvas id="timeline" height="120"></canvas>
++</div></div>
++</div>
++</div></div>
++<script>
++var timeline = {
++"User sign-in Process to the Vendor Account":29.65,"Add New Product Visibility":0.792,"Choose Product Types : Simple":4.799,"Choose Product Types : VARIABLE":5.049,"Choose Product Types : GROUPED":4.997,"Choose Product Types : EXTERNAL/AFFILIATED":4.797,"UPLOAD PRODUCT IMAGE TEST":17.151,"PRODUCT TITLE TYPE":2.875,"PRODUCT DESCRIPTION TYPE":51.416,"SELECT PRODUCT CATEGORY TEST":1.17,"ADD NEW CATEGORY TEST":4.872,"SELECT PRODUCT BRAND":1.216,"Add New Brand Test":4.17
++};
++</script>
++<div class="row">
++<div class="col-lg-6 col-md-12 sysenv-container">
++<div class="card">
++<div class="card-header"><p>System/Environment</p></div>
++<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
++<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
++<tbody>
++<tr>
++<td>Application Name</td>
++<td>Apple M1 Unit</td>
++</tr>
++<tr>
++<td>Test Environment</td>
++<td>Regression</td>
++</tr>
++<tr>
++<td>Browser</td>
++<td>Chrome</td>
++</tr>
++<tr>
++<td>Team Name</td>
++<td>Lions</td>
++</tr>
++<tr>
++<td>SQA</td>
++<td>Seren</td>
++</tr>
++<tr>
++<td>Feature Number</td>
++<td>FE1056</td>
++</tr>
++</tbody>
++</table></div>
++</div>
++</div>
++</div>
++</div>
++<script>
++var statusGroup = {
++parentCount: 5,
++passParent: 13,
++failParent: 0,
++warningParent: 0,
++skipParent: 0,
++childCount: 5,
++passChild: 0,
++failChild: 0,
++warningChild: 0,
++skipChild: 0,
++infoChild: 0,
++grandChildCount: 5,
++passGrandChild: 0,
++failGrandChild: 0,
++warningGrandChild: 0,
++skipGrandChild: 0,
++infoGrandChild: 0,
++eventsCount: 5,
++passEvents: 25,
++failEvents: 0,
++warningEvents: 0,
++skipEvents: 0,
++infoEvents: 14
++};
++</script>        </div>
++      </div>
++    </div>
++  </div>
++<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
++<script type="text/javascript"></script></body>
++</html>
+\ No newline at end of file
+diff --git a/src/test/java/allovercommerce/tests/US20/TC01.java b/src/test/java/allovercommerce/tests/US20_ibrahim/TC01.java
+rename from src/test/java/allovercommerce/tests/US20/TC01.java
+rename to src/test/java/allovercommerce/tests/US20_ibrahim/TC01.java

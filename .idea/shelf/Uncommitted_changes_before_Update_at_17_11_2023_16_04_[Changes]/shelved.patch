@@ -1,0 +1,849 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n\r\n    <list default=\"true\" id=\"6e1e198d-feb8-4de1-a357-091755aaa2b4\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US04_akif/TC01.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US04_akif/TC01.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/logs/LOGGER-21-56-35-659.log\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/logs/LOGGER-21-58-42-180.log\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/logs/LOGGER-22-01-56-671.log\" beforeDir=\"false\" />\r\n\r\n    <list default=\"true\" id=\"00069089-0549-4c2d-8369-e012a5cecaed\" name=\"Changes\" comment=\"yasin-23.11.06-v1\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/oguzhan/Oguzhan_LoginPage.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/oguzhan/Oguzhan_VendorAccountPage.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/oguzhan/Oguzhan_VendorBillingPage.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/configuration.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/configuration.properties\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/Oguzhan_LoginPage.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US17_oguzhan/TC01.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US17_oguzhan/TC01.java\" afterDir=\"false\" />\r\n\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/utilities/JSUtils.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/utilities/JSUtils.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test-output/ElementScreenshot/20231025095700image.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test-output/ElementScreenshot/20231025095904image.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test-output/ElementScreenshot/20231025100220image.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test-output/ElementScreenshot/20231025100249image.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test-output/Screenshots/20231025095658image.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test-output/Screenshots/20231025095902image.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test-output/Screenshots/20231025100217image.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test-output/Screenshots/20231025100246image.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/test-output/Screenshots/20231025100250image.png\" beforeDir=\"false\" />\r\n\r\n\r\n\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"AnnotationType\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"4d669a14-ec1e-4543-a14b-2f1af61588ab\" />\r\n        <option name=\"url\" value=\"https://github.com/tekinahmet/team03_testNG_project.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MacroExpansionManager\">\r\n    <option name=\"directoryName\" value=\"drb4mgx3\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"2\" />\r\n\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 5\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2YAjmgstRuL0aFRQ1CmgFgZ3mAD\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"TestNG.TC03_WeakPassword.weakPassword\">\r\n    <configuration name=\"TC01_RegisteredUsername.registeredUsername\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US02_ahmet.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US02_ahmet\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US02_ahmet.TC01_RegisteredUsername\" />\r\n      <option name=\"METHOD_NAME\" value=\"registeredUsername\" />\r\n\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2Wl6ixhRZ7QhKQezjYGXUagCSUW\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,\r\n    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n\r\n  <component name=\"RunManager\" selected=\"TestNG.TC03.US07_TC03\">\r\n    <configuration name=\"TC03.US07_TC03\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\team03_testNG_project\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\mytestNGproject\\resources\" />\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\mytestNGproject\\src\\test\\java\\myapp\\pages\" />\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\mytestNGproject\\src\\test\\java\\myapp\\tests\\practices\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"allovercommerce.pages\" />\r\n      <recent name=\"myapp.pages\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"TestNG.TC01.testCase01 (1)\">\r\n    <configuration name=\"TC01\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC01\" />\r\n\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US07_akif\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US07_akif.TC03\" />\r\n      <option name=\"METHOD_NAME\" value=\"US07_TC03\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Day13_Annotations\" type=\"TestNG\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <shortenClasspath name=\"NONE\" />\r\n      <useClassPathOnly />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"myapp.tests.topics.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"SUITE_NAME\" value=\"\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"myapp.tests.topics\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"myapp.tests.topics.Day13_Annotations\" />\r\n      <option name=\"GROUP_NAME\" value=\"\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"OUTPUT_DIRECTORY\" value=\"\" />\r\n      <option name=\"TEST_SEARCH_SCOPE\">\r\n        <value defaultName=\"moduleWithDependencies\" />\r\n      </option>\r\n      <option name=\"PROPERTIES_FILE\" value=\"\" />\r\n\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n\r\n    <configuration name=\"TC04\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n\r\n    <configuration name=\"TC01\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US17_oguzhan.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US07_akif\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US07_akif.TC04\" />\r\n\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US17_oguzhan\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US17_oguzhan.TC01\" />\r\n\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n\r\n    <configuration name=\"TC05.US07_TC05\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US07_akif.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US07_akif\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US07_akif.TC05\" />\r\n      <option name=\"METHOD_NAME\" value=\"US07_TC05\" />\r\n\r\n    <configuration name=\"TC01.testCase01 (1)\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US17_oguzhan.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US17_oguzhan\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US17_oguzhan.TC01\" />\r\n      <option name=\"METHOD_NAME\" value=\"testCase01\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n\r\n    <configuration name=\"TC02_RegisteredEmail.successfulRegistration\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US02_ahmet.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US02_ahmet\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US02_ahmet.TC02_RegisteredEmail\" />\r\n      <option name=\"METHOD_NAME\" value=\"successfulRegistration\" />\r\n\r\n    <configuration name=\"TC06.US07_TC06\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US07_akif.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US07_akif\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US07_akif.TC06\" />\r\n      <option name=\"METHOD_NAME\" value=\"US07_TC06\" />\r\n\r\n    <configuration name=\"TC01.testCase01\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US01_ahmet.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US01_ahmet\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US01_ahmet.TC01\" />\r\n      <option name=\"METHOD_NAME\" value=\"testCase01\" />\r\n\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n\r\n    <configuration name=\"TC03_WeakPassword.weakPassword\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US02_ahmet.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US02_ahmet\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US02_ahmet.TC03_WeakPassword\" />\r\n      <option name=\"METHOD_NAME\" value=\"weakPassword\" />\r\n\r\n    <configuration name=\"TC07.US07_TC07\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US07_akif.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US07_akif\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US07_akif.TC07\" />\r\n      <option name=\"METHOD_NAME\" value=\"US07_TC07\" />\r\n\r\n    <configuration name=\"XYZBankTest.xyzBankTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"myapp.tests.practices.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"myapp.tests.practices\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"myapp.tests.practices.XYZBankTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"xyzBankTest\" />\r\n\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.TC03_WeakPassword.weakPassword\" />\r\n        <item itemvalue=\"TestNG.TC02_RegisteredEmail.successfulRegistration\" />\r\n        <item itemvalue=\"TestNG.TC01_RegisteredUsername.registeredUsername\" />\r\n\r\n    <list>\r\n      <item itemvalue=\"Application.TC01\" />\r\n      <item itemvalue=\"TestNG.Day13_Annotations\" />\r\n      <item itemvalue=\"TestNG.TC01\" />\r\n      <item itemvalue=\"TestNG.TC01.testCase01 (1)\" />\r\n      <item itemvalue=\"TestNG.TC01.testCase01\" />\r\n      <item itemvalue=\"TestNG.XYZBankTest.xyzBankTest\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n\r\n\r\n\r\n        <item itemvalue=\"TestNG.TC03.US07_TC03\" />\r\n        <item itemvalue=\"TestNG.TC04\" />\r\n        <item itemvalue=\"TestNG.TC07.US07_TC07\" />\r\n        <item itemvalue=\"TestNG.TC06.US07_TC06\" />\r\n        <item itemvalue=\"TestNG.TC05.US07_TC05\" />\r\n\r\n        <item itemvalue=\"TestNG.TC01\" />\r\n\r\n        <item itemvalue=\"TestNG.TC01.testCase01 (1)\" />\r\n        <item itemvalue=\"TestNG.TC01\" />\r\n        <item itemvalue=\"TestNG.TC01.testCase01\" />\r\n        <item itemvalue=\"Application.TC01\" />\r\n        <item itemvalue=\"TestNG.XYZBankTest.xyzBankTest\" />\r\n\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n\r\n      <changelist id=\"25ce283f-44ab-4e56-82c0-f57b34a3e97e\" name=\"Changes\" comment=\"\" />\r\n      <created>1699975451088</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1699975451088</updated>\r\n    </task>\r\n\r\n      <changelist id=\"00069089-0549-4c2d-8369-e012a5cecaed\" name=\"Changes\" comment=\"\" />\r\n      <created>1697294954245</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1697294954245</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"yasin-23.11.06-v1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1699268246560</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1699268246560</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"yasin-23.11.06-v1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1699268387486</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1699268387486</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"yasin-23.11.06-v1\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"yasin-23.11.06-v1\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/mytestNGproject$HW05_BookACar.ic\" NAME=\"HW05_BookACar Coverage Results\" MODIFIED=\"1697985610819\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>myapp.homework.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,39 +4,29 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-
+     <list default="true" id="6e1e198d-feb8-4de1-a357-091755aaa2b4" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/akif/AllovCommerceShippingAddressPage.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US04_akif/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US04_akif/TC01.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US07_akif/TC01.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/logs/LOGGER-21-56-35-659.log" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/logs/LOGGER-21-58-42-180.log" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/logs/LOGGER-22-01-56-671.log" beforeDir="false" />
+-
+-    <list default="true" id="00069089-0549-4c2d-8369-e012a5cecaed" name="Changes" comment="yasin-23.11.06-v1">
+-      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/oguzhan/Oguzhan_LoginPage.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/oguzhan/Oguzhan_VendorAccountPage.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/oguzhan/Oguzhan_VendorBillingPage.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinHomePage.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinOrderPage.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC01_SuccessfulOrder1.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC03_InvalidPassword.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_09_20_13_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_09_20_13__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_12__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_13__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_14__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_11_12_20_17__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2023_11_09_20_34_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2023_11_09_20_34__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_09_20_12_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_09_20_12__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_12_20_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_12_20_18__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_12_20_18__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_11_12_20_18__Changes_1.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/Oguzhan_LoginPage.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US17_oguzhan/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US17_oguzhan/TC01.java" afterDir="false" />
+-
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/JSUtils.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test-output/ElementScreenshot/20231025095700image.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test-output/ElementScreenshot/20231025095904image.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test-output/ElementScreenshot/20231025100220image.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test-output/ElementScreenshot/20231025100249image.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231025095658image.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231025095902image.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231025100217image.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231025100246image.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test-output/Screenshots/20231025100250image.png" beforeDir="false" />
+-
+-
+-
++      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/asuman/Asu_Wishlistpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/asuman/Asu_Wishlistpage.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasin.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC01.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -74,39 +64,11 @@
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="ProjectErrors" />
++  </component>
+   <component name="ProjectCodeStyleSettingsMigration">
+     <option name="version" value="2" />
+-
+-  </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 5
+-}]]></component>
+-  <component name="ProjectId" id="2YAjmgstRuL0aFRQ1CmgFgZ3mAD" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+-    <ConfirmationsSetting value="1" id="Add" />
+-  </component>
+-  <component name="ProjectViewState">
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true"
+-  }
+-}]]></component>
+-  <component name="RunManager" selected="TestNG.TC03_WeakPassword.weakPassword">
+-    <configuration name="TC01_RegisteredUsername.registeredUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="team03" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US02_ahmet.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US02_ahmet" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US02_ahmet.TC01_RegisteredUsername" />
+-      <option name="METHOD_NAME" value="registeredUsername" />
+-
+   </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 5
+@@ -129,10 +91,6 @@
+     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+   }
+ }</component>
+-
+-  <component name="RunManager" selected="TestNG.TC03.US07_TC03">
+-    <configuration name="TC03.US07_TC03" type="TestNG" temporary="true" nameIsGenerated="true">
+-
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\team03_testNG_project" />
+@@ -147,27 +105,7 @@
+       <recent name="myapp.pages" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="TestNG.TC01.testCase01 (1)">
+-    <configuration name="TC01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC01" />
+-
+-      <module name="team03" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC03" />
+-      <option name="METHOD_NAME" value="US07_TC03" />
+-      <option name="TEST_OBJECT" value="METHOD" />
+-
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
++  <component name="RunManager" selected="TestNG.TC03_InvalidPassword.InvalidPassword">
+     <configuration name="Day13_Annotations" type="TestNG" nameIsGenerated="true">
+       <module name="team03" />
+       <shortenClasspath name="NONE" />
+@@ -189,62 +127,40 @@
+         <value defaultName="moduleWithDependencies" />
+       </option>
+       <option name="PROPERTIES_FILE" value="" />
+-
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-
+-    <configuration name="TC04" type="TestNG" temporary="true" nameIsGenerated="true">
+-
+-    <configuration name="TC01" type="TestNG" temporary="true" nameIsGenerated="true">
+-
++    <configuration name="TC01_SuccessfulOrder1.testCase01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US17_oguzhan.*" />
++          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC04" />
+-
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US17_oguzhan" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US17_oguzhan.TC01" />
+-
+-      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC01_SuccessfulOrder1" />
++      <option name="METHOD_NAME" value="testCase01" />
++      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-
+-    <configuration name="TC05.US07_TC05" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="TC01_SuccessfulOrder1.testCase01" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC05" />
+-      <option name="METHOD_NAME" value="US07_TC05" />
+-
+-    <configuration name="TC01.testCase01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="team03" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US17_oguzhan.*" />
++          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US17_oguzhan" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US17_oguzhan.TC01" />
++      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC01_SuccessfulOrder1" />
+       <option name="METHOD_NAME" value="testCase01" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+@@ -253,43 +169,17 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-
+-    <configuration name="TC02_RegisteredEmail.successfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="team03" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US02_ahmet.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US02_ahmet" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US02_ahmet.TC02_RegisteredEmail" />
+-      <option name="METHOD_NAME" value="successfulRegistration" />
+-
+-    <configuration name="TC06.US07_TC06" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="team03" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC06" />
+-      <option name="METHOD_NAME" value="US07_TC06" />
+-
+-    <configuration name="TC01.testCase01" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="TC02_SuccessfulOrder2.TestCase02 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US01_ahmet.*" />
++          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US01_ahmet" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US01_ahmet.TC01" />
+-      <option name="METHOD_NAME" value="testCase01" />
+-
++      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC02_SuccessfulOrder2" />
++      <option name="METHOD_NAME" value="TestCase02" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -297,43 +187,35 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-
+-    <configuration name="TC03_WeakPassword.weakPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="team03" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US02_ahmet.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US02_ahmet" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US02_ahmet.TC03_WeakPassword" />
+-      <option name="METHOD_NAME" value="weakPassword" />
+-
+-    <configuration name="TC07.US07_TC07" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="TC02_SuccessfulOrder2.TestCase02" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="allovercommerce.tests.US07_akif.*" />
++          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US07_akif" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US07_akif.TC07" />
+-      <option name="METHOD_NAME" value="US07_TC07" />
+-
+-    <configuration name="XYZBankTest.xyzBankTest" type="TestNG" temporary="true" nameIsGenerated="true">
++      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC02_SuccessfulOrder2" />
++      <option name="METHOD_NAME" value="TestCase02" />
++      <option name="TEST_OBJECT" value="METHOD" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TC03_InvalidPassword.InvalidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="myapp.tests.practices.*" />
++          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="myapp.tests.practices" />
+-      <option name="MAIN_CLASS_NAME" value="myapp.tests.practices.XYZBankTest" />
+-      <option name="METHOD_NAME" value="xyzBankTest" />
+-
++      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC03_InvalidPassword" />
++      <option name="METHOD_NAME" value="InvalidPassword" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -341,59 +223,28 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-
+     <recent_temporary>
+       <list>
+-        <item itemvalue="TestNG.TC03_WeakPassword.weakPassword" />
+-        <item itemvalue="TestNG.TC02_RegisteredEmail.successfulRegistration" />
+-        <item itemvalue="TestNG.TC01_RegisteredUsername.registeredUsername" />
+-
+-    <list>
+-      <item itemvalue="Application.TC01" />
+-      <item itemvalue="TestNG.Day13_Annotations" />
+-      <item itemvalue="TestNG.TC01" />
+-      <item itemvalue="TestNG.TC01.testCase01 (1)" />
+-      <item itemvalue="TestNG.TC01.testCase01" />
+-      <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
+-    </list>
+-    <recent_temporary>
+-      <list>
+-
+-
+-
+-        <item itemvalue="TestNG.TC03.US07_TC03" />
+-        <item itemvalue="TestNG.TC04" />
+-        <item itemvalue="TestNG.TC07.US07_TC07" />
+-        <item itemvalue="TestNG.TC06.US07_TC06" />
+-        <item itemvalue="TestNG.TC05.US07_TC05" />
+-
+-        <item itemvalue="TestNG.TC01" />
+-
+-        <item itemvalue="TestNG.TC01.testCase01 (1)" />
+-        <item itemvalue="TestNG.TC01" />
+-        <item itemvalue="TestNG.TC01.testCase01" />
+-        <item itemvalue="Application.TC01" />
+-        <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
+-
++        <item itemvalue="TestNG.TC03_InvalidPassword.InvalidPassword" />
++        <item itemvalue="TestNG.TC02_SuccessfulOrder2.TestCase02" />
++        <item itemvalue="TestNG.TC01_SuccessfulOrder1.testCase01" />
++        <item itemvalue="TestNG.TC02_SuccessfulOrder2.TestCase02 (1)" />
++        <item itemvalue="TestNG.TC01_SuccessfulOrder1.testCase01 (1)" />
+       </list>
+     </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-
+       <changelist id="25ce283f-44ab-4e56-82c0-f57b34a3e97e" name="Changes" comment="" />
+       <created>1699975451088</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1699975451088</updated>
+     </task>
+-
+-      <changelist id="00069089-0549-4c2d-8369-e012a5cecaed" name="Changes" comment="" />
+-      <created>1697294954245</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1697294954245</updated>
++    <task>
++      <created>1700034422721</created>
++      <updated>1700034422721</updated>
+     </task>
+     <task id="LOCAL-00001" summary="yasin-23.11.06-v1">
+       <option name="closed" value="true" />
+@@ -412,12 +263,22 @@
+       <updated>1699268387486</updated>
+     </task>
+     <option name="localTasksCounter" value="3" />
+-
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="yasin-23.11.06-v1" />
+     <option name="LAST_COMMIT_MESSAGE" value="yasin-23.11.06-v1" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC03_InvalidPassword.java</url>
++          <line>75</line>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/mytestNGproject$HW05_BookACar.ic" NAME="HW05_BookACar Coverage Results" MODIFIED="1697985610819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+Index: src/test/java/allovercommerce/pages/yasin/yasinOrderPage.java
+===================================================================
+diff --git a/src/test/java/allovercommerce/pages/yasin/yasinOrderPage.java b/src/test/java/allovercommerce/pages/yasin/yasinOrderPage.java
+new file mode 100644
+--- /dev/null	
++++ b/src/test/java/allovercommerce/pages/yasin/yasinOrderPage.java	
+@@ -0,0 +1,53 @@
++package allovercommerce.pages.yasin;
++
++import allovercommerce.utilities.Driver;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.support.FindAll;
++import org.openqa.selenium.support.FindBy;
++import org.openqa.selenium.support.PageFactory;
++
++public class yasinOrderPage {
++
++    public yasinOrderPage(){
++        PageFactory.initElements(Driver.getDriver(), this);
++    }
++
++    @FindBy(id = "billing_first_name")
++    public WebElement billingFirstName;
++
++    @FindBy(id = "billing_last_name")
++    public WebElement billingLastName;
++
++    @FindBy(id = "select2-billing_country-container")
++    public WebElement billingCountry;
++
++    @FindBy(name = "billing_address_1")
++    public WebElement billingStreet;
++
++    @FindBy(id = "billing_city")
++    public WebElement billingTownCity;
++
++    @FindBy(id = "select2-billing_state-container")
++    public WebElement billingState;
++
++    @FindBy(id = "billing_postcode")
++    public WebElement billingZipCode;
++
++    @FindBy(id = "billing_phone")
++    public WebElement billingPhone;
++
++    @FindBy(id = "billing_email")
++    public WebElement billingEmail;
++
++    @FindBy(id="payment_method_cod")
++    public WebElement payAtTheDoor;
++
++    @FindBy(id="payment_method_bacs")
++    public WebElement wireTransfer;
++
++    @FindBy(id = "place_order")
++    public WebElement placeOrderButton;
++
++    @FindBy(xpath = "//i[@class='fas fa-check']")
++    public WebElement orderCompleteText;
++}
+Index: src/test/java/allovercommerce/pages/yasin/yasinProductPage.java
+===================================================================
+diff --git a/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java b/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java
+new file mode 100644
+--- /dev/null	
++++ b/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java	
+@@ -0,0 +1,55 @@
++package allovercommerce.pages.yasin;
++
++import allovercommerce.utilities.Driver;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.support.FindBy;
++import org.openqa.selenium.support.PageFactory;
++
++public class yasinProductPage {
++
++    public yasinProductPage(){
++        PageFactory.initElements(Driver.getDriver(), this);
++    }
++
++    @FindBy(xpath = "//button[@class='quantity-plus w-icon-plus' and @title='Plus']")
++    public WebElement plusButton;
++
++    @FindBy(xpath = "//*[@class='quantity-minus w-icon-minus']")
++    public WebElement decreaseButton;
++
++    @FindBy(name = "update_cart")
++    public WebElement updateCartButton;
++
++    @FindBy(id = "quantity_6551bb0c9afc4")
++    public WebElement quantityField;
++
++    @FindBy(xpath = "//button[@name='add-to-cart']")
++    public WebElement addToCartButton;
++
++    @FindBy(xpath = "//span[@class='cart-count']")
++    public WebElement cartIcon;
++
++    @FindBy(xpath = "//*[@id='header']/div/div/div/div/div/div[6]/div/div/a/i")
++    public WebElement cartIconFromviewCart;
++
++    @FindBy(xpath = "//a[@class='button checkout wc-forward']")
++    public WebElement checkOutButton;
++
++    @FindBy(xpath = "//*[@class='button wc-forward']")
++    public WebElement viewCartButton;
++
++    @FindBy(xpath = "//*[@class='checkout-button button alt wc-forward']")
++    public WebElement proceedToCheckOutButton;
++
++    @FindBy(linkText = "Sign In")
++    public WebElement signInButton;
++
++    @FindBy(id = "username")
++    public WebElement userNameBox;
++
++    @FindBy(id = "password")
++    public WebElement passWordBox;
++
++    @FindBy(linkText = "SIGN IN")
++    public WebElement singIn;
++}
+Index: src/test/java/allovercommerce/pages/yasin/yasinSignPage.java
+===================================================================
+diff --git a/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java b/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java
+new file mode 100644
+--- /dev/null	
++++ b/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java	
+@@ -0,0 +1,27 @@
++package allovercommerce.pages.yasin;
++
++import allovercommerce.utilities.Driver;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.support.FindBy;
++import org.openqa.selenium.support.PageFactory;
++
++public class yasinSignPage {
++
++    public yasinSignPage(){
++        PageFactory.initElements(Driver.getDriver(), this);
++    }
++    @FindBy(xpath = "//input[@class='woocommerce-Input woocommerce-Input--text input-text']")
++    public WebElement userNameBox;
++
++    @FindBy(xpath = "//input[@autocomplete='current-password']")
++    public WebElement passWordBox;
++
++    @FindBy(name = "login")
++    public WebElement singIn;
++
++
++    @FindBy(xpath = "//*[@class='submit-status']")
++    public WebElement unverifiedMessage;
++
++
++}
+Index: src/test/java/allovercommerce/pages/yasin/yasinHomePage.java
+===================================================================
+diff --git a/src/test/java/allovercommerce/pages/yasin/yasinHomePage.java b/src/test/java/allovercommerce/pages/yasin/yasinHomePage.java
+new file mode 100644
+--- /dev/null	
++++ b/src/test/java/allovercommerce/pages/yasin/yasinHomePage.java	
+@@ -0,0 +1,21 @@
++package allovercommerce.pages.yasin;
++
++import allovercommerce.utilities.Driver;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.support.FindBy;
++import org.openqa.selenium.support.PageFactory;
++
++public class yasinHomePage {
++
++
++    public yasinHomePage(){
++        PageFactory.initElements(Driver.getDriver(), this);
++    }
++
++    @FindBy(name = "s")
++    public WebElement searchBox ;
++
++    @FindBy(xpath = "//a[@href='https://allovercommerce.com/urun/hiphone-25/']")
++    public WebElement theProduct ;
++
++}
+Index: src/test/java/allovercommerce/tests/US06_yasin/TC01_SuccessfulOrder1.java
+===================================================================
+diff --git a/src/test/java/allovercommerce/tests/US06_yasin/TC01_SuccessfulOrder1.java b/src/test/java/allovercommerce/tests/US06_yasin/TC01_SuccessfulOrder1.java
+new file mode 100644
+--- /dev/null	
++++ b/src/test/java/allovercommerce/tests/US06_yasin/TC01_SuccessfulOrder1.java	
+@@ -0,0 +1,118 @@
++package allovercommerce.tests.US06_yasin;
++
++import allovercommerce.pages.yasin.yasinHomePage;
++import allovercommerce.pages.yasin.yasinOrderPage;
++import allovercommerce.pages.yasin.yasinProductPage;
++import allovercommerce.pages.yasin.yasinSignPage;
++import allovercommerce.utilities.*;
++import com.aventstack.extentreports.reporter.ExtentReporter;
++import org.openqa.selenium.By;
++import org.openqa.selenium.JavascriptExecutor;
++import org.openqa.selenium.Keys;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.support.ui.ExpectedConditions;
++import org.openqa.selenium.support.ui.Select;
++import org.openqa.selenium.support.ui.WebDriverWait;
++import org.testng.Assert;
++import org.testng.annotations.Test;
++
++
++import java.io.IOException;
++
++import static allovercommerce.utilities.Driver.getDriver;
++
++public class TC01_SuccessfulOrder1 {
++
++    @Test
++    public void testCase01() throws InterruptedException, IOException {
++
++        yasinHomePage yasinHomePage = new yasinHomePage();
++        yasinProductPage yasinProductPage = new yasinProductPage();
++        yasinSignPage yasinSignPage= new yasinSignPage();
++        yasinOrderPage yasinOrderPage= new yasinOrderPage();
++
++//        navigate to homepage
++        Driver.getDriver().get("https://allovercommerce.com/");
++        WaitUtils.waitFor(1);
++//        search "iphone" in search box and click enter
++        WebElement searchBox = yasinHomePage.searchBox;
++        searchBox.sendKeys("iphone");
++        searchBox.sendKeys(Keys.ENTER);
++//        choose the product
++        yasinHomePage.theProduct.click();
++        WaitUtils.waitFor(2);
++
++//      check that the number of products to be purchased can be increased or decreased
++        //yasinProductPage.plusButton.click();
++      // JSUtils.JSclickWithTimeout(yasinProductPage.plusButton);
++      // WaitUtils.waitFor(2);
++       // MediaUtils.takeScreenshotOfTheEntirePage();
++
++//        Click "Add to Cart"
++        JSUtils.JSclickWithTimeout(yasinProductPage.addToCartButton);
++            WaitUtils.waitFor(2);
++//        ExtentReportUtils.createTestReport("addcartbutton","report");
++
++//        Verify that the product is added the cart
++      // String cartItem = yasinProductPage.cartIcon.getText().trim();
++        Assert.assertTrue(yasinProductPage.cartIcon.getText().contentEquals("1"));
++        MediaUtils.takeScreenshotOfTheEntirePage();
++
++
++//        Click to the cart icon on the page
++        yasinProductPage.proceedToCheckOutButton.click();
++//        Click to checkout button
++        yasinProductPage.checkOutButton.click();
++//        click sign in
++        yasinProductPage.signInButton.click();
++//        enter username and password
++        yasinSignPage.userNameBox.sendKeys("yaseko");
++        yasinSignPage.passWordBox.sendKeys("12345.");
++//        click sign in
++        yasinSignPage.singIn.click();
++        WaitUtils.waitFor(3);
++
++//        Verify that the billing address on the page is accurate
++        String expectedName ="asdsadasda";
++        Assert.assertTrue(yasinOrderPage.billingFirstName.isDisplayed(), expectedName);
++        WaitUtils.waitFor(1);
++        //last name
++        String expectedLastName ="sdffds";
++        Assert.assertTrue(yasinOrderPage.billingLastName.isDisplayed(), expectedLastName);
++
++        // country
++
++        JSUtils.JSclickWithTimeout(yasinOrderPage.billingCountry);
++        String expectedCountry ="United States (US)";
++        Assert.assertTrue(yasinOrderPage.billingCountry.isDisplayed(), expectedCountry);
++
++
++        String expectedMail ="ozturkyasin182@gmail.com";
++        Assert.assertTrue(yasinOrderPage.billingEmail.isDisplayed(), expectedMail);
++        WaitUtils.waitFor(1);
++//        Check the payment options are on the page
++
++        JSUtils.JSclickWithTimeout(yasinOrderPage.payAtTheDoor);
++        Assert.assertTrue(yasinOrderPage.payAtTheDoor.isDisplayed());
++        WaitUtils.waitFor(1);
++
++//        Select a payment option
++        JSUtils.JSclickWithTimeout(yasinOrderPage.payAtTheDoor);
++        Assert.assertTrue(yasinOrderPage.payAtTheDoor.isDisplayed());
++        WaitUtils.waitFor(1);
++
++//        Click to place order button
++        JSUtils.JSclickWithTimeout(yasinOrderPage.placeOrderButton);
++
++
++//        Verify the message that your order has been succefully received
++        String verifyText ="Thank you. Your order has been received.";
++        Assert.assertTrue(yasinOrderPage.orderCompleteText.isDisplayed(), verifyText);
++
++        //close the driver
++       Driver.getDriver().close();
++
++
++    }
++
++}
+\ No newline at end of file
+Index: src/test/java/allovercommerce/tests/US06_yasin/TC03_InvalidPassword.java
+===================================================================
+diff --git a/src/test/java/allovercommerce/tests/US06_yasin/TC03_InvalidPassword.java b/src/test/java/allovercommerce/tests/US06_yasin/TC03_InvalidPassword.java
+new file mode 100644
+--- /dev/null	
++++ b/src/test/java/allovercommerce/tests/US06_yasin/TC03_InvalidPassword.java	
+@@ -0,0 +1,82 @@
++package allovercommerce.tests.US06_yasin;
++
++import allovercommerce.pages.yasin.yasinHomePage;
++import allovercommerce.pages.yasin.yasinOrderPage;
++import allovercommerce.pages.yasin.yasinProductPage;
++import allovercommerce.pages.yasin.yasinSignPage;
++import allovercommerce.utilities.Driver;
++import allovercommerce.utilities.JSUtils;
++import allovercommerce.utilities.MediaUtils;
++import allovercommerce.utilities.WaitUtils;
++import org.openqa.selenium.JavascriptExecutor;
++import org.openqa.selenium.Keys;
++import org.openqa.selenium.WebElement;
++import org.testng.Assert;
++import org.testng.annotations.Test;
++
++import java.io.IOException;
++
++public class TC03_InvalidPassword {
++
++    @Test
++    public void InvalidPassword() throws IOException {
++//        Go to the home page
++//        Enter the product name in the search box and click enter
++//        Choose a product
++//        Click "Add to Cart"
++//        Verify that the product is added the cart
++//        6Click to the cart icon on the page
++//        Click view cart button
++//        Click to checkout button
++//        click sign in
++//        enter username and password
++//        click sign in
++//        Verify invalid username text on the page
++
++        yasinHomePage yasinHomePage = new yasinHomePage();
++        yasinProductPage yasinProductPage = new yasinProductPage();
++        yasinSignPage yasinSignPage= new yasinSignPage();
++        yasinOrderPage yasinOrderPage= new yasinOrderPage();
++
++//      Go to homepage
++        Driver.getDriver().get("https://allovercommerce.com/");
++        WaitUtils.waitFor(1);
++
++//      Enter the product name in the search box and click enter
++        WebElement searchBox = yasinHomePage.searchBox;
++        searchBox.sendKeys("iphone");
++        searchBox.sendKeys(Keys.ENTER);
++
++//      Choose the product
++        yasinHomePage.theProduct.click();
++        WaitUtils.waitFor(2);
++ //       Click "Add to Cart"
++        JSUtils.JSclickWithTimeout(yasinProductPage.addToCartButton);
++        WaitUtils.waitFor(2);
++//        Verify that the product is added the cart
++        Assert.assertTrue(yasinProductPage.cartIcon.getText().contentEquals("1"));
++        MediaUtils.takeScreenshotOfTheEntirePage();
++//        Click to the cart icon on the page
++        JSUtils.JSclickWithTimeout(yasinProductPage.cartIcon);
++        WaitUtils.waitFor(2);
++//        Click to checkout button
++        yasinProductPage.checkOutButton.click();
++        WaitUtils.waitFor(1);
++//        click sign in linktext
++        yasinProductPage.signInButton.click();
++//        enter username and password
++        yasinSignPage.userNameBox.sendKeys("yasin1");
++        yasinSignPage.passWordBox.sendKeys("12345.");
++//        click sign in button
++        yasinSignPage.singIn.click();
++        WaitUtils.waitFor(2);
++
++//        Verify invalid username text on the page
++        String unverifiedText ="Wrong username or password.";
++        Assert.assertTrue(yasinSignPage.unverifiedMessage.isDisplayed(), unverifiedText);
++        MediaUtils.takeScreenshotOfTheEntirePage();
++
++        // Close the page
++        Driver.closeDriver();
++    }
++}
+Index: src/test/java/allovercommerce/pages/asuman/Asu_Wishlistpage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package allovercommerce.pages.asuman;\r\n\r\npublic class asuman {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"good luck!\");\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/test/java/allovercommerce/pages/asuman/Asu_Wishlistpage.java b/src/test/java/allovercommerce/pages/asuman/Asu_Wishlistpage.java
+--- a/src/test/java/allovercommerce/pages/asuman/Asu_Wishlistpage.java	
++++ b/src/test/java/allovercommerce/pages/asuman/Asu_Wishlistpage.java	
+@@ -1,7 +1,7 @@
+ package allovercommerce.pages.asuman;
+ 
+-public class asuman {
+-    public static void main(String[] args) {
+-        System.out.println("good luck!");
+-    }
+-}
++//public class asuman {
++//    public static void main(String[] args) {
++//        System.out.println("good luck!");
++//    }
++//}
