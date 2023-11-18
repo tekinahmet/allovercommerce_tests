@@ -24,7 +24,7 @@ public class ExtentReportUtils {
 //        WHAT WILL BE REPORT NAME AND WHERE THE REPORT IS CREATED
 //        PATH
 
-        String now = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+        String now = new SimpleDateFormat("yyyyMMddhhmm").format(new Date());
         String path = System.getProperty("user.dir") + "/test-output/Reports/" + now + "extent_reports.html";
 
 //        Create the HTML template using extent spark reporter in the path
@@ -103,13 +103,4 @@ public class ExtentReportUtils {
         extentReports.flush();
     }
 
-    public static void failAndCaptureScreenshotEx(String message) {
-        try {
-            extentTest
-                    .log(Status.FAIL, message)
-                    .addScreenCaptureFromPath(takeScreenshotOfTheEntirePageAsString());
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
 }
