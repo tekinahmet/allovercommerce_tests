@@ -15,7 +15,7 @@ import java.io.IOException;
 public class TC_002_SuccessfulOrder2 {
 
     @Test
-    public void TestCase02() throws IOException {
+    public void TestCase002() throws IOException {
 
         yasinHomePage yasinHomePage = new yasinHomePage();
         yasinProductPage yasinProductPage = new yasinProductPage();
