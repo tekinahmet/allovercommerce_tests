@@ -2,7 +2,6 @@ package allovercommerce.tests.US16_mertcan;
 
 import allovercommerce.pages.mertcan.MertcanPage;
 import allovercommerce.utilities.Driver;
-import allovercommerce.utilities.JSUtils;
 import allovercommerce.utilities.WaitUtils;
 import com.github.javafaker.Faker;
 import org.testng.annotations.Test;
@@ -58,6 +57,9 @@ public class TC01 {
         //Skip Welcome to Allover Commerce Text
         mertcanPage.nrnbutton.click();
         Thread.sleep(3000);
+        //close driver
+        Driver.closeDriver();
+
 
 
         }

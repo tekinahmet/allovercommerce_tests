@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" afterDir="false" />
@@ -13,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/TC09_NegAddSameCatgNamesMultipleTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/TC09_NegAddSameCatgNamesMultipleTimes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ExtentReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ExtentReportUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ReusableMethods.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +39,19 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
+
     &quot;associatedIndex&quot;: 4
     }</component>
   <component name="ProjectId" id="2VnpeaaZIEiJByJmZi2oFYQ8Nur" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -60,6 +65,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
+
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
@@ -74,6 +80,7 @@
       <recent name="allovercommerce.tests.US11_asuman" />
     </key>
   </component>
+
   <component name="RunManager" selected="TestNG.TC_002_SuccessfulOrder2.TestCase002">
     <configuration name="TC_001_SuccessfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
@@ -94,6 +101,7 @@
     </configuration>
     <configuration name="TC_001_SuccessfulOrder1.TestCase01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
+
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
@@ -110,6 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="TC_002_SuccessfulOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
@@ -121,12 +130,14 @@
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
       <option name="TEST_OBJECT" value="CLASS" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="TC_002_SuccessfulOrder2.TestCase002" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
@@ -139,12 +150,14 @@
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
       <option name="METHOD_NAME" value="TestCase002" />
       <option name="TEST_OBJECT" value="METHOD" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="TC_003_InvalidUserName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
@@ -156,12 +169,14 @@
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_003_InvalidUserName" />
       <option name="TEST_OBJECT" value="CLASS" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TC_002_SuccessfulOrder2.TestCase002" />
@@ -169,6 +184,7 @@
         <item itemvalue="TestNG.TC_001_SuccessfulOrder1.TestCase01" />
         <item itemvalue="TestNG.TC_001_SuccessfulOrder1" />
         <item itemvalue="TestNG.TC_003_InvalidUserName" />
+
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +264,7 @@
     <option name="localTasksCounter" value="9" />
     <servers />
   </component>
+
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git commit" />
     <MESSAGE value="yasin-2023.11.17-v1" />
@@ -266,6 +283,7 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mytestNGproject$HW05_BookACar.ic" NAME="HW05_BookACar Coverage Results" MODIFIED="1697985610819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
