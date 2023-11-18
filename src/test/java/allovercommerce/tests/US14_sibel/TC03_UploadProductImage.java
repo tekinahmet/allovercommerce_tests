@@ -1,10 +1,7 @@
 package allovercommerce.tests.US14_sibel;
 
 import allovercommerce.pages.sibel.*;
-import allovercommerce.utilities.Driver;
-import allovercommerce.utilities.ExtentReportUtils;
-import allovercommerce.utilities.JSUtils;
-import allovercommerce.utilities.WaitUtils;
+import allovercommerce.utilities.*;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -53,7 +50,7 @@ public class TC03_UploadProductImage {
         ExtentReportUtils.createTestReport("UPLOAD PRODUCT IMAGE TEST"
                 ,"User will upload a product page");
         ExtentReportUtils.info("TEST OBJECTIVE : USER SHOULD BE ABLE TO UPLOAD A PRODUCT PICTURE");
-        String pathOfPicture = System.getProperty("./resources/IMG_5477.jpg");
+        String pathOfPicture = System.getProperty("./resources/IMG_5478.jpg");
 //https://drive.google.com/file/d/13GkVKcr-7vgopBb5fJTXpRzDyF8xkHW7/view?usp=sharing
 
         JSUtils.JSclickWithTimeout(newProductsPage.addMedia);

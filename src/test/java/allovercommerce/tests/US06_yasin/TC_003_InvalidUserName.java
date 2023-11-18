@@ -19,7 +19,7 @@ import java.io.IOException;
 public class TC_003_InvalidUserName {
 
         @Test
-        public void InvalidPassword() throws IOException {
+        public void TC003() throws IOException {
 //        Go to the home page
 //        Enter the product name in the search box and click enter
 //        Choose a product

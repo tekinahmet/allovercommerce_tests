@@ -18,8 +18,11 @@ public class yasinProductPage {
     @FindBy(xpath = "//*[@class='w-icon-cart']")
     public WebElement cartIcon;
 
-    @FindBy(xpath = "//*[@class='quantity-plus w-icon-plus']")
+    @FindBy(xpath = "//*[@id='product-20954']/div[2]/div/form/div/div/div/div[2]/div/button[3]")
     public WebElement plusButton;
+
+    @FindBy(xpath = "//*[@id='product-20954']/div[2]/div/form/div/div/div/div[2]/div/button[1]")
+    public WebElement minusButton;
 
     @FindBy(xpath = "//*[@class='checkout-button button alt wc-forward']")
     public WebElement proceedToCheckOutButton;
