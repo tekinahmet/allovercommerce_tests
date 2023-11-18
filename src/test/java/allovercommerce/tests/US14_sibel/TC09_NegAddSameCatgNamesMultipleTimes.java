@@ -88,7 +88,7 @@ import java.util.List;
                     Assert.assertTrue(each.getText().contains("Morning Suit"));
                 }
             }
-            ExtentReportUtils.failAndCaptureScreenshotEx("test Failed");
+          //  ExtentReportUtils.failAndCaptureScreenshotEx("test Failed");
             Driver.getDriver().close();
             ExtentReportUtils.flush();
         }

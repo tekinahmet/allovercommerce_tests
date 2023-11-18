@@ -84,23 +84,12 @@ public class ExtentReportUtils {
 
 
 
-    public static void failAndCaptureScreenshotEx(String message)  {
-        try {
-            extentTest
-                    .log(Status.FAIL,message)
-                    .addScreenCaptureFromPath(takeScreenshotOfTheEntirePageAsString());
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-    }
 
     /*
     FLUSH MUST BE USED AT THE VERY END TO GENERATE THE REPORT
     ExtentReportUtils.flush
     */
-    public static void flush() {
-        extentReports.flush();
+    public static void flush() { extentReports.flush();
     }
 
     public static void failAndCaptureScreenshotEx(String message) {

@@ -15,13 +15,13 @@ public class yasinProductPage {
     @FindBy(name = "add-to-cart")
     public WebElement addToCartButton ;
 
-    @FindBy(xpath = "//*[@class='w-icon-cart']")
+    @FindBy(xpath = "//*[@class='cart-count']")
     public WebElement cartIcon;
 
-    @FindBy(xpath = "//*[@id='product-20954']/div[2]/div/form/div/div/div/div[2]/div/button[3]")
+    @FindBy(xpath = "//button[@class='quantity-plus w-icon-plus']")
     public WebElement plusButton;
 
-    @FindBy(xpath = "//*[@id='product-20954']/div[2]/div/form/div/div/div/div[2]/div/button[1]")
+    @FindBy(xpath = "//button[@class='quantity-minus w-icon-minus']")
     public WebElement minusButton;
 
     @FindBy(xpath = "//*[@class='checkout-button button alt wc-forward']")
@@ -39,8 +39,7 @@ public class yasinProductPage {
     @FindBy(name = "update_cart")
     public WebElement updateCartButton;
 
-    @FindBy(xpath = "//*[@class='w-icon-cart']")
-    public WebElement cartIconFromviewCart;
+
 
 
 

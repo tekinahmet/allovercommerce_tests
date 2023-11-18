@@ -20,18 +20,7 @@ public class TC_003_InvalidUserName {
 
         @Test
         public void TC003() throws IOException {
-//        Go to the home page
-//        Enter the product name in the search box and click enter
-//        Choose a product
-//        Click "Add to Cart"
-//        Verify that the product is added the cart
-//        6Click to the cart icon on the page
-//        Click view cart button
-//        Click to checkout button
-//        click sign in
-//        enter username and password
-//        click sign in
-//        Verify invalid username text on the page
+
 
             yasinHomePage yasinHomePage =new yasinHomePage();
             yasinProductPage yasinProductPage = new yasinProductPage();

@@ -46,15 +46,15 @@ public class TC_002_SuccessfulOrder2 {
 //      check that the number of products to be purchased can be increased or decreased
         yasinProductPage.plusButton.click();
         WaitUtils.waitFor(1);
-        // MediaUtils.takeScreenshotOfTheEntirePage();
+        MediaUtils.takeScreenshotOfTheEntirePage();
 
         //click update to cart button
         yasinProductPage.updateCartButton.click();
-        WaitUtils.waitFor(2);
+        WaitUtils.waitFor(3);
 
 //      Verify that the product is added the cart
-//       Assert.assertTrue(yasinProductPage.cartIconFromviewCart.getText().contentEquals("2"));
-//       WaitUtils.waitFor(2);
+        Assert.assertTrue(yasinProductPage.cartIcon.getText().contentEquals("2"));
+       WaitUtils.waitFor(3);
 //        ExtentReportUtils.createTestReport("verify report","....");
 
 //      click proceed to checkout button

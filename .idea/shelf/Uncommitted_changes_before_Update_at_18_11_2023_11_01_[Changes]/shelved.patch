@@ -1,0 +1,155 @@
+Index: src/test/java/allovercommerce/pages/yasin/yasinProductPage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package allovercommerce.pages.yasin;\r\n\r\nimport allovercommerce.utilities.Driver;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.support.FindBy;\r\nimport org.openqa.selenium.support.PageFactory;\r\n\r\npublic class yasinProductPage {\r\n\r\n    public yasinProductPage() {\r\n        PageFactory.initElements(Driver.getDriver(), this);\r\n\r\n    }\r\n\r\n    @FindBy(name = \"add-to-cart\")\r\n    public WebElement addToCartButton ;\r\n\r\n    @FindBy(xpath = \"//*[@class='w-icon-cart']\")\r\n    public WebElement cartIcon;\r\n\r\n    @FindBy(xpath = \"//*[@class='quantity-plus w-icon-plus']\")\r\n    public WebElement plusButton;\r\n\r\n    @FindBy(xpath = \"//*[@class='checkout-button button alt wc-forward']\")\r\n    public WebElement proceedToCheckOutButton;\r\n\r\n    @FindBy(xpath = \"//*[@class='button checkout wc-forward']\")\r\n    public WebElement checkOutButton;\r\n\r\n    @FindBy(xpath = \"//*[@class='login inline-type']\")\r\n    public WebElement signInButton;\r\n\r\n    @FindBy(xpath = \"//*[@class='button wc-forward']\")\r\n    public WebElement viewCartButton;\r\n\r\n    @FindBy(name = \"update_cart\")\r\n    public WebElement updateCartButton;\r\n\r\n    @FindBy(xpath = \"//*[@class='w-icon-cart']\")\r\n    public WebElement cartIconFromviewCart;\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java b/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java
+--- a/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java	
++++ b/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java	
+@@ -18,9 +18,12 @@
+     @FindBy(xpath = "//*[@class='w-icon-cart']")
+     public WebElement cartIcon;
+ 
+-    @FindBy(xpath = "//*[@class='quantity-plus w-icon-plus']")
++    @FindBy(xpath = "//*[@title='Plus']")
+     public WebElement plusButton;
+ 
++    @FindBy(xpath = "//*[@title='Minus']")
++    public WebElement minusButton;
++
+     @FindBy(xpath = "//*[@class='checkout-button button alt wc-forward']")
+     public WebElement proceedToCheckOutButton;
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e9e2081b-8636-4899-b0bb-d9ac4e8cf250\" name=\"Changes\" comment=\"yasin-2023.11.17-v3\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"MacroExpansionManager\">\r\n    <option name=\"directoryName\" value=\"51ktl3qu\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n    &quot;associatedIndex&quot;: 4\r\n    }</component>\r\n  <component name=\"ProjectId\" id=\"2VnpeaaZIEiJByJmZi2oFYQ8Nur\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"dart.analysis.tool.window.visible\": \"false\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/myseleniumproject/resources\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.3137931\",\r\n    \"settings.editor.selected.configurable\": \"preferences.editor\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\resources\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\resources\" />\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\src\\test\\java\" />\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\src\\test\" />\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\BATCH 179-180 QA ENG\\IdeaProjects\\myseleniumproject\\drivers\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"TestNG.TC_002_SuccessfulOrder2\">\r\n    <configuration name=\"TC_001_SuccesfulOrder1\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TC_001_SuccesfulOrder1.TestCase02\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1\" />\r\n      <option name=\"METHOD_NAME\" value=\"TestCase02\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TC_002_SuccessfulOrder2\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TC_003_InvalidUserName\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_003_InvalidUserName\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TC_003_InvalidUserName.InvalidPassword\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"team03\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allovercommerce.tests.US06_yasin.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allovercommerce.tests.US06_yasin\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allovercommerce.tests.US06_yasin.TC_003_InvalidUserName\" />\r\n      <option name=\"METHOD_NAME\" value=\"InvalidPassword\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.TC_002_SuccessfulOrder2\" />\r\n        <item itemvalue=\"TestNG.TC_001_SuccesfulOrder1\" />\r\n        <item itemvalue=\"TestNG.TC_001_SuccesfulOrder1.TestCase02\" />\r\n        <item itemvalue=\"TestNG.TC_003_InvalidUserName\" />\r\n        <item itemvalue=\"TestNG.TC_003_InvalidUserName.InvalidPassword\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e9e2081b-8636-4899-b0bb-d9ac4e8cf250\" name=\"Changes\" comment=\"\" />\r\n      <created>1695481796942</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1695481796942</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"git commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700227073825</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700227073825</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"yasin-2023.11.17-v1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700227384964</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700227384964</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"yasin-2023.11.17-v1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700227613601</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700227613601</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"yasin-2023.11.17-v2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700229626653</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700229626653</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"yasin-2023.11.17-v2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700229716299</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700229716299</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"yasin-2023.11.17-v3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700230243872</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700230243872</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"yasin-2023.11.17-v3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700234396694</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700234396694</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"git commit\" />\r\n    <MESSAGE value=\"yasin-2023.11.17-v1\" />\r\n    <MESSAGE value=\"yasin-2023.11.17-v2\" />\r\n    <MESSAGE value=\"yasin-2023.11.17-v3\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"yasin-2023.11.17-v3\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/test/java/assignment/homework02/Task6_Synchronization3.java</url>\r\n          <line>15</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/mytestNGproject$HW05_BookACar.ic\" NAME=\"HW05_BookACar Coverage Results\" MODIFIED=\"1697985610819\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>myapp.homework.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -6,7 +6,7 @@
+   <component name="ChangeListManager">
+     <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinSignPage.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" afterDir="false" />
+     </list>
+@@ -40,19 +40,19 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "dart.analysis.tool.window.visible": "false",
+-    "git-widget-placeholder": "master",
+-    "last_opened_file_path": "C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/myseleniumproject/resources",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.3137931",
+-    "settings.editor.selected.configurable": "preferences.editor"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/myseleniumproject/resources&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
+@@ -64,7 +64,7 @@
+       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\drivers" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="TestNG.TC_002_SuccessfulOrder2">
++  <component name="RunManager" selected="TestNG.TC_001_SuccesfulOrder1.TestCase01">
+     <configuration name="TC_001_SuccesfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="team03" />
+       <extension name="coverage">
+@@ -82,7 +82,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TC_001_SuccesfulOrder1.TestCase02" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="TC_001_SuccesfulOrder1.TestCase01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+@@ -92,7 +92,7 @@
+       </extension>
+       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
+-      <option name="METHOD_NAME" value="TestCase02" />
++      <option name="METHOD_NAME" value="TestCase01" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -100,7 +100,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TC_002_SuccessfulOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="TC_001_SuccesfulOrder1.TestCase01" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+@@ -109,15 +109,16 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
+-      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
++      <option name="METHOD_NAME" value="TestCase01" />
++      <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TC_003_InvalidUserName" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="TC_002_SuccessfulOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="team03" />
+       <extension name="coverage">
+         <pattern>
+@@ -126,7 +127,7 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_003_InvalidUserName" />
++      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
+       <option name="TEST_OBJECT" value="CLASS" />
+       <properties />
+       <listeners />
+@@ -154,11 +155,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="TestNG.TC_002_SuccessfulOrder2" />
++        <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase01" />
++        <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase01 (1)" />
+         <item itemvalue="TestNG.TC_001_SuccesfulOrder1" />
+-        <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase02" />
+-        <item itemvalue="TestNG.TC_003_InvalidUserName" />
+         <item itemvalue="TestNG.TC_003_InvalidUserName.InvalidPassword" />
++        <item itemvalue="TestNG.TC_002_SuccessfulOrder2" />
+       </list>
+     </recent_temporary>
+   </component>

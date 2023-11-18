@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3" />
-
+    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/pages/yasin/yasinProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccesfulOrder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_001_SuccessfulOrder1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_002_SuccessfulOrder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_002_SuccessfulOrder2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US06_yasin/TC_003_InvalidUserName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/TC09_NegAddSameCatgNamesMultipleTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/TC09_NegAddSameCatgNamesMultipleTimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ExtentReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ExtentReportUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ReusableMethods.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,19 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-    &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nhryz/IdeaProjects/team03_testNG_project&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
-    }
-    }</component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/nhryz/IdeaProjects/team03_testNG_project",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3137931",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\myseleniumproject\resources" />
@@ -67,51 +74,8 @@
       <recent name="allovercommerce.tests.US11_asuman" />
     </key>
   </component>
-
-  <component name="RunManager" selected="TestNG.TC03_UploadProductImage">
-    <configuration name="TC03_UploadProductImage" type="TestNG" temporary="true" nameIsGenerated="true">
-
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US14_sibel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US14_sibel" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US14_sibel.TC03_UploadProductImage" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-
-    <configuration name="TC03_UploadProductImage.addProductImage" type="TestNG" temporary="true" nameIsGenerated="true">
-
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US14_sibel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US14_sibel" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US14_sibel.TC03_UploadProductImage" />
-      <option name="METHOD_NAME" value="addProductImage" />
-
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-
-    <configuration name="TC_001_SuccesfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
-
+  <component name="RunManager" selected="TestNG.TC_002_SuccessfulOrder2.TestCase002">
+    <configuration name="TC_001_SuccessfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -120,19 +84,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
-
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccessfulOrder1" />
       <option name="TEST_OBJECT" value="CLASS" />
->
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-
-    <configuration name="TC_001_SuccesfulOrder1.TestCase02" type="TestNG" temporary="true" nameIsGenerated="true">
-
+    <configuration name="TC_001_SuccessfulOrder1.TestCase01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -141,20 +101,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
-
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
-      <option name="METHOD_NAME" value="TestCase02" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccessfulOrder1" />
+      <option name="METHOD_NAME" value="TestCase01" />
       <option name="TEST_OBJECT" value="METHOD" />
-
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-
     <configuration name="TC_002_SuccessfulOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
-
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -163,9 +119,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
-
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
-
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_002_SuccessfulOrder2.TestCase002" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
+      <option name="METHOD_NAME" value="TestCase002" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_003_InvalidUserName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_003_InvalidUserName" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -175,13 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-
-        <item itemvalue="TestNG.TC03_UploadProductImage" />
-        <item itemvalue="TestNG.TC03_UploadProductImage.addProductImage" />
+        <item itemvalue="TestNG.TC_002_SuccessfulOrder2.TestCase002" />
         <item itemvalue="TestNG.TC_002_SuccessfulOrder2" />
-        <item itemvalue="TestNG.TC_001_SuccesfulOrder1" />
-        <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase02" />
-
+        <item itemvalue="TestNG.TC_001_SuccessfulOrder1.TestCase01" />
+        <item itemvalue="TestNG.TC_001_SuccessfulOrder1" />
+        <item itemvalue="TestNG.TC_003_InvalidUserName" />
       </list>
     </recent_temporary>
   </component>
