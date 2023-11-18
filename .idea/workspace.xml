@@ -4,47 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="sibel1711/update">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2023,_23_57_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/IMG_5478.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/abc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/data_sheet.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/medunna_credentials.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20231116115823extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/20231118120532extent_reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20231118120540image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20231118120613image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Reports/Screenshots/20231118120950image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115844image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115848image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115849image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115852image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115854image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115855image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115858image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115900image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115901image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115902image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115903image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115906image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115908image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115909image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115913image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115914image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115920image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115921image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115923image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115924image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115929image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20231116115931image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/Sibel_US14_TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/Sibel_US14_TestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/TC03_UploadProductImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US14_sibel/TC03_UploadProductImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US19_behice/TC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/tests/US19_behice/TC01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ExtentReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ExtentReportUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allovercommerce/utilities/ReusableMethods.java" afterDir="false" />
-    </list>
+
+
+    <list default="true" id="e9e2081b-8636-4899-b0bb-d9ac4e8cf250" name="Changes" comment="yasin-2023.11.17-v3" />
+
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,8 +73,12 @@
       <recent name="allovercommerce.tests.US11_asuman" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Sibel_US14_TestCases">
-    <configuration name="Sibel_US14_TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
+  <component name="RunManager" selected="TestNG.TC03_UploadProductImage">
+    <configuration name="TC03_UploadProductImage" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -127,7 +95,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+
+    <configuration name="TC03_UploadProductImage.addProductImage" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
+      <module name="team03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+
+
+      <option name="PACKAGE_NAME" value="allovercommerce.tests.US14_sibel" />
+      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US14_sibel.TC03_UploadProductImage" />
+      <option name="METHOD_NAME" value="addProductImage" />
+
+      <option name="TEST_OBJECT" value="METHOD" />
+
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
+
     <configuration name="TC_001_SuccesfulOrder1" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -137,14 +135,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
+
+
       <option name="TEST_OBJECT" value="CLASS" />
+
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+
     <configuration name="TC_001_SuccesfulOrder1.TestCase02" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -153,16 +159,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+
+
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_001_SuccesfulOrder1" />
       <option name="METHOD_NAME" value="TestCase02" />
       <option name="TEST_OBJECT" value="METHOD" />
+
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+
     <configuration name="TC_002_SuccessfulOrder2" type="TestNG" temporary="true" nameIsGenerated="true">
+
+
       <module name="team03" />
       <extension name="coverage">
         <pattern>
@@ -171,24 +185,11 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
+
+
       <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_002_SuccessfulOrder2" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC_003_InvalidUserName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allovercommerce.tests.US06_yasin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allovercommerce.tests.US06_yasin" />
-      <option name="MAIN_CLASS_NAME" value="allovercommerce.tests.US06_yasin.TC_003_InvalidUserName" />
+
+
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -198,11 +199,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Sibel_US14_TestCases" />
+
+
+        <item itemvalue="TestNG.TC03_UploadProductImage" />
+        <item itemvalue="TestNG.TC03_UploadProductImage.addProductImage" />
         <item itemvalue="TestNG.TC_002_SuccessfulOrder2" />
         <item itemvalue="TestNG.TC_001_SuccesfulOrder1" />
         <item itemvalue="TestNG.TC_001_SuccesfulOrder1.TestCase02" />
-        <item itemvalue="TestNG.TC_003_InvalidUserName" />
+
+
       </list>
     </recent_temporary>
   </component>
@@ -271,13 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700234396694</updated>
     </task>
-    <task id="LOCAL-00008" summary="sibel1711/update">
+
+    <task id="LOCAL-00008" summary="yasin-2023.11.17-v5">
       <option name="closed" value="true" />
-      <created>1700253769873</created>
+      <created>1700235731875</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1700253769873</updated>
+      <updated>1700235731875</updated>
+
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
@@ -287,8 +294,10 @@
     <MESSAGE value="yasin-2023.11.17-v1" />
     <MESSAGE value="yasin-2023.11.17-v2" />
     <MESSAGE value="yasin-2023.11.17-v3" />
-    <MESSAGE value="sibel1711/update" />
-    <option name="LAST_COMMIT_MESSAGE" value="sibel1711/update" />
+
+    <MESSAGE value="yasin-2023.11.17-v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="yasin-2023.11.17-v5" />
+
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
