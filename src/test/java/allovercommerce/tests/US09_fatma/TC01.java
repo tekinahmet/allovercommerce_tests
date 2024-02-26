@@ -71,8 +71,6 @@ public class TC01 {
         fatmaPage.verificationCode.sendKeys(fakeCode);
 
 
-        //Driver.getDriver().switchTo().window(alloverHandle);
-
         //Enter your password
         fatmaPage.passwordInput.sendKeys("Abcd.0987");
 
@@ -84,8 +82,7 @@ public class TC01 {
         JSUtils.JSclickWithTimeout(fatmaPage.registerButton);
         JSUtils.flashElement(fatmaPage.registerButton);
         JSUtils.JSscrollAllTheWayUp();
-        ExtentReportUtils.passAndCaptureScreenshot("PASSED");
-
+        ExtentReportUtils.passAndCaptureScreenshot("Clicked on register button");
 
         //Then registration should be succesfull
         assertTrue(fatmaPage.setUpPage.isDisplayed());
